@@ -222,7 +222,7 @@ sensorsCalibrate:
 	.comm	GYRO_raw,6,1
 	.text
 .Letext0:
-	.file 2 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
+	.file 2 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
 	.file 3 "../include/mixer.h"
 	.file 4 "../include/pid.h"
 	.file 5 "../include/config.h"
@@ -2648,7 +2648,7 @@ sensorsCalibrate:
 	.byte	0x5
 	.uleb128 0xc
 	.long	.LASF447
-	.file 9 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
+	.file 9 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xe
 	.uleb128 0x9
@@ -2665,27 +2665,27 @@ sensorsCalibrate:
 	.byte	0x7
 	.long	.Ldebug_macro3
 	.byte	0x4
-	.file 10 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
+	.file 10 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
 	.byte	0x3
 	.uleb128 0x1c
 	.uleb128 0xa
 	.byte	0x5
 	.uleb128 0x23
 	.long	.LASF520
-	.file 11 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
+	.file 11 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
 	.byte	0x3
 	.uleb128 0x25
 	.uleb128 0xb
 	.byte	0x5
 	.uleb128 0x61
 	.long	.LASF521
-	.file 12 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
+	.file 12 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
 	.byte	0x3
 	.uleb128 0x63
 	.uleb128 0xc
 	.byte	0x7
 	.long	.Ldebug_macro4
-	.file 13 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
+	.file 13 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
 	.byte	0x3
 	.uleb128 0x7e
 	.uleb128 0xd
@@ -2695,42 +2695,42 @@ sensorsCalibrate:
 	.byte	0x7
 	.long	.Ldebug_macro6
 	.byte	0x4
-	.file 14 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
+	.file 14 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
 	.byte	0x3
 	.uleb128 0xfe
 	.uleb128 0xe
 	.byte	0x7
 	.long	.Ldebug_macro7
 	.byte	0x4
-	.file 15 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
+	.file 15 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
 	.byte	0x3
 	.uleb128 0x268
 	.uleb128 0xf
 	.byte	0x7
 	.long	.Ldebug_macro8
 	.byte	0x4
-	.file 16 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
+	.file 16 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
 	.byte	0x3
 	.uleb128 0x26a
 	.uleb128 0x10
 	.byte	0x7
 	.long	.Ldebug_macro9
 	.byte	0x4
-	.file 17 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
+	.file 17 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
 	.byte	0x3
 	.uleb128 0x26c
 	.uleb128 0x11
 	.byte	0x7
 	.long	.Ldebug_macro10
 	.byte	0x4
-	.file 18 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
+	.file 18 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
 	.byte	0x3
 	.uleb128 0x273
 	.uleb128 0x12
 	.byte	0x7
 	.long	.Ldebug_macro11
 	.byte	0x4
-	.file 19 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
+	.file 19 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
 	.byte	0x3
 	.uleb128 0x276
 	.uleb128 0x13
@@ -2738,7 +2738,7 @@ sensorsCalibrate:
 	.long	.Ldebug_macro12
 	.byte	0x4
 	.byte	0x4
-	.file 20 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
+	.file 20 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
 	.byte	0x3
 	.uleb128 0x26
 	.uleb128 0x14
@@ -2791,13 +2791,13 @@ sensorsCalibrate:
 	.uleb128 0xc
 	.long	.LASF2010
 	.byte	0x4
-	.file 22 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h"
+	.file 22 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h"
 	.byte	0x3
 	.uleb128 0xc
 	.uleb128 0x16
 	.byte	0x7
 	.long	.Ldebug_macro19
-	.file 23 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h"
+	.file 23 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h"
 	.byte	0x3
 	.uleb128 0x2d
 	.uleb128 0x17
@@ -2807,7 +2807,7 @@ sensorsCalibrate:
 	.byte	0x7
 	.long	.Ldebug_macro21
 	.byte	0x4
-	.file 24 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h"
+	.file 24 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h"
 	.byte	0x3
 	.uleb128 0xd
 	.uleb128 0x18
@@ -8214,8 +8214,8 @@ sensorsCalibrate:
 	.string	"COM2A1 7"
 .LASF1241:
 	.string	"TWBR0 0"
-.LASF63:
-	.string	"__INT_FAST64_TYPE__ long long int"
+.LASF182:
+	.string	"__DEC128_MANT_DIG__ 34"
 .LASF690:
 	.string	"PORTB0 0"
 .LASF1477:
@@ -8280,6 +8280,8 @@ sensorsCalibrate:
 	.string	"PCINT19_PORT PORTC"
 .LASF1422:
 	.string	"TIMER1_OVF_vect _VECTOR(15)"
+.LASF268:
+	.string	"__ULLACCUM_EPSILON__ 0x1P-48ULLK"
 .LASF2067:
 	.string	"DTOSTR_UPPERCASE 0x04"
 .LASF2097:
@@ -8306,8 +8308,6 @@ sensorsCalibrate:
 	.string	"PCINT23_BIT 7"
 .LASF879:
 	.string	"GPIOR26 6"
-.LASF182:
-	.string	"__DEC128_MANT_DIG__ 34"
 .LASF778:
 	.string	"GPIOR0 _SFR_IO8(0x1E)"
 .LASF1425:
@@ -9604,8 +9604,8 @@ sensorsCalibrate:
 	.string	"OC1B_PORT PORTD"
 .LASF776:
 	.string	"INT1 1"
-.LASF268:
-	.string	"__ULLACCUM_EPSILON__ 0x1P-48ULLK"
+.LASF63:
+	.string	"__INT_FAST64_TYPE__ long long int"
 .LASF239:
 	.string	"__ACCUM_FBIT__ 15"
 .LASF1202:
@@ -10476,8 +10476,8 @@ sensorsCalibrate:
 	.string	"ICP_PORT PORTD"
 .LASF874:
 	.string	"GPIOR21 1"
-.LASF1842:
-	.string	"__AVR_LIBC_REVISION__ 0"
+.LASF1921:
+	.string	"RX_AIL_BIT 3"
 .LASF1943:
 	.string	"RX_AUX_DIR _REG_BIT(RX_AUX_DDR, RX_AUX_BIT)"
 .LASF307:
@@ -10748,8 +10748,6 @@ sensorsCalibrate:
 	.string	"__BUILTIN_AVR_BITSLLK 1"
 .LASF77:
 	.string	"__WCHAR_MAX__ 32767"
-.LASF1921:
-	.string	"RX_AIL_BIT 3"
 .LASF559:
 	.string	"PRIoFAST16 \"o\""
 .LASF530:
@@ -10896,6 +10894,8 @@ sensorsCalibrate:
 	.string	"GPIOR17 7"
 .LASF1142:
 	.string	"ICR1L6 6"
+.LASF2137:
+	.string	"D:\\\\QuadcopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1532:
 	.string	"PCINT25_PIN PIND"
 .LASF576:
@@ -11322,8 +11322,8 @@ sensorsCalibrate:
 	.string	"FUSE_SPIEN (unsigned char)~_BV(5)"
 .LASF1375:
 	.string	"UBRR_4 4"
-.LASF2137:
-	.string	"D:\\\\kk2-multicopter-master\\\\Debug Simulator"
+.LASF1842:
+	.string	"__AVR_LIBC_REVISION__ 0"
 .LASF1077:
 	.string	"MUX0 0"
 .LASF296:

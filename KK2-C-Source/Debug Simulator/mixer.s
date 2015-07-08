@@ -483,14 +483,14 @@ mixerOutput:
 	.comm	MIXER,16,1
 	.text
 .Letext0:
-	.file 2 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
+	.file 2 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
 	.file 3 "../include/mixer.h"
 	.file 4 "../include/pid.h"
 	.file 5 "../include/config.h"
 	.file 6 "../include/global.h"
-	.file 7 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h"
+	.file 7 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h"
 	.file 8 "../include/controller.h"
-	.file 9 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h"
+	.file 9 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h"
 	.file 10 "../include/pwm.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
@@ -3684,7 +3684,7 @@ mixerOutput:
 	.byte	0x5
 	.uleb128 0xc
 	.long	.LASF447
-	.file 12 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
+	.file 12 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xe
 	.uleb128 0xc
@@ -3701,27 +3701,27 @@ mixerOutput:
 	.byte	0x7
 	.long	.Ldebug_macro3
 	.byte	0x4
-	.file 13 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
+	.file 13 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
 	.byte	0x3
 	.uleb128 0x1c
 	.uleb128 0xd
 	.byte	0x5
 	.uleb128 0x23
 	.long	.LASF520
-	.file 14 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
+	.file 14 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
 	.byte	0x3
 	.uleb128 0x25
 	.uleb128 0xe
 	.byte	0x5
 	.uleb128 0x61
 	.long	.LASF521
-	.file 15 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
+	.file 15 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
 	.byte	0x3
 	.uleb128 0x63
 	.uleb128 0xf
 	.byte	0x7
 	.long	.Ldebug_macro4
-	.file 16 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
+	.file 16 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
 	.byte	0x3
 	.uleb128 0x7e
 	.uleb128 0x10
@@ -3731,42 +3731,42 @@ mixerOutput:
 	.byte	0x7
 	.long	.Ldebug_macro6
 	.byte	0x4
-	.file 17 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
+	.file 17 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
 	.byte	0x3
 	.uleb128 0xfe
 	.uleb128 0x11
 	.byte	0x7
 	.long	.Ldebug_macro7
 	.byte	0x4
-	.file 18 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
+	.file 18 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
 	.byte	0x3
 	.uleb128 0x268
 	.uleb128 0x12
 	.byte	0x7
 	.long	.Ldebug_macro8
 	.byte	0x4
-	.file 19 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
+	.file 19 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
 	.byte	0x3
 	.uleb128 0x26a
 	.uleb128 0x13
 	.byte	0x7
 	.long	.Ldebug_macro9
 	.byte	0x4
-	.file 20 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
+	.file 20 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
 	.byte	0x3
 	.uleb128 0x26c
 	.uleb128 0x14
 	.byte	0x7
 	.long	.Ldebug_macro10
 	.byte	0x4
-	.file 21 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
+	.file 21 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
 	.byte	0x3
 	.uleb128 0x273
 	.uleb128 0x15
 	.byte	0x7
 	.long	.Ldebug_macro11
 	.byte	0x4
-	.file 22 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
+	.file 22 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
 	.byte	0x3
 	.uleb128 0x276
 	.uleb128 0x16
@@ -3774,7 +3774,7 @@ mixerOutput:
 	.long	.Ldebug_macro12
 	.byte	0x4
 	.byte	0x4
-	.file 23 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
+	.file 23 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
 	.byte	0x3
 	.uleb128 0x26
 	.uleb128 0x17
@@ -3845,7 +3845,7 @@ mixerOutput:
 	.uleb128 0xc
 	.long	.LASF2021
 	.byte	0x4
-	.file 26 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h"
+	.file 26 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h"
 	.byte	0x3
 	.uleb128 0x10
 	.uleb128 0x1a
@@ -11626,8 +11626,8 @@ mixerOutput:
 	.string	"ICP_PORT PORTD"
 .LASF874:
 	.string	"GPIOR21 1"
-.LASF1842:
-	.string	"__AVR_LIBC_REVISION__ 0"
+.LASF1921:
+	.string	"RX_AIL_BIT 3"
 .LASF1943:
 	.string	"RX_AUX_DIR _REG_BIT(RX_AUX_DDR, RX_AUX_BIT)"
 .LASF307:
@@ -11898,8 +11898,6 @@ mixerOutput:
 	.string	"__WCHAR_MAX__ 32767"
 .LASF2154:
 	.string	"CycleTime"
-.LASF1921:
-	.string	"RX_AIL_BIT 3"
 .LASF559:
 	.string	"PRIoFAST16 \"o\""
 .LASF530:
@@ -12043,6 +12041,8 @@ mixerOutput:
 	.string	"GPIOR17 7"
 .LASF1142:
 	.string	"ICR1L6 6"
+.LASF2173:
+	.string	"D:\\\\QuadcopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1532:
 	.string	"PCINT25_PIN PIND"
 .LASF576:
@@ -12482,8 +12482,8 @@ mixerOutput:
 	.string	"FUSE_SPIEN (unsigned char)~_BV(5)"
 .LASF1375:
 	.string	"UBRR_4 4"
-.LASF2173:
-	.string	"D:\\\\kk2-multicopter-master\\\\Debug Simulator"
+.LASF1842:
+	.string	"__AVR_LIBC_REVISION__ 0"
 .LASF1077:
 	.string	"MUX0 0"
 .LASF296:

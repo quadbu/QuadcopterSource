@@ -640,7 +640,7 @@ checksum:
 	.zero	1
 	.text
 .Letext0:
-	.file 2 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
+	.file 2 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
 	.file 3 "../include/global.h"
 	.file 4 "../include/mixer.h"
 	.file 5 "../include/sensors.h"
@@ -3950,7 +3950,7 @@ checksum:
 	.byte	0x5
 	.uleb128 0xc
 	.long	.LASF447
-	.file 10 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
+	.file 10 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xe
 	.uleb128 0xa
@@ -3967,27 +3967,27 @@ checksum:
 	.byte	0x7
 	.long	.Ldebug_macro3
 	.byte	0x4
-	.file 11 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
+	.file 11 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
 	.byte	0x3
 	.uleb128 0x1c
 	.uleb128 0xb
 	.byte	0x5
 	.uleb128 0x23
 	.long	.LASF520
-	.file 12 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
+	.file 12 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
 	.byte	0x3
 	.uleb128 0x25
 	.uleb128 0xc
 	.byte	0x5
 	.uleb128 0x61
 	.long	.LASF521
-	.file 13 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
+	.file 13 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
 	.byte	0x3
 	.uleb128 0x63
 	.uleb128 0xd
 	.byte	0x7
 	.long	.Ldebug_macro4
-	.file 14 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
+	.file 14 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
 	.byte	0x3
 	.uleb128 0x7e
 	.uleb128 0xe
@@ -3997,42 +3997,42 @@ checksum:
 	.byte	0x7
 	.long	.Ldebug_macro6
 	.byte	0x4
-	.file 15 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
+	.file 15 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
 	.byte	0x3
 	.uleb128 0xfe
 	.uleb128 0xf
 	.byte	0x7
 	.long	.Ldebug_macro7
 	.byte	0x4
-	.file 16 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
+	.file 16 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
 	.byte	0x3
 	.uleb128 0x268
 	.uleb128 0x10
 	.byte	0x7
 	.long	.Ldebug_macro8
 	.byte	0x4
-	.file 17 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
+	.file 17 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
 	.byte	0x3
 	.uleb128 0x26a
 	.uleb128 0x11
 	.byte	0x7
 	.long	.Ldebug_macro9
 	.byte	0x4
-	.file 18 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
+	.file 18 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
 	.byte	0x3
 	.uleb128 0x26c
 	.uleb128 0x12
 	.byte	0x7
 	.long	.Ldebug_macro10
 	.byte	0x4
-	.file 19 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
+	.file 19 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
 	.byte	0x3
 	.uleb128 0x273
 	.uleb128 0x13
 	.byte	0x7
 	.long	.Ldebug_macro11
 	.byte	0x4
-	.file 20 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
+	.file 20 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
 	.byte	0x3
 	.uleb128 0x276
 	.uleb128 0x14
@@ -4040,7 +4040,7 @@ checksum:
 	.long	.Ldebug_macro12
 	.byte	0x4
 	.byte	0x4
-	.file 21 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
+	.file 21 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
 	.byte	0x3
 	.uleb128 0x26
 	.uleb128 0x15
@@ -9067,8 +9067,8 @@ checksum:
 	.string	"__LFRACT_EPSILON__ 0x1P-31LR"
 .LASF150:
 	.string	"__DBL_DENORM_MIN__ ((double)1.40129846e-45L)"
-.LASF997:
-	.string	"PCINT3 3"
+.LASF109:
+	.string	"__UINT_LEAST32_MAX__ 4294967295UL"
 .LASF1808:
 	.string	"SPL _SFR_IO8(0x3D)"
 .LASF436:
@@ -9995,8 +9995,8 @@ checksum:
 	.string	"UDR0_2 2"
 .LASF517:
 	.string	"EVERYUS(us) static uint32_t __CONCAT(_t,__LINE__); for(uint32_t _m = ticks(); _m - __CONCAT(_t,__LINE__) >= MICROTOTICKS(us); __CONCAT(_t,__LINE__) = _m)"
-.LASF1059:
-	.string	"ADCH5 5"
+.LASF234:
+	.string	"__USACCUM_FBIT__ 8"
 .LASF1796:
 	.string	"PC5 PORTC5"
 .LASF1209:
@@ -10079,8 +10079,6 @@ checksum:
 	.string	"PORTD2 2"
 .LASF29:
 	.string	"__ORDER_LITTLE_ENDIAN__ 1234"
-.LASF1020:
-	.string	"TIMSK0 _SFR_MEM8(0x6E)"
 .LASF741:
 	.string	"DDD6 6"
 .LASF1822:
@@ -10221,6 +10219,8 @@ checksum:
 	.string	"RX_H_ "
 .LASF755:
 	.string	"OCF0B 2"
+.LASF997:
+	.string	"PCINT3 3"
 .LASF338:
 	.string	"__AVR_HAVE_16BIT_SP__ 1"
 .LASF2102:
@@ -11075,6 +11075,8 @@ checksum:
 	.string	"SIGNATURE_0 0x1E"
 .LASF898:
 	.string	"SPDRB3 3"
+.LASF1059:
+	.string	"ADCH5 5"
 .LASF1519:
 	.string	"RXD_PORT PORTD"
 .LASF1003:
@@ -11215,8 +11217,8 @@ checksum:
 	.string	"ZH r31"
 .LASF1402:
 	.string	"PCINT1_vect _VECTOR(5)"
-.LASF1357:
-	.string	"UDRIE1 5"
+.LASF2106:
+	.string	"GNU C 4.8.1 -fpreprocessed -mmcu=atmega324pa -g3 -Os -std=gnu99 -funsigned-char -funsigned-bitfields -ffast-math -ffunction-sections -fdata-sections -fpack-struct -fshort-enums"
 .LASF445:
 	.string	"noinit __attribute__((section(\".noinit\")))"
 .LASF256:
@@ -11641,8 +11643,8 @@ checksum:
 	.string	"ICP_PORT PORTD"
 .LASF874:
 	.string	"GPIOR21 1"
-.LASF234:
-	.string	"__USACCUM_FBIT__ 8"
+.LASF1921:
+	.string	"RX_AIL_BIT 3"
 .LASF1943:
 	.string	"RX_AUX_DIR _REG_BIT(RX_AUX_DDR, RX_AUX_BIT)"
 .LASF307:
@@ -11675,8 +11677,6 @@ checksum:
 	.string	"PRIu32 \"lu\""
 .LASF1440:
 	.string	"ADC_vect _VECTOR(24)"
-.LASF2106:
-	.string	"GNU C 4.8.1 -fpreprocessed -mmcu=atmega324pa -g3 -Os -std=gnu99 -funsigned-char -funsigned-bitfields -ffast-math -ffunction-sections -fdata-sections -fpack-struct -fshort-enums"
 .LASF1283:
 	.string	"TWAMR _SFR_MEM8(0xBD)"
 .LASF1127:
@@ -11715,8 +11715,6 @@ checksum:
 	.string	"UDR1_2 2"
 .LASF1574:
 	.string	"PCINT30_DDR DDRD"
-.LASF1842:
-	.string	"__AVR_LIBC_REVISION__ 0"
 .LASF1026:
 	.string	"OCIE1A 1"
 .LASF1536:
@@ -11921,8 +11919,6 @@ checksum:
 	.string	"__WCHAR_MAX__ 32767"
 .LASF2077:
 	.string	"CycleTime"
-.LASF1921:
-	.string	"RX_AIL_BIT 3"
 .LASF559:
 	.string	"PRIoFAST16 \"o\""
 .LASF530:
@@ -12063,6 +12059,8 @@ checksum:
 	.string	"GPIOR17 7"
 .LASF1142:
 	.string	"ICR1L6 6"
+.LASF2108:
+	.string	"D:\\\\QuadcopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1532:
 	.string	"PCINT25_PIN PIND"
 .LASF576:
@@ -12365,8 +12363,8 @@ checksum:
 	.string	"AVR_STACK_POINTER_HI_REG SPH"
 .LASF353:
 	.string	"__BUILTIN_AVR_DELAY_CYCLES 1"
-.LASF109:
-	.string	"__UINT_LEAST32_MAX__ 4294967295UL"
+.LASF1020:
+	.string	"TIMSK0 _SFR_MEM8(0x6E)"
 .LASF1611:
 	.string	"PCINT20_PORT PORTC"
 .LASF1217:
@@ -12503,8 +12501,8 @@ checksum:
 	.string	"PCINT29_DDR DDRD"
 .LASF1375:
 	.string	"UBRR_4 4"
-.LASF2108:
-	.string	"D:\\\\kk2-multicopter-master\\\\Debug Simulator"
+.LASF1842:
+	.string	"__AVR_LIBC_REVISION__ 0"
 .LASF1077:
 	.string	"MUX0 0"
 .LASF296:
@@ -12667,6 +12665,8 @@ checksum:
 	.string	"XRAMEND (RAMEND)"
 .LASF886:
 	.string	"MSTR0 4"
+.LASF1357:
+	.string	"UDRIE1 5"
 .LASF1175:
 	.string	"OCR1BL1 1"
 .LASF1420:
