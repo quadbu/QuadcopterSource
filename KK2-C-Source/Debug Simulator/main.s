@@ -780,7 +780,7 @@ versionNum:
 	.comm	menuPage,1,1
 	.text
 .Letext0:
-	.file 3 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
+	.file 3 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
 	.file 4 "../include/hardware.h"
 	.file 5 "../include/mixer.h"
 	.file 6 "../include/pid.h"
@@ -5162,7 +5162,7 @@ versionNum:
 	.byte	0x5
 	.uleb128 0xc
 	.long	.LASF447
-	.file 21 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
+	.file 21 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xe
 	.uleb128 0x15
@@ -5179,27 +5179,27 @@ versionNum:
 	.byte	0x7
 	.long	.Ldebug_macro3
 	.byte	0x4
-	.file 22 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
+	.file 22 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
 	.byte	0x3
 	.uleb128 0x1c
 	.uleb128 0x16
 	.byte	0x5
 	.uleb128 0x23
 	.long	.LASF520
-	.file 23 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
+	.file 23 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
 	.byte	0x3
 	.uleb128 0x25
 	.uleb128 0x17
 	.byte	0x5
 	.uleb128 0x61
 	.long	.LASF521
-	.file 24 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
+	.file 24 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
 	.byte	0x3
 	.uleb128 0x63
 	.uleb128 0x18
 	.byte	0x7
 	.long	.Ldebug_macro4
-	.file 25 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
+	.file 25 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
 	.byte	0x3
 	.uleb128 0x7e
 	.uleb128 0x19
@@ -5209,42 +5209,42 @@ versionNum:
 	.byte	0x7
 	.long	.Ldebug_macro6
 	.byte	0x4
-	.file 26 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
+	.file 26 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
 	.byte	0x3
 	.uleb128 0xfe
 	.uleb128 0x1a
 	.byte	0x7
 	.long	.Ldebug_macro7
 	.byte	0x4
-	.file 27 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
+	.file 27 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
 	.byte	0x3
 	.uleb128 0x268
 	.uleb128 0x1b
 	.byte	0x7
 	.long	.Ldebug_macro8
 	.byte	0x4
-	.file 28 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
+	.file 28 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
 	.byte	0x3
 	.uleb128 0x26a
 	.uleb128 0x1c
 	.byte	0x7
 	.long	.Ldebug_macro9
 	.byte	0x4
-	.file 29 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
+	.file 29 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
 	.byte	0x3
 	.uleb128 0x26c
 	.uleb128 0x1d
 	.byte	0x7
 	.long	.Ldebug_macro10
 	.byte	0x4
-	.file 30 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
+	.file 30 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
 	.byte	0x3
 	.uleb128 0x273
 	.uleb128 0x1e
 	.byte	0x7
 	.long	.Ldebug_macro11
 	.byte	0x4
-	.file 31 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
+	.file 31 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
 	.byte	0x3
 	.uleb128 0x276
 	.uleb128 0x1f
@@ -5252,7 +5252,7 @@ versionNum:
 	.long	.Ldebug_macro12
 	.byte	0x4
 	.byte	0x4
-	.file 32 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
+	.file 32 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
 	.byte	0x3
 	.uleb128 0x26
 	.uleb128 0x20
@@ -5309,13 +5309,13 @@ versionNum:
 	.byte	0x5
 	.uleb128 0xc
 	.long	.LASF2011
-	.file 33 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h"
+	.file 33 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h"
 	.byte	0x3
 	.uleb128 0xf
 	.uleb128 0x21
 	.byte	0x7
 	.long	.Ldebug_macro19
-	.file 34 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h"
+	.file 34 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h"
 	.byte	0x3
 	.uleb128 0x57
 	.uleb128 0x22
@@ -5417,21 +5417,21 @@ versionNum:
 	.uleb128 0xc
 	.long	.LASF2094
 	.byte	0x4
-	.file 37 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\wdt.h"
+	.file 37 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\wdt.h"
 	.byte	0x3
 	.uleb128 0x18
 	.uleb128 0x25
 	.byte	0x7
 	.long	.Ldebug_macro25
 	.byte	0x4
-	.file 38 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sleep.h"
+	.file 38 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sleep.h"
 	.byte	0x3
 	.uleb128 0x19
 	.uleb128 0x26
 	.byte	0x7
 	.long	.Ldebug_macro26
 	.byte	0x4
-	.file 39 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h"
+	.file 39 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h"
 	.byte	0x3
 	.uleb128 0x1e
 	.uleb128 0x27
@@ -5446,7 +5446,7 @@ versionNum:
 	.byte	0x7
 	.long	.Ldebug_macro29
 	.byte	0x4
-	.file 40 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h"
+	.file 40 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h"
 	.byte	0x3
 	.uleb128 0x1f
 	.uleb128 0x28
@@ -5462,14 +5462,14 @@ versionNum:
 	.uleb128 0x5b
 	.long	.LASF2164
 	.byte	0x4
-	.file 41 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdfix.h"
+	.file 41 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdfix.h"
 	.byte	0x3
 	.uleb128 0x20
 	.uleb128 0x29
 	.byte	0x5
 	.uleb128 0x1f
 	.long	.LASF2165
-	.file 42 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdfix-gcc.h"
+	.file 42 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdfix-gcc.h"
 	.byte	0x3
 	.uleb128 0x24
 	.uleb128 0x2a
@@ -15133,8 +15133,6 @@ versionNum:
 	.string	"GPIOR17 7"
 .LASF1142:
 	.string	"ICR1L6 6"
-.LASF2534:
-	.string	"D:\\\\QuadcopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1532:
 	.string	"PCINT25_PIN PIND"
 .LASF576:
@@ -16305,6 +16303,8 @@ versionNum:
 	.string	"__LDBL_EPSILON__ 1.19209290e-7L"
 .LASF2437:
 	.string	"RX_zero"
+.LASF2534:
+	.string	"D:\\\\Other\\\\QuacopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1290:
 	.string	"TWAM6 7"
 .LASF1413:

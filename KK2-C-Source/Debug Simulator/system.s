@@ -140,10 +140,10 @@ ticks:
 .LVL0:
 .LBB13:
 .LBB14:
-	.file 2 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
+	.file 2 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h"
 	.loc 2 50 0
 /* #APP */
- ;  50 "c:\program files\atmel\atmel toolchain\avr8 gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\util\atomic.h" 1
+ ;  50 "c:\program files (x86)\atmel\atmel toolchain\avr8 gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\util\atomic.h" 1
 	cli
  ;  0 "" 2
 .LVL1:
@@ -246,7 +246,7 @@ millis:
 .LBB19:
 	.loc 2 50 0
 /* #APP */
- ;  50 "c:\program files\atmel\atmel toolchain\avr8 gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\util\atomic.h" 1
+ ;  50 "c:\program files (x86)\atmel\atmel toolchain\avr8 gcc\native\3.4.1061\avr8-gnu-toolchain\avr\include\util\atomic.h" 1
 	cli
  ;  0 "" 2
 .LVL10:
@@ -317,7 +317,7 @@ t1_millis:
 	.zero	2
 	.text
 .Letext0:
-	.file 3 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
+	.file 3 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdint.h"
 	.file 4 "../include/hardware.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
@@ -2602,7 +2602,7 @@ t1_millis:
 	.byte	0x5
 	.uleb128 0xc
 	.long	.LASF447
-	.file 7 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
+	.file 7 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h"
 	.byte	0x3
 	.uleb128 0xe
 	.uleb128 0x7
@@ -2625,20 +2625,20 @@ t1_millis:
 	.byte	0x5
 	.uleb128 0x23
 	.long	.LASF520
-	.file 8 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
+	.file 8 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h"
 	.byte	0x3
 	.uleb128 0x25
 	.uleb128 0x8
 	.byte	0x5
 	.uleb128 0x61
 	.long	.LASF521
-	.file 9 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
+	.file 9 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h"
 	.byte	0x3
 	.uleb128 0x63
 	.uleb128 0x9
 	.byte	0x7
 	.long	.Ldebug_macro4
-	.file 10 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
+	.file 10 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h"
 	.byte	0x3
 	.uleb128 0x7e
 	.uleb128 0xa
@@ -2648,42 +2648,42 @@ t1_millis:
 	.byte	0x7
 	.long	.Ldebug_macro6
 	.byte	0x4
-	.file 11 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
+	.file 11 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\iom324pa.h"
 	.byte	0x3
 	.uleb128 0xfe
 	.uleb128 0xb
 	.byte	0x7
 	.long	.Ldebug_macro7
 	.byte	0x4
-	.file 12 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
+	.file 12 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\portpins.h"
 	.byte	0x3
 	.uleb128 0x268
 	.uleb128 0xc
 	.byte	0x7
 	.long	.Ldebug_macro8
 	.byte	0x4
-	.file 13 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
+	.file 13 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\common.h"
 	.byte	0x3
 	.uleb128 0x26a
 	.uleb128 0xd
 	.byte	0x7
 	.long	.Ldebug_macro9
 	.byte	0x4
-	.file 14 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
+	.file 14 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\version.h"
 	.byte	0x3
 	.uleb128 0x26c
 	.uleb128 0xe
 	.byte	0x7
 	.long	.Ldebug_macro10
 	.byte	0x4
-	.file 15 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
+	.file 15 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\fuse.h"
 	.byte	0x3
 	.uleb128 0x273
 	.uleb128 0xf
 	.byte	0x7
 	.long	.Ldebug_macro11
 	.byte	0x4
-	.file 16 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
+	.file 16 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h"
 	.byte	0x3
 	.uleb128 0x276
 	.uleb128 0x10
@@ -2691,7 +2691,7 @@ t1_millis:
 	.long	.Ldebug_macro12
 	.byte	0x4
 	.byte	0x4
-	.file 17 "c:\\program files\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
+	.file 17 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h"
 	.byte	0x3
 	.uleb128 0x26
 	.uleb128 0x11
@@ -8055,6 +8055,8 @@ t1_millis:
 	.string	"SIGNATURE_1 0x95"
 .LASF1838:
 	.string	"__AVR_LIBC_DATE_STRING__ \"20111229\""
+.LASF1407:
+	.string	"WDT_vect_num 8"
 .LASF28:
 	.string	"__BIGGEST_ALIGNMENT__ 1"
 .LASF1380:
@@ -8399,8 +8401,8 @@ t1_millis:
 	.string	"__LLACCUM_MIN__ (-0X1P15LLK-0X1P15LLK)"
 .LASF1187:
 	.string	"OCR1BH4 4"
-.LASF1407:
-	.string	"WDT_vect_num 8"
+.LASF654:
+	.string	"DDA0 0"
 .LASF535:
 	.string	"PRIiLEAST16 \"i\""
 .LASF173:
@@ -9881,8 +9883,6 @@ t1_millis:
 	.string	"__BUILTIN_AVR_COUNTLSUK 1"
 .LASF1435:
 	.string	"USART0_TX_vect_num 22"
-.LASF654:
-	.string	"DDA0 0"
 .LASF305:
 	.string	"__REGISTER_PREFIX__ "
 .LASF1087:
@@ -10449,8 +10449,6 @@ t1_millis:
 	.string	"GPIOR17 7"
 .LASF1142:
 	.string	"ICR1L6 6"
-.LASF2041:
-	.string	"D:\\\\QuadcopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1532:
 	.string	"PCINT25_PIN PIND"
 .LASF576:
@@ -11415,6 +11413,8 @@ t1_millis:
 	.string	"ACIS0 0"
 .LASF163:
 	.string	"__LDBL_EPSILON__ 1.19209290e-7L"
+.LASF2041:
+	.string	"D:\\\\Other\\\\QuacopterSource\\\\trunk\\\\KK2-C-Source\\\\Debug Simulator"
 .LASF1290:
 	.string	"TWAM6 7"
 .LASF1413:
