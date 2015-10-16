@@ -109,7 +109,7 @@ typedef struct
 #define PWM_CAL_RANGE		100
 #define PPM_SYNC_LENGTH		3000
 #define LO_RATE_CYCLE		20		// cycle time for lo-rate servos in ms
-#define RX_THRESHOLD		75	
+#define RX_THRESHOLD		50		// was 75 [10/14/2015 QuocTuanIT]
 #define ARM_DELAY			2000	// in ms
 #define DISARM_DELAY		60000	// in ms
 
