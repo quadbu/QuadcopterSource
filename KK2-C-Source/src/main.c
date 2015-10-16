@@ -21,6 +21,7 @@
 #include "imu.h"
 #include "serial.h"
 #include "msp.h"
+#include "../mpu6050/mpu6050.h"
 #include <avr/wdt.h>
 #include <avr/sleep.h>
 
@@ -59,6 +60,10 @@ static void init()
 	mixerInit();
 	pwmInit();
 	keyboardInit();
+	
+	// InitMPU6050 [10/14/2015 QuocTuanIT]
+	mpu6050_init();
+	//_delay_ms(50);
 
 #ifndef NO_LCD
 	lcdInit();

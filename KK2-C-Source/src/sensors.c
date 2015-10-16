@@ -12,48 +12,60 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include "../mpu6050/mpu6050.h"
+
 uint16_t GYRO_raw[3], ACC_raw[3];
 int16_t GYRO[3], ACC[3];
 uint8_t BATT;
 
 #define GYRO_DEADBAND	2
 
+
+// Edit do read data from MPU6050 [10/14/2015 QuocTuanIT]
 void sensorsRead()
 {
-	GYRO_raw[PIT] = adcGet(ADC_GYR_X);
+	int16_t ax = 0;
+	int16_t ay = 0;
+	int16_t az = 0;
+	int16_t gx = 0;
+	int16_t gy = 0;
+	int16_t gz = 0;
+	mpu6050_getRawData(&ax, &ay, &az, &gx, &gy, &gz);
+
+	GYRO_raw[PIT] = gx;//adcGet(ADC_GYR_X);
 	GYRO[PIT] = -(int16_t)(GYRO_raw[PIT] - Config.GYRO_zero[PIT]);
 #if GYRO_DEADBAND > 0
 	if (abs(GYRO[PIT]) <= GYRO_DEADBAND) GYRO[PIT] = 0;
 #endif
 
-	GYRO_raw[ROL] = adcGet(ADC_GYR_Y);
+	GYRO_raw[ROL] = gy;//adcGet(ADC_GYR_Y);
 	GYRO[ROL] = -(int16_t)(GYRO_raw[ROL] - Config.GYRO_zero[ROL]);
 #if GYRO_DEADBAND > 0
 	if (abs(GYRO[ROL]) <= GYRO_DEADBAND) GYRO[ROL] = 0;
 #endif
 
-	GYRO_raw[YAW] = adcGet(ADC_GYR_Z);
+	GYRO_raw[YAW] = gz;//adcGet(ADC_GYR_Z);
 	GYRO[YAW] = (int16_t)(GYRO_raw[YAW] - Config.GYRO_zero[YAW]);
 #if GYRO_DEADBAND > 0
 	if (abs(GYRO[YAW]) <= GYRO_DEADBAND) GYRO[YAW] = 0;
 #endif
 	
-	ACC_raw[PIT] = adcGet(ADC_ACC_X);
+	ACC_raw[PIT] = ax;//adcGet(ADC_ACC_X);
 	ACC[PIT] = (int16_t)(ACC_raw[PIT] - Config.ACC_zero[PIT]);
-	ACC_raw[ROL] = adcGet(ADC_ACC_Y);
+	ACC_raw[ROL] = ay;//adcGet(ADC_ACC_Y);
 	ACC[ROL] = (int16_t)(ACC_raw[ROL] - Config.ACC_zero[ROL]);
-	ACC_raw[YAW] = adcGet(ADC_ACC_Z);
+	ACC_raw[YAW] = az;//adcGet(ADC_ACC_Z);
 	ACC[YAW] = (int16_t)(ACC_raw[YAW] - Config.ACC_zero[YAW]);
 
 	BATT = adcGet(ADC_VBAT) * 100 / 376;
 	
 #ifdef SIMULATOR
-	GYRO[0] = 0;
-	GYRO[1] = 0;
-	GYRO[2] = 0;
-	ACC[0] = 0;
-	ACC[1] = 0;
-	ACC[2] = 0;
+	GYRO[0] = 100;
+	GYRO[1] = 100;
+	GYRO[2] = 100;
+	ACC[0] = 100;
+	ACC[1] = 100;
+	ACC[2] = 100;
 #endif
 }
 
