@@ -1,899 +1,1285 @@
-# 1 "../driver/lcd.c"
-# 1 "D:\\Other\\QuacopterSource\\trunk\\KK2-C-Source\\Debug Simulator//"
+# 1 "../mpu6050/mpu6050.c"
+# 1 "D:\\QuadcopterSource\\trunk\\KK2-C-Source\\Debug Simulator//"
 #define __STDC__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __STDC_VERSION__ 199901L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __STDC_UTF_16__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __STDC_UTF_32__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __STDC_HOSTED__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GNUC__ 4
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GNUC_MINOR__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GNUC_PATCHLEVEL__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __VERSION__ "4.8.1"
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ATOMIC_RELAXED 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ATOMIC_SEQ_CST 5
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ATOMIC_ACQUIRE 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ATOMIC_RELEASE 3
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ATOMIC_ACQ_REL 4
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ATOMIC_CONSUME 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __OPTIMIZE_SIZE__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __OPTIMIZE__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FAST_MATH__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FINITE_MATH_ONLY__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_INT__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_LONG__ 4
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_LONG_LONG__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_SHORT__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_FLOAT__ 4
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_DOUBLE__ 4
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_LONG_DOUBLE__ 4
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_SIZE_T__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __CHAR_BIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BIGGEST_ALIGNMENT__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ORDER_LITTLE_ENDIAN__ 1234
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ORDER_BIG_ENDIAN__ 4321
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ORDER_PDP_ENDIAN__ 3412
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_POINTER__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZE_TYPE__ unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __PTRDIFF_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WCHAR_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WINT_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INTMAX_TYPE__ long long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINTMAX_TYPE__ long long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __CHAR16_TYPE__ unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __CHAR32_TYPE__ long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIG_ATOMIC_TYPE__ char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT8_TYPE__ signed char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT16_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT32_TYPE__ long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT64_TYPE__ long long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT8_TYPE__ unsigned char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT16_TYPE__ unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT32_TYPE__ long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT64_TYPE__ long long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST8_TYPE__ signed char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST16_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST32_TYPE__ long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST64_TYPE__ long long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST8_TYPE__ unsigned char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST16_TYPE__ unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST32_TYPE__ long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST64_TYPE__ long long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST8_TYPE__ signed char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST16_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST32_TYPE__ long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST64_TYPE__ long long int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST8_TYPE__ unsigned char
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST16_TYPE__ unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST32_TYPE__ long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST64_TYPE__ long long unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INTPTR_TYPE__ int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINTPTR_TYPE__ unsigned int
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GXX_ABI_VERSION 1002
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USING_SJLJ_EXCEPTIONS__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SCHAR_MAX__ 127
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SHRT_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LONG_MAX__ 2147483647L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LONG_LONG_MAX__ 9223372036854775807LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WCHAR_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WINT_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WINT_MIN__ (-__WINT_MAX__ - 1)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __PTRDIFF_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZE_MAX__ 65535U
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INTMAX_MAX__ 9223372036854775807LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INTMAX_C(c) c ## LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINTMAX_MAX__ 18446744073709551615ULL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINTMAX_C(c) c ## ULL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIG_ATOMIC_MAX__ 255
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIG_ATOMIC_MIN__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT8_MAX__ 127
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT16_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT32_MAX__ 2147483647L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT64_MAX__ 9223372036854775807LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT8_MAX__ 255
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT16_MAX__ 65535U
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT32_MAX__ 4294967295UL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT64_MAX__ 18446744073709551615ULL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST8_MAX__ 127
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT8_C(c) c
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST16_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT16_C(c) c
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST32_MAX__ 2147483647L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT32_C(c) c ## L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_LEAST64_MAX__ 9223372036854775807LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT64_C(c) c ## LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST8_MAX__ 255
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT8_C(c) c
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST16_MAX__ 65535U
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT16_C(c) c ## U
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST32_MAX__ 4294967295UL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT32_C(c) c ## UL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_LEAST64_MAX__ 18446744073709551615ULL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT64_C(c) c ## ULL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST8_MAX__ 127
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST16_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST32_MAX__ 2147483647L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT_FAST64_MAX__ 9223372036854775807LL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST8_MAX__ 255
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST16_MAX__ 65535U
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST32_MAX__ 4294967295UL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT_FAST64_MAX__ 18446744073709551615ULL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INTPTR_MAX__ 32767
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINTPTR_MAX__ 65535U
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_EVAL_METHOD__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC_EVAL_METHOD__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_RADIX__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MANT_DIG__ 24
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_DIG__ 6
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MIN_EXP__ (-125)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MIN_10_EXP__ (-37)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MAX_EXP__ 128
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MAX_10_EXP__ 38
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_DECIMAL_DIG__ 9
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MAX__ 3.40282347e+38F
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_MIN__ 1.17549435e-38F
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_EPSILON__ 1.19209290e-7F
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_DENORM_MIN__ 1.40129846e-45F
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_HAS_DENORM__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_HAS_INFINITY__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLT_HAS_QUIET_NAN__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MANT_DIG__ 24
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_DIG__ 6
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MIN_EXP__ (-125)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MIN_10_EXP__ (-37)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MAX_EXP__ 128
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MAX_10_EXP__ 38
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_DECIMAL_DIG__ 9
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MAX__ ((double)3.40282347e+38L)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_MIN__ ((double)1.17549435e-38L)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_EPSILON__ ((double)1.19209290e-7L)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_DENORM_MIN__ ((double)1.40129846e-45L)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_HAS_DENORM__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_HAS_INFINITY__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DBL_HAS_QUIET_NAN__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MANT_DIG__ 24
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_DIG__ 6
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MIN_EXP__ (-125)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MIN_10_EXP__ (-37)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MAX_EXP__ 128
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MAX_10_EXP__ 38
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DECIMAL_DIG__ 9
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MAX__ 3.40282347e+38L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_MIN__ 1.17549435e-38L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_EPSILON__ 1.19209290e-7L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_DENORM_MIN__ 1.40129846e-45L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_HAS_DENORM__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_HAS_INFINITY__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LDBL_HAS_QUIET_NAN__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_MANT_DIG__ 7
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_MIN_EXP__ (-94)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_MAX_EXP__ 97
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_MIN__ 1E-95DF
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_MAX__ 9.999999E96DF
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_EPSILON__ 1E-6DF
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_MANT_DIG__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_MIN_EXP__ (-382)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_MAX_EXP__ 385
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_MIN__ 1E-383DD
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_MAX__ 9.999999999999999E384DD
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_EPSILON__ 1E-15DD
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_MANT_DIG__ 34
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_MIN_EXP__ (-6142)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_MAX_EXP__ 6145
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_MIN__ 1E-6143DL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_EPSILON__ 1E-33DL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SFRACT_FBIT__ 7
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SFRACT_MIN__ (-0.5HR-0.5HR)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SFRACT_MAX__ 0X7FP-7HR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SFRACT_EPSILON__ 0x1P-7HR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USFRACT_FBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USFRACT_MIN__ 0.0UHR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USFRACT_MAX__ 0XFFP-8UHR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USFRACT_EPSILON__ 0x1P-8UHR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FRACT_FBIT__ 15
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FRACT_MIN__ (-0.5R-0.5R)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FRACT_MAX__ 0X7FFFP-15R
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FRACT_EPSILON__ 0x1P-15R
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UFRACT_FBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UFRACT_MIN__ 0.0UR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UFRACT_MAX__ 0XFFFFP-16UR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UFRACT_EPSILON__ 0x1P-16UR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LFRACT_FBIT__ 31
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LFRACT_MIN__ (-0.5LR-0.5LR)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LFRACT_MAX__ 0X7FFFFFFFP-31LR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LFRACT_EPSILON__ 0x1P-31LR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULFRACT_FBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULFRACT_MIN__ 0.0ULR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULFRACT_MAX__ 0XFFFFFFFFP-32ULR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULFRACT_EPSILON__ 0x1P-32ULR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLFRACT_FBIT__ 63
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLFRACT_MIN__ (-0.5LLR-0.5LLR)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLFRACT_EPSILON__ 0x1P-63LLR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLFRACT_FBIT__ 64
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLFRACT_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLFRACT_MIN__ 0.0ULLR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLFRACT_EPSILON__ 0x1P-64ULLR
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SACCUM_FBIT__ 7
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SACCUM_IBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SACCUM_MIN__ (-0X1P7HK-0X1P7HK)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SACCUM_MAX__ 0X7FFFP-7HK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SACCUM_EPSILON__ 0x1P-7HK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USACCUM_FBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USACCUM_IBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USACCUM_MIN__ 0.0UHK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USACCUM_MAX__ 0XFFFFP-8UHK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USACCUM_EPSILON__ 0x1P-8UHK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ACCUM_FBIT__ 15
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ACCUM_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ACCUM_MIN__ (-0X1P15K-0X1P15K)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ACCUM_MAX__ 0X7FFFFFFFP-15K
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ACCUM_EPSILON__ 0x1P-15K
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UACCUM_FBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UACCUM_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UACCUM_MIN__ 0.0UK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UACCUM_MAX__ 0XFFFFFFFFP-16UK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UACCUM_EPSILON__ 0x1P-16UK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LACCUM_FBIT__ 31
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LACCUM_IBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LACCUM_EPSILON__ 0x1P-31LK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULACCUM_FBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULACCUM_IBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULACCUM_MIN__ 0.0ULK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULACCUM_EPSILON__ 0x1P-32ULK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLACCUM_FBIT__ 47
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLACCUM_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLACCUM_MIN__ (-0X1P15LLK-0X1P15LLK)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-47LLK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __LLACCUM_EPSILON__ 0x1P-47LLK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLACCUM_FBIT__ 48
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLACCUM_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLACCUM_MIN__ 0.0ULLK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-48ULLK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ULLACCUM_EPSILON__ 0x1P-48ULLK
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __QQ_FBIT__ 7
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __QQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __HQ_FBIT__ 15
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __HQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SQ_FBIT__ 31
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DQ_FBIT__ 63
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __TQ_FBIT__ 127
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __TQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UQQ_FBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UQQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UHQ_FBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UHQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USQ_FBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UDQ_FBIT__ 64
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UDQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UTQ_FBIT__ 128
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UTQ_IBIT__ 0
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __HA_FBIT__ 7
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __HA_IBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SA_FBIT__ 15
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SA_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DA_FBIT__ 31
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __DA_IBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __TA_FBIT__ 47
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __TA_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UHA_FBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UHA_IBIT__ 8
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USA_FBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USA_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UDA_FBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UDA_IBIT__ 32
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UTA_FBIT__ 48
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UTA_IBIT__ 16
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __REGISTER_PREFIX__ 
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __USER_LABEL_PREFIX__ 
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GNUC_STDC_INLINE__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __CHAR_UNSIGNED__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_CHAR_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_SHORT_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_INT_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_LONG_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_LLONG_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_ATOMIC_POINTER_LOCK_FREE 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __GCC_HAVE_DWARF2_CFI_ASM 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __PRAGMA_REDEFINE_EXTNAME 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_WCHAR_T__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_WINT_T__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __SIZEOF_PTRDIFF_T__ 2
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define AVR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_ARCH__ 5
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_ATmega324PA__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_DEVICE_NAME__ atmega324pa
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_HAVE_MOVW__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_HAVE_LPMX__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_ENHANCED__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_HAVE_MUL__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_MEGA__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_HAVE_JMP_CALL__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_2_BYTE_PC__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_HAVE_16BIT_SP__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_HAVE_SPH__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __AVR_SFR_OFFSET__ 0x20
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __WITH_AVRLIBC__ 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __FLASH 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __MEMX 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_NOP 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_SEI 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_CLI 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_WDR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_SLEEP 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_SWAP 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_FMUL 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_FMULS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_FMULSU 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_DELAY_CYCLES 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_INSERT_BITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_FLASH_SEGMENT 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSLLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSLLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDLLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDUHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDUR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDULR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDULLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDLLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDUHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDUK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDULK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDULLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSLLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSUHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSUR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSULR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSULLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSLLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSUHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSUK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSULK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSULLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSLLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSUHR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSUR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSULR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSULLR 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSLLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSUHK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSUK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSULK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_BITSULLK 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_HRBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_RBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_LRBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_LLRBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_UHRBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_URBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ULRBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ULLRBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_HKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_KBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_LKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_LLKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_UHKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_UKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ULKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ULLKBITS 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ABSFX 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_ROUNDFX 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __BUILTIN_AVR_COUNTLSFX 1
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT24_MAX__ 8388607L
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __INT24_MIN__ (-__INT24_MAX__-1)
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __UINT24_MAX__ 16777215UL
-# 1 "../driver/lcd.c"
+# 1 "../mpu6050/mpu6050.c"
 #define __ELF__ 1
 # 1 "<command-line>"
 #define DEBUG 1
 #define SIMULATOR 1
-# 1 "../driver/lcd.c"
-# 12 "../driver/lcd.c"
-# 1 "../include/global.h" 1
-# 12 "../include/global.h"
-#define GLOBAL_H_ 
+# 1 "../mpu6050/mpu6050.c"
+# 11 "../mpu6050/mpu6050.c"
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 1 3
+# 40 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+#define _STDLIB_H_ 1
 
-#define F_CPU 20000000
 
-#define ON 1
-#define OFF 0
 
-#define ROL 0
-#define PIT 1
-#define YAW 2
-#define THR 3
+#define __need_NULL 
+#define __need_size_t 
+#define __need_wchar_t 
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
+# 184 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#define __size_t__ 
+#define __SIZE_T__ 
+#define _SIZE_T 
+#define _SYS_SIZE_T_H 
+#define _T_SIZE_ 
+#define _T_SIZE 
+#define __SIZE_T 
+#define _SIZE_T_ 
+#define _BSD_SIZE_T_ 
+#define _SIZE_T_DEFINED_ 
+#define _SIZE_T_DEFINED 
+#define _BSD_SIZE_T_DEFINED_ 
+#define _SIZE_T_DECLARED 
+#define ___int_size_t_h 
+#define _GCC_SIZE_T 
+#define _SIZET_ 
 
-#define noinit __attribute__((section(".noinit")))
-#define length(array) (sizeof(array)/sizeof(*array))
 
-# 1 "../include/system.h" 1
-# 12 "../include/system.h"
-#define SYSTEM_H_ 
+
+
+
+
+#define __size_t 
+
+
+
+
+
+typedef unsigned int size_t;
+# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#undef __need_size_t
+# 263 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#define __wchar_t__ 
+#define __WCHAR_T__ 
+#define _WCHAR_T 
+#define _T_WCHAR_ 
+#define _T_WCHAR 
+#define __WCHAR_T 
+#define _WCHAR_T_ 
+#define _BSD_WCHAR_T_ 
+#define _WCHAR_T_DEFINED_ 
+#define _WCHAR_T_DEFINED 
+#define _WCHAR_T_H 
+#define ___int_wchar_t_h 
+#define __INT_WCHAR_T_H 
+#define _GCC_WCHAR_T 
+#define _WCHAR_T_DECLARED 
+# 290 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#undef _BSD_WCHAR_T_
+# 324 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+typedef int wchar_t;
+# 343 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#undef __need_wchar_t
+# 397 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#undef NULL
+
+
+
+
+#define NULL ((void *)0)
+
+
+
+
+
+#undef __need_NULL
+# 48 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 2 3
+
+
+#define __ptr_t void *
+# 68 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+typedef struct {
+ int quot;
+ int rem;
+} div_t;
+
+
+typedef struct {
+ long quot;
+ long rem;
+} ldiv_t;
+
+
+typedef int (*__compar_fn_t)(const void *, const void *);
+
+
+
+
+#define __ATTR_CONST__ __attribute__((__const__))
+
+
+
+#define __ATTR_MALLOC__ __attribute__((__malloc__))
+
+
+
+#define __ATTR_NORETURN__ __attribute__((__noreturn__))
+
+
+
+#define __ATTR_PURE__ __attribute__((__pure__))
+
+
+
+
+#define __ATTR_GNU_INLINE__ __attribute__((__gnu_inline__))
+# 114 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern void abort(void) __attribute__((__noreturn__));
+
+
+
+
+extern int abs(int __i) __attribute__((__const__));
+
+#define abs(__i) __builtin_abs(__i)
+
+
+
+
+
+
+extern long labs(long __i) __attribute__((__const__));
+
+#define labs(__i) __builtin_labs(__i)
+# 151 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern void *bsearch(const void *__key, const void *__base, size_t __nmemb,
+       size_t __size, int (*__compar)(const void *, const void *));
+
+
+
+
+
+
+
+extern div_t div(int __num, int __denom) __asm__("__divmodhi4") __attribute__((__const__));
+
+
+
+
+
+extern ldiv_t ldiv(long __num, long __denom) __asm__("__divmodsi4") __attribute__((__const__));
+# 183 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern void qsort(void *__base, size_t __nmemb, size_t __size,
+    __compar_fn_t __compar);
+# 216 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern long strtol(const char *__nptr, char **__endptr, int __base);
+# 250 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern unsigned long strtoul(const char *__nptr, char **__endptr, int __base);
+# 262 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern long atol(const char *__s) __attribute__((__pure__));
+# 274 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern int atoi(const char *__s) __attribute__((__pure__));
+# 286 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern void exit(int __status) __attribute__((__noreturn__));
+# 298 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern void *malloc(size_t __size) __attribute__((__malloc__));
+
+
+
+
+
+
+extern void free(void *__ptr);
+
+
+
+
+extern size_t __malloc_margin;
+
+
+
+
+extern char *__malloc_heap_start;
+
+
+
+
+extern char *__malloc_heap_end;
+
+
+
+
+
+
+extern void *calloc(size_t __nele, size_t __size) __attribute__((__malloc__));
+# 346 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern void *realloc(void *__ptr, size_t __size) __attribute__((__malloc__));
+
+extern double strtod(const char *__nptr, char **__endptr);
+
+extern double atof(const char *__nptr);
+
+
+#define RAND_MAX 0x7FFF
+# 372 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern int rand(void);
+
+
+
+extern void srand(unsigned int __seed);
+
+
+
+
+
+
+extern int rand_r(unsigned long *__ctx);
+# 417 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern __inline__ __attribute__((__gnu_inline__))
+char *itoa (int __val, char *__s, int __radix)
+{
+    if (!__builtin_constant_p (__radix)) {
+ extern char *__itoa (int, char *, int);
+ return __itoa (__val, __s, __radix);
+    } else if (__radix < 2 || __radix > 36) {
+ *__s = 0;
+ return __s;
+    } else {
+ extern char *__itoa_ncheck (int, char *, unsigned char);
+ return __itoa_ncheck (__val, __s, __radix);
+    }
+}
+# 462 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern __inline__ __attribute__((__gnu_inline__))
+char *ltoa (long __val, char *__s, int __radix)
+{
+    if (!__builtin_constant_p (__radix)) {
+ extern char *__ltoa (long, char *, int);
+ return __ltoa (__val, __s, __radix);
+    } else if (__radix < 2 || __radix > 36) {
+ *__s = 0;
+ return __s;
+    } else {
+ extern char *__ltoa_ncheck (long, char *, unsigned char);
+ return __ltoa_ncheck (__val, __s, __radix);
+    }
+}
+# 505 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern __inline__ __attribute__((__gnu_inline__))
+char *utoa (unsigned int __val, char *__s, int __radix)
+{
+    if (!__builtin_constant_p (__radix)) {
+ extern char *__utoa (unsigned int, char *, int);
+ return __utoa (__val, __s, __radix);
+    } else if (__radix < 2 || __radix > 36) {
+ *__s = 0;
+ return __s;
+    } else {
+ extern char *__utoa_ncheck (unsigned int, char *, unsigned char);
+ return __utoa_ncheck (__val, __s, __radix);
+    }
+}
+# 547 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern __inline__ __attribute__((__gnu_inline__))
+char *ultoa (unsigned long __val, char *__s, int __radix)
+{
+    if (!__builtin_constant_p (__radix)) {
+ extern char *__ultoa (unsigned long, char *, int);
+ return __ultoa (__val, __s, __radix);
+    } else if (__radix < 2 || __radix > 36) {
+ *__s = 0;
+ return __s;
+    } else {
+ extern char *__ultoa_ncheck (unsigned long, char *, unsigned char);
+ return __ultoa_ncheck (__val, __s, __radix);
+    }
+}
+
+
+
+
+#define RANDOM_MAX 0x7FFFFFFF
+# 579 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern long random(void);
+
+
+
+
+extern void srandom(unsigned long __seed);
+
+
+
+
+
+
+
+extern long random_r(unsigned long *__ctx);
+# 606 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+#define DTOSTR_ALWAYS_SIGN 0x01
+
+
+#define DTOSTR_PLUS_SIGN 0x02
+
+
+#define DTOSTR_UPPERCASE 0x04
+# 638 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern char *dtostre(double __val, char *__s, unsigned char __prec,
+       unsigned char __flags);
+# 655 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
+extern char *dtostrf(double __val, signed char __width,
+                     unsigned char __prec, char *__s);
+
+
+
+
+
+#define EXIT_SUCCESS 0
+
+
+
+
+
+#define EXIT_FAILURE 1
+# 12 "../mpu6050/mpu6050.c" 2
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 1 3
+# 41 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
+#define _STRING_H_ 1
+
+#define __need_NULL 
+#define __need_size_t 
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
+# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#undef __need_size_t
+# 397 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
+#undef NULL
+
+
+
+
+#define NULL ((void *)0)
+
+
+
+
+
+#undef __need_NULL
+# 46 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 2 3
+# 91 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
+#define _FFS(x) (1 + (((x) & 1) == 0) + (((x) & 3) == 0) + (((x) & 7) == 0) + (((x) & 017) == 0) + (((x) & 037) == 0) + (((x) & 077) == 0) + (((x) & 0177) == 0) + (((x) & 0377) == 0) + (((x) & 0777) == 0) + (((x) & 01777) == 0) + (((x) & 03777) == 0) + (((x) & 07777) == 0) + (((x) & 017777) == 0) + (((x) & 037777) == 0) + (((x) & 077777) == 0) - (((x) & 0177777) == 0) * 16)
+# 111 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
+extern int ffs (int __val) __attribute__((__const__));
+extern int ffsl (long __val) __attribute__((__const__));
+extern int ffsll (long long __val) __attribute__((__const__));
+extern void *memccpy(void *, const void *, int, size_t);
+extern void *memchr(const void *, int, size_t) __attribute__((__pure__));
+extern int memcmp(const void *, const void *, size_t) __attribute__((__pure__));
+extern void *memcpy(void *, const void *, size_t);
+extern void *memmem(const void *, size_t, const void *, size_t) __attribute__((__pure__));
+extern void *memmove(void *, const void *, size_t);
+extern void *memrchr(const void *, int, size_t) __attribute__((__pure__));
+extern void *memset(void *, int, size_t);
+extern char *strcat(char *, const char *);
+extern char *strchr(const char *, int) __attribute__((__pure__));
+extern char *strchrnul(const char *, int) __attribute__((__pure__));
+extern int strcmp(const char *, const char *) __attribute__((__pure__));
+extern char *strcpy(char *, const char *);
+extern int strcasecmp(const char *, const char *) __attribute__((__pure__));
+extern char *strcasestr(const char *, const char *) __attribute__((__pure__));
+extern size_t strcspn(const char *__s, const char *__reject) __attribute__((__pure__));
+extern char *strdup(const char *s1);
+extern size_t strlcat(char *, const char *, size_t);
+extern size_t strlcpy(char *, const char *, size_t);
+extern size_t strlen(const char *) __attribute__((__pure__));
+extern char *strlwr(char *);
+extern char *strncat(char *, const char *, size_t);
+extern int strncmp(const char *, const char *, size_t) __attribute__((__pure__));
+extern char *strncpy(char *, const char *, size_t);
+extern int strncasecmp(const char *, const char *, size_t) __attribute__((__pure__));
+extern size_t strnlen(const char *, size_t) __attribute__((__pure__));
+extern char *strpbrk(const char *__s, const char *__accept) __attribute__((__pure__));
+extern char *strrchr(const char *, int) __attribute__((__pure__));
+extern char *strrev(char *);
+extern char *strsep(char **, const char *);
+extern size_t strspn(const char *__s, const char *__accept) __attribute__((__pure__));
+extern char *strstr(const char *, const char *) __attribute__((__pure__));
+extern char *strtok(char *, const char *);
+extern char *strtok_r(char *, const char *, char **);
+extern char *strupr(char *);
+# 13 "../mpu6050/mpu6050.c" 2
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 1 3
+# 97 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 3
+#define _AVR_IO_H_ 
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 1 3
+# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
+#define _AVR_SFR_DEFS_H_ 1
+# 121 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
+#define _SFR_ASM_COMPAT 0
+
+
+
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 1 3
+# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
+#define __INTTYPES_H_ 
 
 # 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h" 1 3 4
 # 9 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h" 3 4
@@ -1283,61 +1669,7 @@ typedef uint64_t uintmax_t;
 
 
 #define _GCC_WRAP_STDINT_H 
-# 15 "../include/system.h" 2
-
-#define TICKSPERMICRO (20UL)
-#define MICROTOTICKS(us) ((us) * TICKSPERMICRO)
-#define TICKSTOMICRO(t) ((t) / TICKSPERMICRO)
-
-void setup();
-uint32_t ticks();
-uint16_t micros();
-uint16_t millis();
-
-
-#define WAITMS(ms) 
-#define WAITUS(ms) 
-
-
-
-
-
-static __inline__ void __iWaitForMS(uint16_t __m, uint16_t ms)
-{
- while (millis() < ms + __m);
-}
-
-static __inline__ void __iWaitForTicks(uint32_t __m, uint32_t t)
-{
- while (ticks() < t + __m);
-}
-
-#define EVERYMS(ms) static uint16_t __CONCAT(_t,__LINE__); for(uint16_t _m = millis(); _m - __CONCAT(_t,__LINE__) >= ms; __CONCAT(_t,__LINE__) = _m)
-#define FIXEDMS(ms) for(uint16_t __m = millis(); millis() - __m < ms; __iWaitForMS(__m, ms))
-#define EVERYUS(us) static uint32_t __CONCAT(_t,__LINE__); for(uint32_t _m = ticks(); _m - __CONCAT(_t,__LINE__) >= MICROTOTICKS(us); __CONCAT(_t,__LINE__) = _m)
-#define FIXEDUS(us) for(uint32_t __m = ticks(); ticks() - __m < MICROTOTICKS(us); __iWaitForTicks(__m, MICROTOTICKS(us)))
-#define LOOPUS(us) for(uint32_t _cycleStart = ticks(); 1; __iWaitForTicks(_cycleStart, MICROTOTICKS(us)), _cycleStart += MICROTOTICKS(us))
-# 28 "../include/global.h" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 1 3
-# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define _UTIL_ATOMIC_H_ 1
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 1 3
-# 97 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 3
-#define _AVR_IO_H_ 
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 1 3
-# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
-#define _AVR_SFR_DEFS_H_ 1
-# 121 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
-#define _SFR_ASM_COMPAT 0
-
-
-
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 1 3
-# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
-#define __INTTYPES_H_ 
+# 38 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 2 3
 # 77 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
 typedef int32_t int_farptr_t;
 
@@ -3397,399 +3729,7 @@ typedef struct
 # 237 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h" 3
 #define LOCKBITS_DEFAULT (0xFF)
 # 631 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 2 3
-# 38 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 2 3
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 1 3
-# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define _AVR_INTERRUPT_H_ 
-
-
-
-
-
-#define __STRINGIFY(x) #x
-# 81 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define sei() __asm__ __volatile__ ("sei" ::: "memory")
-# 99 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define cli() __asm__ __volatile__ ("cli" ::: "memory")
-# 129 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define __INTR_ATTRS used, externally_visible
-# 139 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define ISR(vector,...) void vector (void) __attribute__ ((signal,__INTR_ATTRS)) __VA_ARGS__; void vector (void)
-# 164 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define SIGNAL(vector) void vector (void) __attribute__ ((signal, __INTR_ATTRS)); void vector (void)
-# 188 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define EMPTY_INTERRUPT(vector) void vector (void) __attribute__ ((signal,naked,__INTR_ATTRS)); void vector (void) { __asm__ __volatile__ ("reti" ::); }
-# 239 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define ISR_ALIAS(vector,tgt) void vector (void) __attribute__((signal, naked, __INTR_ATTRS)); void vector (void) { asm volatile ("jmp " __STRINGIFY(tgt) ::); }
-# 264 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define reti() __asm__ __volatile__ ("reti" ::)
-# 280 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define BADISR_vect __vector_default
-# 336 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define ISR_BLOCK 
-#define ISR_NOBLOCK __attribute__((interrupt))
-#define ISR_NAKED __attribute__((naked))
-#define ISR_ALIASOF(v) __attribute__((alias(__STRINGIFY(v))))
-# 39 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 2 3
-
-
-
-static __inline__ uint8_t __iSeiRetVal(void)
-{
-    __asm__ __volatile__ ("sei" ::: "memory");
-    return 1;
-}
-
-static __inline__ uint8_t __iCliRetVal(void)
-{
-    __asm__ __volatile__ ("cli" ::: "memory");
-    return 1;
-}
-
-static __inline__ void __iSeiParam(const uint8_t *__s)
-{
-    __asm__ __volatile__ ("sei" ::: "memory");
-    __asm__ volatile ("" ::: "memory");
-    (void)__s;
-}
-
-static __inline__ void __iCliParam(const uint8_t *__s)
-{
-    __asm__ __volatile__ ("cli" ::: "memory");
-    __asm__ volatile ("" ::: "memory");
-    (void)__s;
-}
-
-static __inline__ void __iRestore(const uint8_t *__s)
-{
-    (*(volatile uint8_t *)((0x3F) + 0x20)) = *__s;
-    __asm__ volatile ("" ::: "memory");
-}
-# 205 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define ATOMIC_BLOCK(type) for ( type, __ToDo = __iCliRetVal(); __ToDo ; __ToDo = 0 )
-# 226 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define NONATOMIC_BLOCK(type) for ( type, __ToDo = __iSeiRetVal(); __ToDo ; __ToDo = 0 )
-# 244 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define ATOMIC_RESTORESTATE uint8_t sreg_save __attribute__((__cleanup__(__iRestore))) = SREG
-# 265 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define ATOMIC_FORCEON uint8_t sreg_save __attribute__((__cleanup__(__iSeiParam))) = 0
-# 283 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define NONATOMIC_RESTORESTATE uint8_t sreg_save __attribute__((__cleanup__(__iRestore))) = SREG
-# 304 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define NONATOMIC_FORCEOFF uint8_t sreg_save __attribute__((__cleanup__(__iCliParam))) = 0
-# 29 "../include/global.h" 2
-# 1 "../include/hardware.h" 1
-# 12 "../include/hardware.h"
-#define HARDWARE_H_ 
-
-
-
-typedef struct
-{
- unsigned int bit0 : 1;
- unsigned int bit1 : 1;
- unsigned int bit2 : 1;
- unsigned int bit3 : 1;
- unsigned int bit4 : 1;
- unsigned int bit5 : 1;
- unsigned int bit6 : 1;
- unsigned int bit7 : 1;
-} volatile _bitreg8;
-
-#define _REG_BIT2(r,b) ((*(_bitreg8*)&r).bit ## b)
-#define _REG_BIT(r,b) _REG_BIT2(r,b)
-
-#define OUTPUT 1
-#define INPUT 0
-
-
-#define LED_PORT PORTB
-#define LED_DDR DDRB
-#define LED_PIN PINB
-#define LED_BIT 3
-#define LED _REG_BIT(LED_PORT, LED_BIT)
-#define LED_DIR _REG_BIT(LED_DDR, LED_BIT)
-#define LED_TOGGLE (_REG_BIT(LED_PIN, LED_BIT) = 1)
-
-
-#define LCD_PORT PORTD
-#define LCD_DDR DDRD
-#define LCD_PIN PIND
-#define LCD_CS_BIT 5
-#define LCD_RST_BIT 6
-#define LCD_A0_BIT 7
-#define LCD_SCL_BIT 4
-#define LCD_SDA_BIT 1
-#define LCD_CS _REG_BIT(LCD_PORT, LCD_CS_BIT)
-#define LCD_RST _REG_BIT(LCD_PORT, LCD_RST_BIT)
-#define LCD_A0 _REG_BIT(LCD_PORT, LCD_A0_BIT)
-#define LCD_SCL _REG_BIT(LCD_PORT, LCD_SCL_BIT)
-#define LCD_SDA _REG_BIT(LCD_PORT, LCD_SDA_BIT)
-#define LCD_CS_DIR _REG_BIT(LCD_DDR, LCD_CS_BIT)
-#define LCD_RST_DIR _REG_BIT(LCD_DDR, LCD_RST_BIT)
-#define LCD_A0_DIR _REG_BIT(LCD_DDR, LCD_A0_BIT)
-#define LCD_SCL_DIR _REG_BIT(LCD_DDR, LCD_SCL_BIT)
-#define LCD_SDA_DIR _REG_BIT(LCD_DDR, LCD_SDA_BIT)
-
-
-#define ADC_GYR_X 4
-#define ADC_GYR_Y 1
-#define ADC_GYR_Z 2
-#define ADC_ACC_X 5
-#define ADC_ACC_Y 6
-#define ADC_ACC_Z 7
-#define ADC_VBAT 3
-
-
-
-#define RX_AIL_DDR DDRD
-#define RX_AIL_PIN PIND
-#define RX_AIL_BIT 3
-#define RX_AIL _REG_BIT(RX_AIL_PIN, RX_AIL_BIT)
-#define RX_AIL_DIR _REG_BIT(RX_AIL_DDR, RX_AIL_BIT)
-
-#define RX_ELE_DDR DDRD
-#define RX_ELE_PIN PIND
-#define RX_ELE_BIT 2
-#define RX_ELE _REG_BIT(RX_ELE_PIN, RX_ELE_BIT)
-#define RX_ELE_DIR _REG_BIT(RX_ELE_DDR, RX_ELE_BIT)
-
-#define RX_THR_DDR DDRD
-#define RX_THR_PIN PIND
-#define RX_THR_BIT 0
-#define RX_THR _REG_BIT(RX_THR_PIN, RX_THR_BIT)
-#define RX_THR_DIR _REG_BIT(RX_THR_DDR, RX_THR_BIT)
-
-#define RX_RUD_DDR DDRB
-#define RX_RUD_PIN PINB
-#define RX_RUD_BIT 2
-#define RX_RUD _REG_BIT(RX_RUD_PIN, RX_RUD_BIT)
-#define RX_RUD_DIR _REG_BIT(RX_RUD_DDR, RX_RUD_BIT)
-
-#define RX_AUX_DDR DDRB
-#define RX_AUX_PIN PINB
-#define RX_AUX_BIT 0
-#define RX_AUX _REG_BIT(RX_AUX_PIN, RX_AUX_BIT)
-#define RX_AUX_DIR _REG_BIT(RX_AUX_DDR, RX_AUX_BIT)
-
-#define RX_CHANNELS 8
-#define PWM_MIN 900
-#define PWM_LOW 1100
-#define PWM_MID 1520
-#define PWM_MAX 2100
-#define PWM_CAL_RANGE 100
-#define PPM_SYNC_LENGTH 3000
-#define LO_RATE_CYCLE 20
-#define RX_THRESHOLD 75
-#define ARM_DELAY 2000
-#define DISARM_DELAY 60000
-
-
-#define OUTPUTS 8
-#define OUT_PORT PORTC
-#define OUT_DDR DDRC
-#define OUT1_BIT 6
-#define OUT1 _REG_BIT(OUT_PORT, OUT1_BIT)
-#define OUT2_BIT 4
-#define OUT2 _REG_BIT(OUT_PORT, OUT2_BIT)
-#define OUT3_BIT 2
-#define OUT3 _REG_BIT(OUT_PORT, OUT3_BIT)
-#define OUT4_BIT 3
-#define OUT4 _REG_BIT(OUT_PORT, OUT4_BIT)
-#define OUT5_BIT 1
-#define OUT5 _REG_BIT(OUT_PORT, OUT5_BIT)
-#define OUT6_BIT 0
-#define OUT6 _REG_BIT(OUT_PORT, OUT6_BIT)
-#define OUT7_BIT 5
-#define OUT7 _REG_BIT(OUT_PORT, OUT7_BIT)
-#define OUT8_BIT 7
-#define OUT8 _REG_BIT(OUT_PORT, OUT8_BIT)
-
-
-
-#define KEYBOARD_PORT PORTB
-#define KEYBOARD_DDR DDRB
-#define KEYBOARD_PIN PINB
-#define KEY_S1_BIT 7
-#define KEY_S2_BIT 6
-#define KEY_S3_BIT 5
-#define KEY_S4_BIT 4
-
-
-#define BUZZER_PORT PORTB
-#define BUZZER_DDR DDRB
-#define BUZZER_PIN PINB
-#define BUZZER_BIT 1
-#define BUZZER_DIR _REG_BIT(BUZZER_DDR, BUZZER_BIT)
-#define BUZZER _REG_BIT(BUZZER_PORT, BUZZER_BIT)
-#define BUZZER_TOGGLE (_REG_BIT(BUZZER_PIN, BUZZER_BIT) = 1)
-
-
-#define PRR1 _SFR_MEM8(0x65)
-#define PRTIM3 0
-# 30 "../include/global.h" 2
-# 1 "../include/config.h" 1
-# 12 "../include/config.h"
-#define CONFIG_H_ 
-
-# 1 "../include/global.h" 1
-# 15 "../include/config.h" 2
-# 1 "../include/mixer.h" 1
-# 12 "../include/mixer.h"
-#define MIXER_H_ 
-
-#define FLAG_NONE 0
-#define FLAG_SERVO 2
-#define FLAG_ESC 1
-#define FLAG_HIGH 4
-
-typedef union
-{
- int8_t I8[6];
- struct
- {
-  int8_t Throttle;
-  int8_t Aileron;
-  int8_t Elevator;
-  int8_t Rudder;
-  int8_t Offset;
-  union
-  {
-   uint8_t Flags;
-   struct
-   {
-    uint8_t IsMotor : 1;
-    uint8_t IsServo : 1;
-    uint8_t IsHiRate : 1;
-   };
-  };
- };
-} mixer_channel_t;
-
-
-typedef struct
-{
- const char *Name;
- uint8_t Channels;
- mixer_channel_t Channel[];
-} model_t;
-
-
-typedef mixer_channel_t mixer_t[8];
-
-#define MODEL_TABLE_LEN 22
-extern const model_t* const modelTable[22];
-extern uint16_t MIXER[8];
-
-void mixerInit();
-void mixerLoadModel(uint8_t index);
-void mixerCalculate();
-void mixerOutput();
-# 16 "../include/config.h" 2
-# 1 "../include/pid.h" 1
-# 10 "../include/pid.h"
-#define PID_H_ 
-
-typedef union
-{
- struct
- {
-  uint8_t PGain;
-  uint8_t PLimit;
-  uint8_t IGain;
-  uint8_t ILimit;
- };
- uint8_t UI8[4];
-} pid_param_t;
-
-typedef struct
-{
- int16_t Integral;
- int16_t Error;
-} pid_state_t;
-# 17 "../include/config.h" 2
-
-typedef struct
-{
- int8_t RollGain;
- int8_t RollOffset;
- int8_t PitchGain;
- int8_t PitchOffset;
-} camera_t;
-
-typedef struct
-{
- uint8_t signature;
- uint16_t RX_zero[8];
- uint8_t RX_chmap[8];
- uint16_t GYRO_zero[3];
- uint16_t ACC_zero[3];
- uint8_t CalibrateFlags;
- pid_param_t PID[3];
-
-#define SELFLEVEL_STICK 0
-#define SELFLEVEL_AUX 1
-#define SELFLEVEL_ON 2
- uint8_t SelfLevelMode;
-
- uint8_t ArmingMode;
- uint8_t AutoDisarm;
- uint8_t LinkRollPitch;
- uint8_t ReceiverMode;
- uint8_t MixerIndex;
- uint8_t StickScaling[4];
- uint8_t MinThrottle;
- uint8_t LCDContrast;
- uint8_t HeightDampening;
- uint8_t HeightDampeningLimit;
- uint8_t LVA;
- uint8_t ServoFilter;
- pid_param_t PID_SelfLevel;
- int8_t AccTrim[2];
- mixer_t Mixer;
- camera_t Camera;
-} config_t;
-
-extern config_t Config;
-
-void configInit();
-void configLoad();
-void configSave();
-void configReset();
-# 31 "../include/global.h" 2
-
-
-#define THROTTLE_OFF 5
-
-typedef struct
-{
- uint8_t Armed;
- uint8_t ThrottleOff;
- uint8_t SelfLevel;
- uint8_t Aux1;
- uint8_t Aux2;
- uint8_t Aux3;
- uint8_t Aux4;
-
-#define ERR_NOT_CALIBRATED 0x80
-#define ERR_NO_ROLL 0x01
-#define ERR_NO_PITCH 0x02
-#define ERR_NO_YAW 0x04
-#define ERR_NO_THR 0x08
-#define ERR_NO_RX (ERR_NO_ROLL | ERR_NO_PITCH | ERR_NO_YAW | ERR_NO_THR)
- uint8_t Error;
-
-#define MODE_NORMAL 0
-#define MODE_ESC_CAL 1
- uint8_t Mode;
-
- uint16_t CycleTime;
- uint16_t CalculationTime;
-} state_t;
-
-extern state_t State;
-void arm(uint8_t);
-# 13 "../driver/lcd.c" 2
+# 14 "../mpu6050/mpu6050.c" 2
 # 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 1 3
 # 83 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
 #define __PGMSPACE_H_ 1
@@ -3797,36 +3737,6 @@ void arm(uint8_t);
 #define __need_size_t 
 
 # 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
-# 184 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#define __size_t__ 
-#define __SIZE_T__ 
-#define _SIZE_T 
-#define _SYS_SIZE_T_H 
-#define _T_SIZE_ 
-#define _T_SIZE 
-#define __SIZE_T 
-#define _SIZE_T_ 
-#define _BSD_SIZE_T_ 
-#define _SIZE_T_DEFINED_ 
-#define _SIZE_T_DEFINED 
-#define _BSD_SIZE_T_DEFINED_ 
-#define _SIZE_T_DECLARED 
-#define ___int_size_t_h 
-#define _GCC_SIZE_T 
-#define _SIZET_ 
-
-
-
-
-
-
-#define __size_t 
-
-
-
-
-
-typedef unsigned int size_t;
 # 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
 #undef __need_size_t
 # 408 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
@@ -3835,15 +3745,11 @@ typedef unsigned int size_t;
 
 
 
-#define __ATTR_CONST__ __attribute__((__const__))
+
 
 
 
 #define __ATTR_PROGMEM__ __attribute__((__progmem__))
-
-
-
-#define __ATTR_PURE__ __attribute__((__pure__))
 # 109 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
 #define PROGMEM __ATTR_PROGMEM__
 # 374 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
@@ -3971,758 +3877,1128 @@ static inline size_t strlen_P(const char *s) {
   return __builtin_constant_p(__builtin_strlen(s))
      ? __builtin_strlen(s) : __strlen_P(s);
 }
-# 14 "../driver/lcd.c" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 1 3
-# 41 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
-#define _STRING_H_ 1
+# 15 "../mpu6050/mpu6050.c" 2
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 1 3
+# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define _AVR_INTERRUPT_H_ 
 
-#define __need_NULL 
-#define __need_size_t 
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
-# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_size_t
-# 397 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef NULL
 
 
 
 
-#define NULL ((void *)0)
+#define __STRINGIFY(x) #x
+# 81 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define sei() __asm__ __volatile__ ("sei" ::: "memory")
+# 99 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define cli() __asm__ __volatile__ ("cli" ::: "memory")
+# 129 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define __INTR_ATTRS used, externally_visible
+# 139 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define ISR(vector,...) void vector (void) __attribute__ ((signal,__INTR_ATTRS)) __VA_ARGS__; void vector (void)
+# 164 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define SIGNAL(vector) void vector (void) __attribute__ ((signal, __INTR_ATTRS)); void vector (void)
+# 188 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define EMPTY_INTERRUPT(vector) void vector (void) __attribute__ ((signal,naked,__INTR_ATTRS)); void vector (void) { __asm__ __volatile__ ("reti" ::); }
+# 239 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define ISR_ALIAS(vector,tgt) void vector (void) __attribute__((signal, naked, __INTR_ATTRS)); void vector (void) { asm volatile ("jmp " __STRINGIFY(tgt) ::); }
+# 264 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define reti() __asm__ __volatile__ ("reti" ::)
+# 280 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define BADISR_vect __vector_default
+# 336 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
+#define ISR_BLOCK 
+#define ISR_NOBLOCK __attribute__((interrupt))
+#define ISR_NAKED __attribute__((naked))
+#define ISR_ALIASOF(v) __attribute__((alias(__STRINGIFY(v))))
+# 16 "../mpu6050/mpu6050.c" 2
+#define F_CPU 20000000UL
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 1 3
+# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+#define _UTIL_DELAY_H_ 1
 
 
+#define __HAS_DELAY_CYCLES 1
 
 
 
-#undef __need_NULL
-# 46 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 2 3
-# 91 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
-#define _FFS(x) (1 + (((x) & 1) == 0) + (((x) & 3) == 0) + (((x) & 7) == 0) + (((x) & 017) == 0) + (((x) & 037) == 0) + (((x) & 077) == 0) + (((x) & 0177) == 0) + (((x) & 0377) == 0) + (((x) & 0777) == 0) + (((x) & 01777) == 0) + (((x) & 03777) == 0) + (((x) & 07777) == 0) + (((x) & 017777) == 0) + (((x) & 037777) == 0) + (((x) & 077777) == 0) - (((x) & 0177777) == 0) * 16)
-# 111 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
-extern int ffs (int __val) __attribute__((__const__));
-extern int ffsl (long __val) __attribute__((__const__));
-extern int ffsll (long long __val) __attribute__((__const__));
-extern void *memccpy(void *, const void *, int, size_t);
-extern void *memchr(const void *, int, size_t) __attribute__((__pure__));
-extern int memcmp(const void *, const void *, size_t) __attribute__((__pure__));
-extern void *memcpy(void *, const void *, size_t);
-extern void *memmem(const void *, size_t, const void *, size_t) __attribute__((__pure__));
-extern void *memmove(void *, const void *, size_t);
-extern void *memrchr(const void *, int, size_t) __attribute__((__pure__));
-extern void *memset(void *, int, size_t);
-extern char *strcat(char *, const char *);
-extern char *strchr(const char *, int) __attribute__((__pure__));
-extern char *strchrnul(const char *, int) __attribute__((__pure__));
-extern int strcmp(const char *, const char *) __attribute__((__pure__));
-extern char *strcpy(char *, const char *);
-extern int strcasecmp(const char *, const char *) __attribute__((__pure__));
-extern char *strcasestr(const char *, const char *) __attribute__((__pure__));
-extern size_t strcspn(const char *__s, const char *__reject) __attribute__((__pure__));
-extern char *strdup(const char *s1);
-extern size_t strlcat(char *, const char *, size_t);
-extern size_t strlcpy(char *, const char *, size_t);
-extern size_t strlen(const char *) __attribute__((__pure__));
-extern char *strlwr(char *);
-extern char *strncat(char *, const char *, size_t);
-extern int strncmp(const char *, const char *, size_t) __attribute__((__pure__));
-extern char *strncpy(char *, const char *, size_t);
-extern int strncasecmp(const char *, const char *, size_t) __attribute__((__pure__));
-extern size_t strnlen(const char *, size_t) __attribute__((__pure__));
-extern char *strpbrk(const char *__s, const char *__accept) __attribute__((__pure__));
-extern char *strrchr(const char *, int) __attribute__((__pure__));
-extern char *strrev(char *);
-extern char *strsep(char **, const char *);
-extern size_t strspn(const char *__s, const char *__accept) __attribute__((__pure__));
-extern char *strstr(const char *, const char *) __attribute__((__pure__));
-extern char *strtok(char *, const char *);
-extern char *strtok_r(char *, const char *, char **);
-extern char *strupr(char *);
-# 15 "../driver/lcd.c" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 1 3
-# 40 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-#define _STDLIB_H_ 1
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h" 1 3
+# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h" 3
+#define _UTIL_DELAY_BASIC_H_ 1
 
 
 
-#define __need_NULL 
-#define __need_size_t 
-#define __need_wchar_t 
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
-# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_size_t
-# 263 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#define __wchar_t__ 
-#define __WCHAR_T__ 
-#define _WCHAR_T 
-#define _T_WCHAR_ 
-#define _T_WCHAR 
-#define __WCHAR_T 
-#define _WCHAR_T_ 
-#define _BSD_WCHAR_T_ 
-#define _WCHAR_T_DEFINED_ 
-#define _WCHAR_T_DEFINED 
-#define _WCHAR_T_H 
-#define ___int_wchar_t_h 
-#define __INT_WCHAR_T_H 
-#define _GCC_WCHAR_T 
-#define _WCHAR_T_DECLARED 
-# 290 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef _BSD_WCHAR_T_
-# 324 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-typedef int wchar_t;
-# 343 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_wchar_t
-# 397 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef NULL
 
-
-
-
-#define NULL ((void *)0)
-
-
-
-
-
-#undef __need_NULL
-# 48 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 2 3
-
-
-#define __ptr_t void *
-# 68 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-typedef struct {
- int quot;
- int rem;
-} div_t;
-
-
-typedef struct {
- long quot;
- long rem;
-} ldiv_t;
-
-
-typedef int (*__compar_fn_t)(const void *, const void *);
-# 89 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-#define __ATTR_MALLOC__ __attribute__((__malloc__))
-
-
-
-#define __ATTR_NORETURN__ __attribute__((__noreturn__))
-# 102 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-#define __ATTR_GNU_INLINE__ __attribute__((__gnu_inline__))
-# 114 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern void abort(void) __attribute__((__noreturn__));
-
-
-
-
-extern int abs(int __i) __attribute__((__const__));
-
-#define abs(__i) __builtin_abs(__i)
-
-
-
-
-
-
-extern long labs(long __i) __attribute__((__const__));
-
-#define labs(__i) __builtin_labs(__i)
-# 151 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern void *bsearch(const void *__key, const void *__base, size_t __nmemb,
-       size_t __size, int (*__compar)(const void *, const void *));
-
-
-
-
-
-
-
-extern div_t div(int __num, int __denom) __asm__("__divmodhi4") __attribute__((__const__));
-
-
-
-
-
-extern ldiv_t ldiv(long __num, long __denom) __asm__("__divmodsi4") __attribute__((__const__));
-# 183 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern void qsort(void *__base, size_t __nmemb, size_t __size,
-    __compar_fn_t __compar);
-# 216 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern long strtol(const char *__nptr, char **__endptr, int __base);
-# 250 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern unsigned long strtoul(const char *__nptr, char **__endptr, int __base);
-# 262 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern long atol(const char *__s) __attribute__((__pure__));
-# 274 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern int atoi(const char *__s) __attribute__((__pure__));
-# 286 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern void exit(int __status) __attribute__((__noreturn__));
-# 298 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern void *malloc(size_t __size) __attribute__((__malloc__));
-
-
-
-
-
-
-extern void free(void *__ptr);
-
-
-
-
-extern size_t __malloc_margin;
-
-
-
-
-extern char *__malloc_heap_start;
-
-
-
-
-extern char *__malloc_heap_end;
-
-
-
-
-
-
-extern void *calloc(size_t __nele, size_t __size) __attribute__((__malloc__));
-# 346 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern void *realloc(void *__ptr, size_t __size) __attribute__((__malloc__));
-
-extern double strtod(const char *__nptr, char **__endptr);
-
-extern double atof(const char *__nptr);
-
-
-#define RAND_MAX 0x7FFF
-# 372 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern int rand(void);
-
-
-
-extern void srand(unsigned int __seed);
-
-
-
-
-
-
-extern int rand_r(unsigned long *__ctx);
-# 417 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern __inline__ __attribute__((__gnu_inline__))
-char *itoa (int __val, char *__s, int __radix)
+static inline void _delay_loop_1(uint8_t __count) __attribute__((always_inline));
+static inline void _delay_loop_2(uint16_t __count) __attribute__((always_inline));
+# 80 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h" 3
+void
+_delay_loop_1(uint8_t __count)
 {
-    if (!__builtin_constant_p (__radix)) {
- extern char *__itoa (int, char *, int);
- return __itoa (__val, __s, __radix);
-    } else if (__radix < 2 || __radix > 36) {
- *__s = 0;
- return __s;
-    } else {
- extern char *__itoa_ncheck (int, char *, unsigned char);
- return __itoa_ncheck (__val, __s, __radix);
-    }
+ __asm__ volatile (
+  "1: dec %0" "\n\t"
+  "brne 1b"
+  : "=r" (__count)
+  : "0" (__count)
+ );
 }
-# 462 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern __inline__ __attribute__((__gnu_inline__))
-char *ltoa (long __val, char *__s, int __radix)
+# 102 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay_basic.h" 3
+void
+_delay_loop_2(uint16_t __count)
 {
-    if (!__builtin_constant_p (__radix)) {
- extern char *__ltoa (long, char *, int);
- return __ltoa (__val, __s, __radix);
-    } else if (__radix < 2 || __radix > 36) {
- *__s = 0;
- return __s;
-    } else {
- extern char *__ltoa_ncheck (long, char *, unsigned char);
- return __ltoa_ncheck (__val, __s, __radix);
-    }
+ __asm__ volatile (
+  "1: sbiw %0,1" "\n\t"
+  "brne 1b"
+  : "=w" (__count)
+  : "0" (__count)
+ );
 }
-# 505 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern __inline__ __attribute__((__gnu_inline__))
-char *utoa (unsigned int __val, char *__s, int __radix)
+# 44 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 2 3
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 1 3
+# 49 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+#define __MATH_H 
+# 71 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+#define M_E 2.7182818284590452354
+
+
+#define M_LOG2E 1.4426950408889634074
+
+
+#define M_LOG10E 0.43429448190325182765
+
+
+#define M_LN2 0.69314718055994530942
+
+
+#define M_LN10 2.30258509299404568402
+
+
+#define M_PI 3.14159265358979323846
+
+
+#define M_PI_2 1.57079632679489661923
+
+
+#define M_PI_4 0.78539816339744830962
+
+
+#define M_1_PI 0.31830988618379067154
+
+
+#define M_2_PI 0.63661977236758134308
+
+
+#define M_2_SQRTPI 1.12837916709551257390
+
+
+#define M_SQRT2 1.41421356237309504880
+
+
+#define M_SQRT1_2 0.70710678118654752440
+
+
+#define NAN __builtin_nan("")
+
+
+#define INFINITY __builtin_inf()
+# 127 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern double cos(double __x) __attribute__((__const__));
+#define cosf cos
+
+
+
+
+extern double sin(double __x) __attribute__((__const__));
+#define sinf sin
+
+
+
+
+extern double tan(double __x) __attribute__((__const__));
+#define tanf tan
+
+
+
+
+
+extern double fabs(double __x) __attribute__((__const__));
+#define fabsf fabs
+
+
+
+
+
+extern double fmod(double __x, double __y) __attribute__((__const__));
+#define fmodf fmod
+# 168 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern double modf(double __x, double *__iptr);
+
+
+
+extern float modff (float __x, float *__iptr);
+
+
+
+
+extern double sqrt(double __x) __attribute__((__const__));
+#define sqrtf sqrt
+
+
+
+
+extern double cbrt(double __x) __attribute__((__const__));
+#define cbrtf cbrt
+# 194 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern double hypot (double __x, double __y) __attribute__((__const__));
+#define hypotf hypot
+
+
+
+
+
+
+extern double square(double __x) __attribute__((__const__));
+#define squaref square
+
+
+
+
+
+extern double floor(double __x) __attribute__((__const__));
+#define floorf floor
+
+
+
+
+
+extern double ceil(double __x) __attribute__((__const__));
+#define ceilf ceil
+# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern double frexp(double __x, int *__pexp);
+#define frexpf frexp
+
+
+
+
+
+
+extern double ldexp(double __x, int __exp) __attribute__((__const__));
+#define ldexpf ldexp
+
+
+
+
+extern double exp(double __x) __attribute__((__const__));
+#define expf exp
+
+
+
+
+extern double cosh(double __x) __attribute__((__const__));
+#define coshf cosh
+
+
+
+
+extern double sinh(double __x) __attribute__((__const__));
+#define sinhf sinh
+
+
+
+
+extern double tanh(double __x) __attribute__((__const__));
+#define tanhf tanh
+
+
+
+
+
+
+extern double acos(double __x) __attribute__((__const__));
+#define acosf acos
+
+
+
+
+
+
+extern double asin(double __x) __attribute__((__const__));
+#define asinf asin
+
+
+
+
+
+extern double atan(double __x) __attribute__((__const__));
+#define atanf atan
+
+
+
+
+
+
+
+extern double atan2(double __y, double __x) __attribute__((__const__));
+#define atan2f atan2
+
+
+
+
+extern double log(double __x) __attribute__((__const__));
+#define logf log
+
+
+
+
+extern double log10(double __x) __attribute__((__const__));
+#define log10f log10
+
+
+
+
+extern double pow(double __x, double __y) __attribute__((__const__));
+#define powf pow
+
+
+
+
+
+extern int isnan(double __x) __attribute__((__const__));
+#define isnanf isnan
+# 333 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern int isinf(double __x) __attribute__((__const__));
+#define isinff isinf
+
+
+
+
+
+__attribute__((__const__)) static inline int isfinite (double __x)
 {
-    if (!__builtin_constant_p (__radix)) {
- extern char *__utoa (unsigned int, char *, int);
- return __utoa (__val, __s, __radix);
-    } else if (__radix < 2 || __radix > 36) {
- *__s = 0;
- return __s;
-    } else {
- extern char *__utoa_ncheck (unsigned int, char *, unsigned char);
- return __utoa_ncheck (__val, __s, __radix);
-    }
+    unsigned char __exp;
+    __asm__ (
+ "mov	%0, %C1		\n\t"
+ "lsl	%0		\n\t"
+ "mov	%0, %D1		\n\t"
+ "rol	%0		"
+ : "=r" (__exp)
+ : "r" (__x) );
+    return __exp != 0xff;
 }
-# 547 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern __inline__ __attribute__((__gnu_inline__))
-char *ultoa (unsigned long __val, char *__s, int __radix)
+#define isfinitef isfinite
+
+
+
+
+
+__attribute__((__const__)) static inline double copysign (double __x, double __y)
 {
-    if (!__builtin_constant_p (__radix)) {
- extern char *__ultoa (unsigned long, char *, int);
- return __ultoa (__val, __s, __radix);
-    } else if (__radix < 2 || __radix > 36) {
- *__s = 0;
- return __s;
-    } else {
- extern char *__ultoa_ncheck (unsigned long, char *, unsigned char);
- return __ultoa_ncheck (__val, __s, __radix);
-    }
+    __asm__ (
+ "bst	%D2, 7	\n\t"
+ "bld	%D0, 7	"
+ : "=r" (__x)
+ : "0" (__x), "r" (__y) );
+    return __x;
+}
+#define copysignf copysign
+# 376 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern int signbit (double __x) __attribute__((__const__));
+#define signbitf signbit
+
+
+
+
+
+extern double fdim (double __x, double __y) __attribute__((__const__));
+#define fdimf fdim
+
+
+
+
+
+
+
+extern double fma (double __x, double __y, double __z) __attribute__((__const__));
+#define fmaf fma
+
+
+
+
+
+
+extern double fmax (double __x, double __y) __attribute__((__const__));
+#define fmaxf fmax
+
+
+
+
+
+
+extern double fmin (double __x, double __y) __attribute__((__const__));
+#define fminf fmin
+
+
+
+
+
+extern double trunc (double __x) __attribute__((__const__));
+#define truncf trunc
+# 426 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern double round (double __x) __attribute__((__const__));
+#define roundf round
+# 439 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern long lround (double __x) __attribute__((__const__));
+#define lroundf lround
+# 453 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\math.h" 3
+extern long lrint (double __x) __attribute__((__const__));
+#define lrintf lrint
+# 45 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 2 3
+# 84 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+static inline void _delay_us(double __us) __attribute__((always_inline));
+static inline void _delay_ms(double __ms) __attribute__((always_inline));
+# 141 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+void
+_delay_ms(double __ms)
+{
+ double __tmp ;
+
+
+
+ uint32_t __ticks_dc;
+ extern void __builtin_avr_delay_cycles(unsigned long);
+ __tmp = ((20000000UL) / 1e3) * __ms;
+# 160 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+  __ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+
+
+ __builtin_avr_delay_cycles(__ticks_dc);
+# 186 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+}
+# 223 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+void
+_delay_us(double __us)
+{
+ double __tmp ;
+
+
+
+ uint32_t __ticks_dc;
+ extern void __builtin_avr_delay_cycles(unsigned long);
+ __tmp = ((20000000UL) / 1e6) * __us;
+# 242 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+  __ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+
+
+ __builtin_avr_delay_cycles(__ticks_dc);
+# 268 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\delay.h" 3
+}
+# 18 "../mpu6050/mpu6050.c" 2
+
+# 1 "../mpu6050/mpu6050.h" 1
+# 18 "../mpu6050/mpu6050.h"
+#define MPU6050_H_ 
+
+
+# 1 "../mpu6050/mpu6050registers.h" 1
+# 12 "../mpu6050/mpu6050registers.h"
+#define MPU6050REGISTERS_H_ 
+
+#define MPU6050_RA_XG_OFFS_TC 0x00
+#define MPU6050_RA_YG_OFFS_TC 0x01
+#define MPU6050_RA_ZG_OFFS_TC 0x02
+#define MPU6050_RA_X_FINE_GAIN 0x03
+#define MPU6050_RA_Y_FINE_GAIN 0x04
+#define MPU6050_RA_Z_FINE_GAIN 0x05
+#define MPU6050_RA_XA_OFFS_H 0x06
+#define MPU6050_RA_XA_OFFS_L_TC 0x07
+#define MPU6050_RA_YA_OFFS_H 0x08
+#define MPU6050_RA_YA_OFFS_L_TC 0x09
+#define MPU6050_RA_ZA_OFFS_H 0x0A
+#define MPU6050_RA_ZA_OFFS_L_TC 0x0B
+#define MPU6050_RA_XG_OFFS_USRH 0x13
+#define MPU6050_RA_XG_OFFS_USRL 0x14
+#define MPU6050_RA_YG_OFFS_USRH 0x15
+#define MPU6050_RA_YG_OFFS_USRL 0x16
+#define MPU6050_RA_ZG_OFFS_USRH 0x17
+#define MPU6050_RA_ZG_OFFS_USRL 0x18
+#define MPU6050_RA_SMPLRT_DIV 0x19
+#define MPU6050_RA_CONFIG 0x1A
+#define MPU6050_RA_GYRO_CONFIG 0x1B
+#define MPU6050_RA_ACCEL_CONFIG 0x1C
+#define MPU6050_RA_FF_THR 0x1D
+#define MPU6050_RA_FF_DUR 0x1E
+#define MPU6050_RA_MOT_THR 0x1F
+#define MPU6050_RA_MOT_DUR 0x20
+#define MPU6050_RA_ZRMOT_THR 0x21
+#define MPU6050_RA_ZRMOT_DUR 0x22
+#define MPU6050_RA_FIFO_EN 0x23
+#define MPU6050_RA_I2C_MST_CTRL 0x24
+#define MPU6050_RA_I2C_SLV0_ADDR 0x25
+#define MPU6050_RA_I2C_SLV0_REG 0x26
+#define MPU6050_RA_I2C_SLV0_CTRL 0x27
+#define MPU6050_RA_I2C_SLV1_ADDR 0x28
+#define MPU6050_RA_I2C_SLV1_REG 0x29
+#define MPU6050_RA_I2C_SLV1_CTRL 0x2A
+#define MPU6050_RA_I2C_SLV2_ADDR 0x2B
+#define MPU6050_RA_I2C_SLV2_REG 0x2C
+#define MPU6050_RA_I2C_SLV2_CTRL 0x2D
+#define MPU6050_RA_I2C_SLV3_ADDR 0x2E
+#define MPU6050_RA_I2C_SLV3_REG 0x2F
+#define MPU6050_RA_I2C_SLV3_CTRL 0x30
+#define MPU6050_RA_I2C_SLV4_ADDR 0x31
+#define MPU6050_RA_I2C_SLV4_REG 0x32
+#define MPU6050_RA_I2C_SLV4_DO 0x33
+#define MPU6050_RA_I2C_SLV4_CTRL 0x34
+#define MPU6050_RA_I2C_SLV4_DI 0x35
+#define MPU6050_RA_I2C_MST_STATUS 0x36
+#define MPU6050_RA_INT_PIN_CFG 0x37
+#define MPU6050_RA_INT_ENABLE 0x38
+#define MPU6050_RA_DMP_INT_STATUS 0x39
+#define MPU6050_RA_INT_STATUS 0x3A
+#define MPU6050_RA_ACCEL_XOUT_H 0x3B
+#define MPU6050_RA_ACCEL_XOUT_L 0x3C
+#define MPU6050_RA_ACCEL_YOUT_H 0x3D
+#define MPU6050_RA_ACCEL_YOUT_L 0x3E
+#define MPU6050_RA_ACCEL_ZOUT_H 0x3F
+#define MPU6050_RA_ACCEL_ZOUT_L 0x40
+#define MPU6050_RA_TEMP_OUT_H 0x41
+#define MPU6050_RA_TEMP_OUT_L 0x42
+#define MPU6050_RA_GYRO_XOUT_H 0x43
+#define MPU6050_RA_GYRO_XOUT_L 0x44
+#define MPU6050_RA_GYRO_YOUT_H 0x45
+#define MPU6050_RA_GYRO_YOUT_L 0x46
+#define MPU6050_RA_GYRO_ZOUT_H 0x47
+#define MPU6050_RA_GYRO_ZOUT_L 0x48
+#define MPU6050_RA_EXT_SENS_DATA_00 0x49
+#define MPU6050_RA_EXT_SENS_DATA_01 0x4A
+#define MPU6050_RA_EXT_SENS_DATA_02 0x4B
+#define MPU6050_RA_EXT_SENS_DATA_03 0x4C
+#define MPU6050_RA_EXT_SENS_DATA_04 0x4D
+#define MPU6050_RA_EXT_SENS_DATA_05 0x4E
+#define MPU6050_RA_EXT_SENS_DATA_06 0x4F
+#define MPU6050_RA_EXT_SENS_DATA_07 0x50
+#define MPU6050_RA_EXT_SENS_DATA_08 0x51
+#define MPU6050_RA_EXT_SENS_DATA_09 0x52
+#define MPU6050_RA_EXT_SENS_DATA_10 0x53
+#define MPU6050_RA_EXT_SENS_DATA_11 0x54
+#define MPU6050_RA_EXT_SENS_DATA_12 0x55
+#define MPU6050_RA_EXT_SENS_DATA_13 0x56
+#define MPU6050_RA_EXT_SENS_DATA_14 0x57
+#define MPU6050_RA_EXT_SENS_DATA_15 0x58
+#define MPU6050_RA_EXT_SENS_DATA_16 0x59
+#define MPU6050_RA_EXT_SENS_DATA_17 0x5A
+#define MPU6050_RA_EXT_SENS_DATA_18 0x5B
+#define MPU6050_RA_EXT_SENS_DATA_19 0x5C
+#define MPU6050_RA_EXT_SENS_DATA_20 0x5D
+#define MPU6050_RA_EXT_SENS_DATA_21 0x5E
+#define MPU6050_RA_EXT_SENS_DATA_22 0x5F
+#define MPU6050_RA_EXT_SENS_DATA_23 0x60
+#define MPU6050_RA_MOT_DETECT_STATUS 0x61
+#define MPU6050_RA_I2C_SLV0_DO 0x63
+#define MPU6050_RA_I2C_SLV1_DO 0x64
+#define MPU6050_RA_I2C_SLV2_DO 0x65
+#define MPU6050_RA_I2C_SLV3_DO 0x66
+#define MPU6050_RA_I2C_MST_DELAY_CTRL 0x67
+#define MPU6050_RA_SIGNAL_PATH_RESET 0x68
+#define MPU6050_RA_MOT_DETECT_CTRL 0x69
+#define MPU6050_RA_USER_CTRL 0x6A
+#define MPU6050_RA_PWR_MGMT_1 0x6B
+#define MPU6050_RA_PWR_MGMT_2 0x6C
+#define MPU6050_RA_BANK_SEL 0x6D
+#define MPU6050_RA_MEM_START_ADDR 0x6E
+#define MPU6050_RA_MEM_R_W 0x6F
+#define MPU6050_RA_DMP_CFG_1 0x70
+#define MPU6050_RA_DMP_CFG_2 0x71
+#define MPU6050_RA_FIFO_COUNTH 0x72
+#define MPU6050_RA_FIFO_COUNTL 0x73
+#define MPU6050_RA_FIFO_R_W 0x74
+#define MPU6050_RA_WHO_AM_I 0x75
+
+#define MPU6050_TC_PWR_MODE_BIT 7
+#define MPU6050_TC_OFFSET_BIT 6
+#define MPU6050_TC_OFFSET_LENGTH 6
+#define MPU6050_TC_OTP_BNK_VLD_BIT 0
+
+#define MPU6050_VDDIO_LEVEL_VLOGIC 0
+#define MPU6050_VDDIO_LEVEL_VDD 1
+
+#define MPU6050_CFG_EXT_SYNC_SET_BIT 5
+#define MPU6050_CFG_EXT_SYNC_SET_LENGTH 3
+#define MPU6050_CFG_DLPF_CFG_BIT 2
+#define MPU6050_CFG_DLPF_CFG_LENGTH 3
+
+#define MPU6050_EXT_SYNC_DISABLED 0x0
+#define MPU6050_EXT_SYNC_TEMP_OUT_L 0x1
+#define MPU6050_EXT_SYNC_GYRO_XOUT_L 0x2
+#define MPU6050_EXT_SYNC_GYRO_YOUT_L 0x3
+#define MPU6050_EXT_SYNC_GYRO_ZOUT_L 0x4
+#define MPU6050_EXT_SYNC_ACCEL_XOUT_L 0x5
+#define MPU6050_EXT_SYNC_ACCEL_YOUT_L 0x6
+#define MPU6050_EXT_SYNC_ACCEL_ZOUT_L 0x7
+
+#define MPU6050_DLPF_BW_256 0x00
+#define MPU6050_DLPF_BW_188 0x01
+#define MPU6050_DLPF_BW_98 0x02
+#define MPU6050_DLPF_BW_42 0x03
+#define MPU6050_DLPF_BW_20 0x04
+#define MPU6050_DLPF_BW_10 0x05
+#define MPU6050_DLPF_BW_5 0x06
+
+#define MPU6050_GCONFIG_FS_SEL_BIT 4
+#define MPU6050_GCONFIG_FS_SEL_LENGTH 2
+
+#define MPU6050_GYRO_FS_250 0x00
+#define MPU6050_GYRO_FS_500 0x01
+#define MPU6050_GYRO_FS_1000 0x02
+#define MPU6050_GYRO_FS_2000 0x03
+
+#define MPU6050_ACONFIG_XA_ST_BIT 7
+#define MPU6050_ACONFIG_YA_ST_BIT 6
+#define MPU6050_ACONFIG_ZA_ST_BIT 5
+#define MPU6050_ACONFIG_AFS_SEL_BIT 4
+#define MPU6050_ACONFIG_AFS_SEL_LENGTH 2
+#define MPU6050_ACONFIG_ACCEL_HPF_BIT 2
+#define MPU6050_ACONFIG_ACCEL_HPF_LENGTH 3
+
+#define MPU6050_ACCEL_FS_2 0x00
+#define MPU6050_ACCEL_FS_4 0x01
+#define MPU6050_ACCEL_FS_8 0x02
+#define MPU6050_ACCEL_FS_16 0x03
+
+#define MPU6050_DHPF_RESET 0x00
+#define MPU6050_DHPF_5 0x01
+#define MPU6050_DHPF_2P5 0x02
+#define MPU6050_DHPF_1P25 0x03
+#define MPU6050_DHPF_0P63 0x04
+#define MPU6050_DHPF_HOLD 0x07
+
+#define MPU6050_TEMP_FIFO_EN_BIT 7
+#define MPU6050_XG_FIFO_EN_BIT 6
+#define MPU6050_YG_FIFO_EN_BIT 5
+#define MPU6050_ZG_FIFO_EN_BIT 4
+#define MPU6050_ACCEL_FIFO_EN_BIT 3
+#define MPU6050_SLV2_FIFO_EN_BIT 2
+#define MPU6050_SLV1_FIFO_EN_BIT 1
+#define MPU6050_SLV0_FIFO_EN_BIT 0
+
+#define MPU6050_MULT_MST_EN_BIT 7
+#define MPU6050_WAIT_FOR_ES_BIT 6
+#define MPU6050_SLV_3_FIFO_EN_BIT 5
+#define MPU6050_I2C_MST_P_NSR_BIT 4
+#define MPU6050_I2C_MST_CLK_BIT 3
+#define MPU6050_I2C_MST_CLK_LENGTH 4
+
+#define MPU6050_CLOCK_DIV_348 0x0
+#define MPU6050_CLOCK_DIV_333 0x1
+#define MPU6050_CLOCK_DIV_320 0x2
+#define MPU6050_CLOCK_DIV_308 0x3
+#define MPU6050_CLOCK_DIV_296 0x4
+#define MPU6050_CLOCK_DIV_286 0x5
+#define MPU6050_CLOCK_DIV_276 0x6
+#define MPU6050_CLOCK_DIV_267 0x7
+#define MPU6050_CLOCK_DIV_258 0x8
+#define MPU6050_CLOCK_DIV_500 0x9
+#define MPU6050_CLOCK_DIV_471 0xA
+#define MPU6050_CLOCK_DIV_444 0xB
+#define MPU6050_CLOCK_DIV_421 0xC
+#define MPU6050_CLOCK_DIV_400 0xD
+#define MPU6050_CLOCK_DIV_381 0xE
+#define MPU6050_CLOCK_DIV_364 0xF
+
+#define MPU6050_I2C_SLV_RW_BIT 7
+#define MPU6050_I2C_SLV_ADDR_BIT 6
+#define MPU6050_I2C_SLV_ADDR_LENGTH 7
+#define MPU6050_I2C_SLV_EN_BIT 7
+#define MPU6050_I2C_SLV_BYTE_SW_BIT 6
+#define MPU6050_I2C_SLV_REG_DIS_BIT 5
+#define MPU6050_I2C_SLV_GRP_BIT 4
+#define MPU6050_I2C_SLV_LEN_BIT 3
+#define MPU6050_I2C_SLV_LEN_LENGTH 4
+
+#define MPU6050_I2C_SLV4_RW_BIT 7
+#define MPU6050_I2C_SLV4_ADDR_BIT 6
+#define MPU6050_I2C_SLV4_ADDR_LENGTH 7
+#define MPU6050_I2C_SLV4_EN_BIT 7
+#define MPU6050_I2C_SLV4_INT_EN_BIT 6
+#define MPU6050_I2C_SLV4_REG_DIS_BIT 5
+#define MPU6050_I2C_SLV4_MST_DLY_BIT 4
+#define MPU6050_I2C_SLV4_MST_DLY_LENGTH 5
+
+#define MPU6050_MST_PASS_THROUGH_BIT 7
+#define MPU6050_MST_I2C_SLV4_DONE_BIT 6
+#define MPU6050_MST_I2C_LOST_ARB_BIT 5
+#define MPU6050_MST_I2C_SLV4_NACK_BIT 4
+#define MPU6050_MST_I2C_SLV3_NACK_BIT 3
+#define MPU6050_MST_I2C_SLV2_NACK_BIT 2
+#define MPU6050_MST_I2C_SLV1_NACK_BIT 1
+#define MPU6050_MST_I2C_SLV0_NACK_BIT 0
+
+#define MPU6050_INTCFG_INT_LEVEL_BIT 7
+#define MPU6050_INTCFG_INT_OPEN_BIT 6
+#define MPU6050_INTCFG_LATCH_INT_EN_BIT 5
+#define MPU6050_INTCFG_INT_RD_CLEAR_BIT 4
+#define MPU6050_INTCFG_FSYNC_INT_LEVEL_BIT 3
+#define MPU6050_INTCFG_FSYNC_INT_EN_BIT 2
+#define MPU6050_INTCFG_I2C_BYPASS_EN_BIT 1
+#define MPU6050_INTCFG_CLKOUT_EN_BIT 0
+
+#define MPU6050_INTMODE_ACTIVEHIGH 0x00
+#define MPU6050_INTMODE_ACTIVELOW 0x01
+
+#define MPU6050_INTDRV_PUSHPULL 0x00
+#define MPU6050_INTDRV_OPENDRAIN 0x01
+
+#define MPU6050_INTLATCH_50USPULSE 0x00
+#define MPU6050_INTLATCH_WAITCLEAR 0x01
+
+#define MPU6050_INTCLEAR_STATUSREAD 0x00
+#define MPU6050_INTCLEAR_ANYREAD 0x01
+
+#define MPU6050_INTERRUPT_FF_BIT 7
+#define MPU6050_INTERRUPT_MOT_BIT 6
+#define MPU6050_INTERRUPT_ZMOT_BIT 5
+#define MPU6050_INTERRUPT_FIFO_OFLOW_BIT 4
+#define MPU6050_INTERRUPT_I2C_MST_INT_BIT 3
+#define MPU6050_INTERRUPT_PLL_RDY_INT_BIT 2
+#define MPU6050_INTERRUPT_DMP_INT_BIT 1
+#define MPU6050_INTERRUPT_DATA_RDY_BIT 0
+
+
+
+#define MPU6050_DMPINT_5_BIT 5
+#define MPU6050_DMPINT_4_BIT 4
+#define MPU6050_DMPINT_3_BIT 3
+#define MPU6050_DMPINT_2_BIT 2
+#define MPU6050_DMPINT_1_BIT 1
+#define MPU6050_DMPINT_0_BIT 0
+
+#define MPU6050_MOTION_MOT_XNEG_BIT 7
+#define MPU6050_MOTION_MOT_XPOS_BIT 6
+#define MPU6050_MOTION_MOT_YNEG_BIT 5
+#define MPU6050_MOTION_MOT_YPOS_BIT 4
+#define MPU6050_MOTION_MOT_ZNEG_BIT 3
+#define MPU6050_MOTION_MOT_ZPOS_BIT 2
+#define MPU6050_MOTION_MOT_ZRMOT_BIT 0
+
+#define MPU6050_DELAYCTRL_DELAY_ES_SHADOW_BIT 7
+#define MPU6050_DELAYCTRL_I2C_SLV4_DLY_EN_BIT 4
+#define MPU6050_DELAYCTRL_I2C_SLV3_DLY_EN_BIT 3
+#define MPU6050_DELAYCTRL_I2C_SLV2_DLY_EN_BIT 2
+#define MPU6050_DELAYCTRL_I2C_SLV1_DLY_EN_BIT 1
+#define MPU6050_DELAYCTRL_I2C_SLV0_DLY_EN_BIT 0
+
+#define MPU6050_PATHRESET_GYRO_RESET_BIT 2
+#define MPU6050_PATHRESET_ACCEL_RESET_BIT 1
+#define MPU6050_PATHRESET_TEMP_RESET_BIT 0
+
+#define MPU6050_DETECT_ACCEL_ON_DELAY_BIT 5
+#define MPU6050_DETECT_ACCEL_ON_DELAY_LENGTH 2
+#define MPU6050_DETECT_FF_COUNT_BIT 3
+#define MPU6050_DETECT_FF_COUNT_LENGTH 2
+#define MPU6050_DETECT_MOT_COUNT_BIT 1
+#define MPU6050_DETECT_MOT_COUNT_LENGTH 2
+
+#define MPU6050_DETECT_DECREMENT_RESET 0x0
+#define MPU6050_DETECT_DECREMENT_1 0x1
+#define MPU6050_DETECT_DECREMENT_2 0x2
+#define MPU6050_DETECT_DECREMENT_4 0x3
+
+#define MPU6050_USERCTRL_DMP_EN_BIT 7
+#define MPU6050_USERCTRL_FIFO_EN_BIT 6
+#define MPU6050_USERCTRL_I2C_MST_EN_BIT 5
+#define MPU6050_USERCTRL_I2C_IF_DIS_BIT 4
+#define MPU6050_USERCTRL_DMP_RESET_BIT 3
+#define MPU6050_USERCTRL_FIFO_RESET_BIT 2
+#define MPU6050_USERCTRL_I2C_MST_RESET_BIT 1
+#define MPU6050_USERCTRL_SIG_COND_RESET_BIT 0
+
+#define MPU6050_PWR1_DEVICE_RESET_BIT 7
+#define MPU6050_PWR1_SLEEP_BIT 6
+#define MPU6050_PWR1_CYCLE_BIT 5
+#define MPU6050_PWR1_TEMP_DIS_BIT 3
+#define MPU6050_PWR1_CLKSEL_BIT 2
+#define MPU6050_PWR1_CLKSEL_LENGTH 3
+
+#define MPU6050_CLOCK_INTERNAL 0x00
+#define MPU6050_CLOCK_PLL_XGYRO 0x01
+#define MPU6050_CLOCK_PLL_YGYRO 0x02
+#define MPU6050_CLOCK_PLL_ZGYRO 0x03
+#define MPU6050_CLOCK_PLL_EXT32K 0x04
+#define MPU6050_CLOCK_PLL_EXT19M 0x05
+#define MPU6050_CLOCK_KEEP_RESET 0x07
+
+#define MPU6050_PWR2_LP_WAKE_CTRL_BIT 7
+#define MPU6050_PWR2_LP_WAKE_CTRL_LENGTH 2
+#define MPU6050_PWR2_STBY_XA_BIT 5
+#define MPU6050_PWR2_STBY_YA_BIT 4
+#define MPU6050_PWR2_STBY_ZA_BIT 3
+#define MPU6050_PWR2_STBY_XG_BIT 2
+#define MPU6050_PWR2_STBY_YG_BIT 1
+#define MPU6050_PWR2_STBY_ZG_BIT 0
+
+#define MPU6050_WAKE_FREQ_1P25 0x0
+#define MPU6050_WAKE_FREQ_2P5 0x1
+#define MPU6050_WAKE_FREQ_5 0x2
+#define MPU6050_WAKE_FREQ_10 0x3
+
+#define MPU6050_BANKSEL_PRFTCH_EN_BIT 6
+#define MPU6050_BANKSEL_CFG_USER_BANK_BIT 5
+#define MPU6050_BANKSEL_MEM_SEL_BIT 4
+#define MPU6050_BANKSEL_MEM_SEL_LENGTH 5
+
+#define MPU6050_WHO_AM_I_BIT 6
+#define MPU6050_WHO_AM_I_LENGTH 6
+
+#define MPU6050_DMP_MEMORY_BANKS 8
+#define MPU6050_DMP_MEMORY_BANK_SIZE 256
+#define MPU6050_DMP_MEMORY_CHUNK_SIZE 16
+# 22 "../mpu6050/mpu6050.h" 2
+
+
+#define MPU6050_I2CFLEURYPATH "../i2chw/i2cmaster.h"
+#define MPU6050_I2CINIT 1
+
+
+#define MPU6050_ADDR (0x68 <<1)
+
+
+
+
+
+
+
+#define MPU6050_GETATTITUDE 0
+
+
+
+#define MPU6050_GYRO_FS MPU6050_GYRO_FS_2000
+#define MPU6050_ACCEL_FS MPU6050_ACCEL_FS_2
+
+#define MPU6050_GYRO_LSB_250 131.0
+#define MPU6050_GYRO_LSB_500 65.5
+#define MPU6050_GYRO_LSB_1000 32.8
+#define MPU6050_GYRO_LSB_2000 16.4
+
+
+
+
+
+
+
+#define MPU6050_GGAIN MPU6050_GYRO_LSB_2000
+
+
+#define MPU6050_ACCEL_LSB_2 16384.0
+#define MPU6050_ACCEL_LSB_4 8192.0
+#define MPU6050_ACCEL_LSB_8 4096.0
+#define MPU6050_ACCEL_LSB_16 2048.0
+
+#define MPU6050_AGAIN MPU6050_ACCEL_LSB_2
+# 71 "../mpu6050/mpu6050.h"
+#define MPU6050_CALIBRATEDACCGYRO 1
+
+#define MPU6050_AXOFFSET 0
+#define MPU6050_AYOFFSET 0
+#define MPU6050_AZOFFSET 0
+#define MPU6050_AXGAIN 16384.0
+#define MPU6050_AYGAIN 16384.0
+#define MPU6050_AZGAIN 16384.0
+#define MPU6050_GXOFFSET -42
+#define MPU6050_GYOFFSET 9
+#define MPU6050_GZOFFSET -29
+#define MPU6050_GXGAIN 16.4
+#define MPU6050_GYGAIN 16.4
+#define MPU6050_GZGAIN 16.4
+# 114 "../mpu6050/mpu6050.h"
+extern void mpu6050_init();
+extern uint8_t mpu6050_testConnection();
+
+
+extern void mpu6050_getRawData(int16_t* ax, int16_t* ay, int16_t* az, int16_t* gx, int16_t* gy, int16_t* gz);
+extern void mpu6050_getConvData(double* axg, double* ayg, double* azg, double* gxds, double* gyds, double* gzds);
+
+
+extern void mpu6050_setSleepDisabled();
+extern void mpu6050_setSleepEnabled();
+
+extern int8_t mpu6050_readBytes(uint8_t regAddr, uint8_t length, uint8_t *data);
+extern int8_t mpu6050_readByte(uint8_t regAddr, uint8_t *data);
+extern void mpu6050_writeBytes(uint8_t regAddr, uint8_t length, uint8_t* data);
+extern void mpu6050_writeByte(uint8_t regAddr, uint8_t data);
+extern int8_t mpu6050_readBits(uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t *data);
+extern int8_t mpu6050_readBit(uint8_t regAddr, uint8_t bitNum, uint8_t *data);
+extern void mpu6050_writeBits(uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t data);
+extern void mpu6050_writeBit(uint8_t regAddr, uint8_t bitNum, uint8_t data);
+# 20 "../mpu6050/mpu6050.c" 2
+
+
+
+
+
+
+# 1 "../mpu6050/../i2chw/i2cmaster.h" 1
+
+#define _I2CMASTER_H 1
+# 91 "../mpu6050/../i2chw/i2cmaster.h"
+#define I2C_READ 1
+
+
+#define I2C_WRITE 0
+
+
+
+
+
+
+
+extern void i2c_init(void);
+
+
+
+
+
+
+
+extern void i2c_stop(void);
+# 120 "../mpu6050/../i2chw/i2cmaster.h"
+extern unsigned char i2c_start(unsigned char addr);
+# 130 "../mpu6050/../i2chw/i2cmaster.h"
+extern unsigned char i2c_rep_start(unsigned char addr);
+# 140 "../mpu6050/../i2chw/i2cmaster.h"
+extern void i2c_start_wait(unsigned char addr);
+# 149 "../mpu6050/../i2chw/i2cmaster.h"
+extern unsigned char i2c_write(unsigned char data);
+
+
+
+
+
+
+extern unsigned char i2c_readAck(void);
+
+
+
+
+
+extern unsigned char i2c_readNak(void);
+# 173 "../mpu6050/../i2chw/i2cmaster.h"
+extern unsigned char i2c_read(unsigned char ack);
+#define i2c_read(ack) (ack) ? i2c_readAck() : i2c_readNak();
+# 27 "../mpu6050/mpu6050.c" 2
+
+volatile uint8_t buffer[14];
+
+
+
+
+int8_t mpu6050_readBytes(uint8_t regAddr, uint8_t length, uint8_t *data) {
+ uint8_t i = 0;
+ int8_t count = 0;
+ if(length > 0) {
+
+  i2c_start((0x68 <<1) | 0);
+  i2c_write(regAddr);
+  _delay_us(10);
+
+  i2c_start((0x68 <<1) | 1);
+  for(i=0; i<length; i++) {
+   count++;
+   if(i==length-1)
+    data[i] = i2c_readNak();
+   else
+    data[i] = i2c_readAck();
+  }
+  i2c_stop();
+ }
+ return count;
 }
 
 
 
 
-#define RANDOM_MAX 0x7FFFFFFF
-# 579 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern long random(void);
+int8_t mpu6050_readByte(uint8_t regAddr, uint8_t *data) {
+    return mpu6050_readBytes(regAddr, 1, data);
+}
 
 
 
 
-extern void srandom(unsigned long __seed);
+void mpu6050_writeBytes(uint8_t regAddr, uint8_t length, uint8_t* data) {
+ if(length > 0) {
 
-
-
-
-
-
-
-extern long random_r(unsigned long *__ctx);
-# 606 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-#define DTOSTR_ALWAYS_SIGN 0x01
-
-
-#define DTOSTR_PLUS_SIGN 0x02
-
-
-#define DTOSTR_UPPERCASE 0x04
-# 638 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern char *dtostre(double __val, char *__s, unsigned char __prec,
-       unsigned char __flags);
-# 655 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\stdlib.h" 3
-extern char *dtostrf(double __val, signed char __width,
-                     unsigned char __prec, char *__s);
-
-
-
-
-
-#define EXIT_SUCCESS 0
-
-
-
-
-
-#define EXIT_FAILURE 1
-# 16 "../driver/lcd.c" 2
-# 1 "../include/lcd.h" 1
-# 12 "../include/lcd.h"
-#define LCD_H_ 
-
-# 1 "../include/fonts.h" 1
-# 12 "../include/fonts.h"
-#define FONTS_H_ 
-
-
-
-
-typedef struct
-{
- uint8_t sizeX, sizeY;
- const char * (*selector)(unsigned char);
-} fontdescriptor_t;
-
-
-extern const fontdescriptor_t font4x6;
-extern const fontdescriptor_t font6x8;
-extern const fontdescriptor_t font12x16;
-
-extern const fontdescriptor_t *fonts[];
-# 15 "../include/lcd.h" 2
-# 1 "../include/glyphs.h" 1
-# 12 "../include/glyphs.h"
-#define GLYPHS_H_ 
-
-
-
-typedef struct
-{
- uint8_t sizeX, sizeY;
- char glyph[];
-} glyph_t;
-
-extern const glyph_t glyArrowDown;
-extern const glyph_t glyArrowUp;
-extern const glyph_t glyBall;
-extern const glyph_t glyDirCW;
-extern const glyph_t glyDirCCW;
-extern const glyph_t glyLogo;
-extern const glyph_t glyFC;
-# 16 "../include/lcd.h" 2
-
-
-void lcdInit();
-void lcdClear();
-void lcdSetPos(uint8_t line, uint8_t column);
-void lcdWriteChar(char c);
-void lcdWriteString(char *s);
-void lcdWriteString_P(const char * s);
-void lcdReverse(uint8_t reversed);
-void lcdSetContrast(uint8_t contrast);
-void lcdSetPixel(uint8_t x, uint8_t y, uint8_t on);
-void lcdLine(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1);
-void lcdEnable();
-void lcdDisable();
-void lcdSelectFont(const fontdescriptor_t *font);
-void lcdXY(uint8_t x, uint8_t y);
-void lcdWriteGlyph_P(const glyph_t *glyph, uint8_t mode);
-void lcdFillRectangle(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1, uint8_t color);
-void lcdRectangle(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1, uint8_t color);
-
-#define ROP_COPY 0
-#define ROP_PAINT 1
-#define ROP_INVERT 2
-# 17 "../driver/lcd.c" 2
-# 1 "../include/fonts.h" 1
-# 18 "../driver/lcd.c" 2
-
-#define CMD_DISPLAY_OFF 0xAE
-#define CMD_DISPLAY_ON 0xAF
-#define CMD_SET_START_LINE 0x40
-#define CMD_SET_PAGE 0xB0
-#define CMD_SET_COLUMN_UPPER 0x10
-#define CMD_SET_COLUMN_LOWER 0x00
-#define CMD_SET_ADC_NORMAL 0xA0
-#define CMD_SET_ADC_REVERSE 0xA1
-#define CMD_SET_DISP_NORMAL 0xA6
-#define CMD_SET_DISP_REVERSE 0xA7
-#define CMD_SET_ALLPTS_OFF 0xA4
-#define CMD_SET_ALLPTS_ON 0xA5
-#define CMD_SET_BIAS_9 0xA2
-#define CMD_SET_BIAS_7 0xA3
-#define CMD_RMW 0xE0
-#define CMD_RMW_CLEAR 0xEE
-#define CMD_INTERNAL_RESET 0xE2
-#define CMD_SET_COM_NORMAL 0xC0
-#define CMD_SET_COM_REVERSE 0xC8
-#define CMD_SET_POWER_CONTROL 0x28
-#define CMD_SET_RESISTOR_RATIO 0x20
-#define CMD_SET_CONTRAST 0x81
-#define CMD_SET_STATIC_OFF 0xAC
-#define CMD_SET_STATIC_ON 0xAD
-#define CMD_SET_STATIC_REG 0x00
-#define CMD_SET_BOOSTER_FIRST 0xF8
-#define CMD_SET_BOOSTER_234 0x00
-#define CMD_SET_BOOSTER_5 0x01
-#define CMD_SET_BOOSTER_6 0x03
-
-#define REVERSED 1
-static uint8_t _flags = 0;
-
-#define LCDWIDTH 128
-#define LCDHEIGHT 64
-
-static uint8_t _screen[128 * 64 / 8];
-static uint8_t _curx, _cury;
-static fontdescriptor_t _font;
-
-static void sendByte(uint8_t byte)
-{
- for (uint8_t i = 8; i; i--)
- {
-  ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit4) = 0;
-  if (byte & 0x80)
-   ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit1) = 1;
-  else
-   ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit1) = 0;
-  ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit4) = 1;
-  byte <<= 1;
+  i2c_start((0x68 <<1) | 0);
+  i2c_write(regAddr);
+  for (uint8_t i = 0; i < length; i++) {
+   i2c_write((uint8_t) data[i]);
+  }
+  i2c_stop();
  }
 }
 
-static void sendCommand(uint8_t command)
-{
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit5) = 0;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit7) = 0;
- sendByte(command);
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit5) = 1;
+
+
+
+void mpu6050_writeByte(uint8_t regAddr, uint8_t data) {
+    return mpu6050_writeBytes(regAddr, 1, &data);
 }
 
-static void sendData(uint8_t data)
-{
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit5) = 0;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit7) = 1;
- sendByte(data);
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit5) = 1;
-}
-
-static void setPos(uint8_t line, uint8_t column)
-{
- sendCommand(0xB0 | (line & 0x07));
- sendCommand(0x10 | (column / 16));
- sendCommand(0x00 | (column & 0x0f));
-}
-
-__attribute__ ((section(".lowtext")))
-void __vector_18 (void) __attribute__ ((signal,used, externally_visible)) __attribute__((interrupt)); void __vector_18 (void)
-{
- static uint16_t offset;
-
- if (offset % 128 == 0)
-  setPos(offset / 128, 0);
-
- sendData(*(_screen + offset++));
- offset %= sizeof(_screen);
-}
-
-void lcdSetPos(uint8_t line, uint8_t column)
-{
- _curx = column % 128;
- _cury = line * 8;
-}
-
-void lcdXY(uint8_t x, uint8_t y)
-{
- _curx = x;
- _cury = y;
-}
-
-void lcdSetPixel(uint8_t x, uint8_t y, uint8_t color)
-{
- static const char __attribute__((__progmem__)) masks[8] = {0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x80};
- uint8_t *scr = _screen + x + (y / 8 * 128);
- uint8_t mask = (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(&masks[y % 8])); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }));
- if ((_flags & 1) ^ !color)
-  *scr = *scr & ~mask;
- else
-  *scr = *scr | mask;
-}
-
-static void lcdSetByte(uint8_t x, uint8_t y, uint8_t b)
-{
- uint8_t *scr = _screen + x + (y / 8 * 128);
- if (_flags & 1)
-  *scr = ~b;
- else
-  *scr = b;
-}
-
-static void setBits(uint8_t x, uint8_t y, uint8_t b, uint8_t n, uint8_t mode)
-{
- uint8_t *scr = _screen + x + (y / 8 * 128);
- uint8_t mask;
- if (y % 8 == 0)
- {
 
 
- }
 
-}
+int8_t mpu6050_readBits(uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t *data) {
 
-void lcdLine(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1)
-{
 
- int8_t dx = __builtin_abs(x1 - x0);
- int8_t sx = x0 < x1 ? 1 : -1;
- int8_t dy = -__builtin_abs(y1 - y0);
- int8_t sy = y0 < y1 ? 1 : -1;
- int16_t err = dx + dy, e2;
 
- for(;;)
- {
-  lcdSetPixel(x0, y0, 1);
 
-  if (x0 == x1 && y0 == y1)
-   break;
 
-  e2 = 2 * err;
-  if (e2 > dy) { err += dy; x0 += sx; }
-  if (e2 < dx) { err += dx; y0 += sy; }
- }
-}
-
-void lcdRectangle(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1, uint8_t color)
-{
- uint8_t a;
- if (x0 > x1) { a = x0; x0 = x1; x1 = a;}
- if (y0 > y1) { a = y0; y0 = y1; y1 = a;}
- for (a = x0; a <= x1; a++)
- {
-  lcdSetPixel(a, y0, color);
-  lcdSetPixel(a, y1, color);
- }
- for (a = y0; a <= y1; a++)
- {
-  lcdSetPixel(x0, a, color);
-  lcdSetPixel(x1, a, color);
- }
-}
-
-void lcdFillRectangle(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1, uint8_t color)
-{
- uint8_t a;
- if (x0 > x1) { a = x0; x0 = x1; x1 = a;}
- if (y0 > y1) { a = y0; y0 = y1; y1 = a;}
- for (a = y0; a <= y1; a++)
-  for(uint8_t i = x0; i <= x1; i++)
-   lcdSetPixel(i, a, color);
-}
-
-void lcdClear()
-{
- memset(_screen, 0, sizeof(_screen));
- lcdSetPos(0, 0);
- _flags = 0;
-}
-
-void lcdWriteSprite_P(const char * sprite, uint8_t sizeX, uint8_t sizeY, uint8_t mode)
-{
- uint8_t b = 0;
- for (uint8_t i = 0; i < sizeX; i++)
- {
-  for (uint8_t j = 0; j < sizeY; j++)
-  {
-   if (j % 8 == 0)
-     b = (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(sprite++)); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }));
-
-   if (mode == 0)
-   {
-    if ((_cury % 8 == 0) && (sizeY - j >= 8))
-    {
-     lcdSetByte(_curx + i, _cury + j, b);
-     j += 7;
+    int8_t count = 0;
+    if(length > 0) {
+  uint8_t b;
+  if ((count = mpu6050_readByte(regAddr, &b)) != 0) {
+   uint8_t mask = ((1 << length) - 1) << (bitStart - length + 1);
+   b &= mask;
+   b >>= (bitStart - length + 1);
+   *data = b;
+  }
     }
-    else
-     lcdSetPixel(_curx + i, _cury + j, b & 0x01);
-   }
-   else if (mode == 1)
-   {
-    if (b & 0x01)
-     lcdSetPixel(_curx + i, _cury + j, 1);
-   }
-   b >>= 1;
+    return count;
+}
+
+
+
+
+int8_t mpu6050_readBit(uint8_t regAddr, uint8_t bitNum, uint8_t *data) {
+    uint8_t b;
+    uint8_t count = mpu6050_readByte(regAddr, &b);
+    *data = b & (1 << bitNum);
+    return count;
+}
+
+
+
+
+void mpu6050_writeBits(uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t data) {
+
+
+
+
+
+
+
+ if(length > 0) {
+  uint8_t b = 0;
+  if (mpu6050_readByte(regAddr, &b) != 0) {
+   uint8_t mask = ((1 << length) - 1) << (bitStart - length + 1);
+   data <<= (bitStart - length + 1);
+   data &= mask;
+   b &= ~(mask);
+   b |= data;
+   mpu6050_writeByte(regAddr, b);
   }
  }
 }
 
-void lcdWriteGlyph_P(const glyph_t *glyph, uint8_t mode)
-{
- uint8_t sizeX = (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(&glyph->sizeX)); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }));
- uint8_t sizeY = (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(&glyph->sizeY)); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }));
- lcdWriteSprite_P((const char *)&glyph->glyph, sizeX, sizeY, mode);
+
+
+
+void mpu6050_writeBit(uint8_t regAddr, uint8_t bitNum, uint8_t data) {
+    uint8_t b;
+    mpu6050_readByte(regAddr, &b);
+    b = (data != 0) ? (b | (1 << bitNum)) : (b & ~(1 << bitNum));
+    mpu6050_writeByte(regAddr, b);
+}
+# 433 "../mpu6050/mpu6050.c"
+void mpu6050_setSleepDisabled() {
+ mpu6050_writeBit(0x6B, 6, 0);
 }
 
-void lcdWriteChar(char c)
-{
- if (c == '\n')
- {
-  _cury += _font.sizeY;
-  _curx = 0;
- }
+
+
+
+void mpu6050_setSleepEnabled() {
+ mpu6050_writeBit(0x6B, 6, 1);
+}
+
+
+
+
+
+uint8_t mpu6050_testConnection() {
+ mpu6050_readBits(0x75, 6, 6, (uint8_t *)buffer);
+ if(buffer[0] == 0x34)
+  return 1;
  else
- {
-  lcdWriteSprite_P(_font.selector(c), _font.sizeX, _font.sizeY, 0);
-  _curx += _font.sizeX;
- }
+  return 0;
 }
 
-void lcdWriteString(char *s)
-{
- char c;
- while ((c = *s++))
-  lcdWriteChar(c);
+
+
+
+void mpu6050_init() {
+
+
+ i2c_init();
+ _delay_us(10);
+
+
+
+ _delay_ms(100);
+
+
+ mpu6050_setSleepDisabled();
+
+ _delay_ms(10);
+
+
+
+
+ mpu6050_writeBits(0x6B, 2, 3, 0x01);
+
+ mpu6050_writeBits(0x1A, 2, 3, 0x03);
+
+ mpu6050_writeByte(0x19, 4);
+
+ mpu6050_writeBits(0x1B, 4, 2, 0x03);
+
+ mpu6050_writeBits(0x1C, 4, 2, 0x00);
+
+
+
+
 }
 
-void lcdWriteString_P(const char * s)
-{
- char c;
- if (s == ((void *)0)) return;
- while ((c = (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(s++)); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }))))
-  lcdWriteChar(c);
+
+
+
+
+void mpu6050_getRawData(int16_t* ax, int16_t* ay, int16_t* az, int16_t* gx, int16_t* gy, int16_t* gz) {
+ mpu6050_readBytes(0x3B, 14, (uint8_t *)buffer);
+
+    *ax = (((int16_t)buffer[0]) << 8) | buffer[1];
+    *ay = (((int16_t)buffer[2]) << 8) | buffer[3];
+    *az = (((int16_t)buffer[4]) << 8) | buffer[5];
+    *gx = (((int16_t)buffer[8]) << 8) | buffer[9];
+    *gy = (((int16_t)buffer[10]) << 8) | buffer[11];
+    *gz = (((int16_t)buffer[12]) << 8) | buffer[13];
 }
 
-void lcdReverse(uint8_t reversed)
-{
- if (reversed)
-  _flags |= 1;
- else
-  _flags &= ~1;
-}
-
-void lcdSetContrast(uint8_t contrast)
-{
- uint8_t t = (*(volatile uint8_t *)(0x6E));
- lcdDisable();
- sendCommand(0x81);
- sendCommand(contrast & 0x3F);
- (*(volatile uint8_t *)(0x6E)) = t;
-}
-
-void lcdEnable()
-{
-
- (*(volatile uint8_t *)((0x26) + 0x20)) = 0;
- (*(volatile uint8_t *)((0x15) + 0x20)) = (1 << (0));
- (*(volatile uint8_t *)(0x6E)) |= (1 << (0));
-}
-
-void lcdDisable()
-{
- ;
- (*(volatile uint8_t *)(0x6E)) &= ~(1 << (0));
-}
-
-void lcdSelectFont(const fontdescriptor_t *font)
-{
- if (font == ((void *)0))
-  font = &font6x8;
- memcpy_P(&_font, font, sizeof(_font));
-}
-
-static const unsigned char _initSeq[] __attribute__((__progmem__)) = {
- 0xA2,
- 0xA0,
- 0xC8,
- 0x40,
- 0xA6,
- 0xA4,
- 0x28 | 7,
- 0x20 | 4,
- 0x81,
- 0x20,
- 0xAF,
- 0x00,
-};
-
-void lcdInit()
-{
-
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0A) + 0x20))).bit5) = 1;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0A) + 0x20))).bit6) = 1;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0A) + 0x20))).bit7) = 1;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0A) + 0x20))).bit4) = 1;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0A) + 0x20))).bit1) = 1;
-
-
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit6) = 0;
- ;
- ((*(_bitreg8*)&(*(volatile uint8_t *)((0x0B) + 0x20))).bit6) = 1;
- ;
-
- const unsigned char* ptr = _initSeq;
- uint8_t c;
- while ((c = (__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(ptr++)); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }))))
-  sendCommand(c);
-
- lcdSelectFont(((void *)0));
 
 
 
+void mpu6050_getConvData(double* axg, double* ayg, double* azg, double* gxds, double* gyds, double* gzds) {
+ int16_t ax = 0;
+ int16_t ay = 0;
+ int16_t az = 0;
+ int16_t gx = 0;
+ int16_t gy = 0;
+ int16_t gz = 0;
+ mpu6050_getRawData(&ax, &ay, &az, &gx, &gy, &gz);
 
 
- (*(volatile uint8_t *)((0x25) + 0x20)) = (1 << (1));
- lcdEnable();
+    *axg = (double)(ax-0)/16384.0;
+    *ayg = (double)(ay-0)/16384.0;
+    *azg = (double)(az-0)/16384.0;
+    *gxds = (double)(gx- -42)/16.4;
+ *gyds = (double)(gy-9)/16.4;
+ *gzds = (double)(gz- -29)/16.4;
+# 534 "../mpu6050/mpu6050.c"
 }

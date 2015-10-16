@@ -1,899 +1,882 @@
-# 1 "../src/mixer.c"
-# 1 "D:\\Other\\QuacopterSource\\trunk\\KK2-C-Source\\Debug Simulator//"
+# 1 "../i2chw/twimastertimeout.c"
+# 1 "D:\\QuadcopterSource\\trunk\\KK2-C-Source\\Debug Simulator//"
 #define __STDC__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __STDC_VERSION__ 199901L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __STDC_UTF_16__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __STDC_UTF_32__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __STDC_HOSTED__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GNUC__ 4
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GNUC_MINOR__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GNUC_PATCHLEVEL__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __VERSION__ "4.8.1"
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ATOMIC_RELAXED 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ATOMIC_SEQ_CST 5
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ATOMIC_ACQUIRE 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ATOMIC_RELEASE 3
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ATOMIC_ACQ_REL 4
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ATOMIC_CONSUME 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __OPTIMIZE_SIZE__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __OPTIMIZE__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FAST_MATH__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FINITE_MATH_ONLY__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_INT__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_LONG__ 4
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_LONG_LONG__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_SHORT__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_FLOAT__ 4
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_DOUBLE__ 4
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_LONG_DOUBLE__ 4
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_SIZE_T__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __CHAR_BIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BIGGEST_ALIGNMENT__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ORDER_LITTLE_ENDIAN__ 1234
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ORDER_BIG_ENDIAN__ 4321
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ORDER_PDP_ENDIAN__ 3412
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_POINTER__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZE_TYPE__ unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __PTRDIFF_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WCHAR_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WINT_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INTMAX_TYPE__ long long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINTMAX_TYPE__ long long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __CHAR16_TYPE__ unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __CHAR32_TYPE__ long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIG_ATOMIC_TYPE__ char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT8_TYPE__ signed char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT16_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT32_TYPE__ long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT64_TYPE__ long long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT8_TYPE__ unsigned char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT16_TYPE__ unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT32_TYPE__ long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT64_TYPE__ long long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST8_TYPE__ signed char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST16_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST32_TYPE__ long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST64_TYPE__ long long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST8_TYPE__ unsigned char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST16_TYPE__ unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST32_TYPE__ long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST64_TYPE__ long long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST8_TYPE__ signed char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST16_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST32_TYPE__ long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST64_TYPE__ long long int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST8_TYPE__ unsigned char
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST16_TYPE__ unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST32_TYPE__ long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST64_TYPE__ long long unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INTPTR_TYPE__ int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINTPTR_TYPE__ unsigned int
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GXX_ABI_VERSION 1002
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USING_SJLJ_EXCEPTIONS__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SCHAR_MAX__ 127
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SHRT_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LONG_MAX__ 2147483647L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LONG_LONG_MAX__ 9223372036854775807LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WCHAR_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WINT_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WINT_MIN__ (-__WINT_MAX__ - 1)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __PTRDIFF_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZE_MAX__ 65535U
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INTMAX_MAX__ 9223372036854775807LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INTMAX_C(c) c ## LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINTMAX_MAX__ 18446744073709551615ULL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINTMAX_C(c) c ## ULL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIG_ATOMIC_MAX__ 255
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIG_ATOMIC_MIN__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT8_MAX__ 127
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT16_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT32_MAX__ 2147483647L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT64_MAX__ 9223372036854775807LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT8_MAX__ 255
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT16_MAX__ 65535U
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT32_MAX__ 4294967295UL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT64_MAX__ 18446744073709551615ULL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST8_MAX__ 127
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT8_C(c) c
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST16_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT16_C(c) c
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST32_MAX__ 2147483647L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT32_C(c) c ## L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_LEAST64_MAX__ 9223372036854775807LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT64_C(c) c ## LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST8_MAX__ 255
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT8_C(c) c
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST16_MAX__ 65535U
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT16_C(c) c ## U
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST32_MAX__ 4294967295UL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT32_C(c) c ## UL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_LEAST64_MAX__ 18446744073709551615ULL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT64_C(c) c ## ULL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST8_MAX__ 127
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST16_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST32_MAX__ 2147483647L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT_FAST64_MAX__ 9223372036854775807LL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST8_MAX__ 255
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST16_MAX__ 65535U
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST32_MAX__ 4294967295UL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT_FAST64_MAX__ 18446744073709551615ULL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INTPTR_MAX__ 32767
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINTPTR_MAX__ 65535U
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_EVAL_METHOD__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC_EVAL_METHOD__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_RADIX__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MANT_DIG__ 24
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_DIG__ 6
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MIN_EXP__ (-125)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MIN_10_EXP__ (-37)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MAX_EXP__ 128
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MAX_10_EXP__ 38
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_DECIMAL_DIG__ 9
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MAX__ 3.40282347e+38F
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_MIN__ 1.17549435e-38F
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_EPSILON__ 1.19209290e-7F
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_DENORM_MIN__ 1.40129846e-45F
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_HAS_DENORM__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_HAS_INFINITY__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLT_HAS_QUIET_NAN__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MANT_DIG__ 24
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_DIG__ 6
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MIN_EXP__ (-125)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MIN_10_EXP__ (-37)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MAX_EXP__ 128
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MAX_10_EXP__ 38
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_DECIMAL_DIG__ 9
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MAX__ ((double)3.40282347e+38L)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_MIN__ ((double)1.17549435e-38L)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_EPSILON__ ((double)1.19209290e-7L)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_DENORM_MIN__ ((double)1.40129846e-45L)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_HAS_DENORM__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_HAS_INFINITY__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DBL_HAS_QUIET_NAN__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MANT_DIG__ 24
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_DIG__ 6
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MIN_EXP__ (-125)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MIN_10_EXP__ (-37)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MAX_EXP__ 128
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MAX_10_EXP__ 38
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DECIMAL_DIG__ 9
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MAX__ 3.40282347e+38L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_MIN__ 1.17549435e-38L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_EPSILON__ 1.19209290e-7L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_DENORM_MIN__ 1.40129846e-45L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_HAS_DENORM__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_HAS_INFINITY__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LDBL_HAS_QUIET_NAN__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_MANT_DIG__ 7
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_MIN_EXP__ (-94)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_MAX_EXP__ 97
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_MIN__ 1E-95DF
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_MAX__ 9.999999E96DF
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_EPSILON__ 1E-6DF
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_MANT_DIG__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_MIN_EXP__ (-382)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_MAX_EXP__ 385
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_MIN__ 1E-383DD
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_MAX__ 9.999999999999999E384DD
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_EPSILON__ 1E-15DD
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_MANT_DIG__ 34
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_MIN_EXP__ (-6142)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_MAX_EXP__ 6145
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_MIN__ 1E-6143DL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_EPSILON__ 1E-33DL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SFRACT_FBIT__ 7
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SFRACT_MIN__ (-0.5HR-0.5HR)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SFRACT_MAX__ 0X7FP-7HR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SFRACT_EPSILON__ 0x1P-7HR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USFRACT_FBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USFRACT_MIN__ 0.0UHR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USFRACT_MAX__ 0XFFP-8UHR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USFRACT_EPSILON__ 0x1P-8UHR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FRACT_FBIT__ 15
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FRACT_MIN__ (-0.5R-0.5R)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FRACT_MAX__ 0X7FFFP-15R
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FRACT_EPSILON__ 0x1P-15R
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UFRACT_FBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UFRACT_MIN__ 0.0UR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UFRACT_MAX__ 0XFFFFP-16UR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UFRACT_EPSILON__ 0x1P-16UR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LFRACT_FBIT__ 31
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LFRACT_MIN__ (-0.5LR-0.5LR)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LFRACT_MAX__ 0X7FFFFFFFP-31LR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LFRACT_EPSILON__ 0x1P-31LR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULFRACT_FBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULFRACT_MIN__ 0.0ULR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULFRACT_MAX__ 0XFFFFFFFFP-32ULR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULFRACT_EPSILON__ 0x1P-32ULR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLFRACT_FBIT__ 63
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLFRACT_MIN__ (-0.5LLR-0.5LLR)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLFRACT_EPSILON__ 0x1P-63LLR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLFRACT_FBIT__ 64
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLFRACT_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLFRACT_MIN__ 0.0ULLR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLFRACT_EPSILON__ 0x1P-64ULLR
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SACCUM_FBIT__ 7
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SACCUM_IBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SACCUM_MIN__ (-0X1P7HK-0X1P7HK)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SACCUM_MAX__ 0X7FFFP-7HK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SACCUM_EPSILON__ 0x1P-7HK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USACCUM_FBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USACCUM_IBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USACCUM_MIN__ 0.0UHK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USACCUM_MAX__ 0XFFFFP-8UHK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USACCUM_EPSILON__ 0x1P-8UHK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ACCUM_FBIT__ 15
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ACCUM_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ACCUM_MIN__ (-0X1P15K-0X1P15K)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ACCUM_MAX__ 0X7FFFFFFFP-15K
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ACCUM_EPSILON__ 0x1P-15K
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UACCUM_FBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UACCUM_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UACCUM_MIN__ 0.0UK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UACCUM_MAX__ 0XFFFFFFFFP-16UK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UACCUM_EPSILON__ 0x1P-16UK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LACCUM_FBIT__ 31
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LACCUM_IBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LACCUM_EPSILON__ 0x1P-31LK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULACCUM_FBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULACCUM_IBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULACCUM_MIN__ 0.0ULK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULACCUM_EPSILON__ 0x1P-32ULK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLACCUM_FBIT__ 47
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLACCUM_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLACCUM_MIN__ (-0X1P15LLK-0X1P15LLK)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-47LLK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __LLACCUM_EPSILON__ 0x1P-47LLK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLACCUM_FBIT__ 48
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLACCUM_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLACCUM_MIN__ 0.0ULLK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-48ULLK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ULLACCUM_EPSILON__ 0x1P-48ULLK
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __QQ_FBIT__ 7
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __QQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __HQ_FBIT__ 15
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __HQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SQ_FBIT__ 31
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DQ_FBIT__ 63
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __TQ_FBIT__ 127
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __TQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UQQ_FBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UQQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UHQ_FBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UHQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USQ_FBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UDQ_FBIT__ 64
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UDQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UTQ_FBIT__ 128
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UTQ_IBIT__ 0
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __HA_FBIT__ 7
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __HA_IBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SA_FBIT__ 15
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SA_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DA_FBIT__ 31
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __DA_IBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __TA_FBIT__ 47
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __TA_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UHA_FBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UHA_IBIT__ 8
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USA_FBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USA_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UDA_FBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UDA_IBIT__ 32
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UTA_FBIT__ 48
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UTA_IBIT__ 16
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __REGISTER_PREFIX__ 
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __USER_LABEL_PREFIX__ 
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GNUC_STDC_INLINE__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __CHAR_UNSIGNED__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_CHAR_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_SHORT_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_INT_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_LONG_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_LLONG_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_ATOMIC_POINTER_LOCK_FREE 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __GCC_HAVE_DWARF2_CFI_ASM 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __PRAGMA_REDEFINE_EXTNAME 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_WCHAR_T__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_WINT_T__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __SIZEOF_PTRDIFF_T__ 2
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define AVR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_ARCH__ 5
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_ATmega324PA__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_DEVICE_NAME__ atmega324pa
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_HAVE_MOVW__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_HAVE_LPMX__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_ENHANCED__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_HAVE_MUL__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_MEGA__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_HAVE_JMP_CALL__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_2_BYTE_PC__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_HAVE_16BIT_SP__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_HAVE_SPH__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __AVR_SFR_OFFSET__ 0x20
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __WITH_AVRLIBC__ 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __FLASH 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __MEMX 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_NOP 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_SEI 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_CLI 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_WDR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_SLEEP 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_SWAP 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_FMUL 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_FMULS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_FMULSU 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_DELAY_CYCLES 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_INSERT_BITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_FLASH_SEGMENT 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSLLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSLLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDLLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDUHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDUR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDULR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDULLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDLLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDUHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDUK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDULK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDULLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSLLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSUHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSUR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSULR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSULLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSLLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSUHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSUK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSULK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSULLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSLLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSUHR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSUR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSULR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSULLR 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSLLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSUHK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSUK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSULK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_BITSULLK 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_HRBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_RBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_LRBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_LLRBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_UHRBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_URBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ULRBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ULLRBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_HKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_KBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_LKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_LLKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_UHKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_UKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ULKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ULLKBITS 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ABSFX 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_ROUNDFX 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __BUILTIN_AVR_COUNTLSFX 1
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT24_MAX__ 8388607L
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __INT24_MIN__ (-__INT24_MAX__-1)
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __UINT24_MAX__ 16777215UL
-# 1 "../src/mixer.c"
+# 1 "../i2chw/twimastertimeout.c"
 #define __ELF__ 1
 # 1 "<command-line>"
 #define DEBUG 1
 #define SIMULATOR 1
-# 1 "../src/mixer.c"
-# 10 "../src/mixer.c"
-# 1 "../include/global.h" 1
-# 12 "../include/global.h"
-#define GLOBAL_H_ 
-
-#define F_CPU 20000000
-
-#define ON 1
-#define OFF 0
-
-#define ROL 0
-#define PIT 1
-#define YAW 2
-#define THR 3
-
-#define noinit __attribute__((section(".noinit")))
-#define length(array) (sizeof(array)/sizeof(*array))
-
-# 1 "../include/system.h" 1
-# 12 "../include/system.h"
-#define SYSTEM_H_ 
+# 1 "../i2chw/twimastertimeout.c"
+# 14 "../i2chw/twimastertimeout.c"
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 1 3
+# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
+#define __INTTYPES_H_ 
 
 # 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h" 1 3 4
 # 9 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h" 3 4
@@ -1283,61 +1266,7 @@ typedef uint64_t uintmax_t;
 
 
 #define _GCC_WRAP_STDINT_H 
-# 15 "../include/system.h" 2
-
-#define TICKSPERMICRO (20UL)
-#define MICROTOTICKS(us) ((us) * TICKSPERMICRO)
-#define TICKSTOMICRO(t) ((t) / TICKSPERMICRO)
-
-void setup();
-uint32_t ticks();
-uint16_t micros();
-uint16_t millis();
-
-
-#define WAITMS(ms) 
-#define WAITUS(ms) 
-
-
-
-
-
-static __inline__ void __iWaitForMS(uint16_t __m, uint16_t ms)
-{
- while (millis() < ms + __m);
-}
-
-static __inline__ void __iWaitForTicks(uint32_t __m, uint32_t t)
-{
- while (ticks() < t + __m);
-}
-
-#define EVERYMS(ms) static uint16_t __CONCAT(_t,__LINE__); for(uint16_t _m = millis(); _m - __CONCAT(_t,__LINE__) >= ms; __CONCAT(_t,__LINE__) = _m)
-#define FIXEDMS(ms) for(uint16_t __m = millis(); millis() - __m < ms; __iWaitForMS(__m, ms))
-#define EVERYUS(us) static uint32_t __CONCAT(_t,__LINE__); for(uint32_t _m = ticks(); _m - __CONCAT(_t,__LINE__) >= MICROTOTICKS(us); __CONCAT(_t,__LINE__) = _m)
-#define FIXEDUS(us) for(uint32_t __m = ticks(); ticks() - __m < MICROTOTICKS(us); __iWaitForTicks(__m, MICROTOTICKS(us)))
-#define LOOPUS(us) for(uint32_t _cycleStart = ticks(); 1; __iWaitForTicks(_cycleStart, MICROTOTICKS(us)), _cycleStart += MICROTOTICKS(us))
-# 28 "../include/global.h" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 1 3
-# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define _UTIL_ATOMIC_H_ 1
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 1 3
-# 97 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 3
-#define _AVR_IO_H_ 
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 1 3
-# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
-#define _AVR_SFR_DEFS_H_ 1
-# 121 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
-#define _SFR_ASM_COMPAT 0
-
-
-
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 1 3
-# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
-#define __INTTYPES_H_ 
+# 38 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 2 3
 # 77 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
 typedef int32_t int_farptr_t;
 
@@ -1653,7 +1582,29 @@ typedef uint32_t uint_farptr_t;
 
 
 #define SCNxPTR SCNx16
-# 127 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 2 3
+# 15 "../i2chw/twimastertimeout.c" 2
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\compat\\twi.h" 1 3
+# 34 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\compat\\twi.h" 3
+#define _COMPAT_TWI_H_ 
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\twi.h" 1 3
+# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\twi.h" 3
+#define _UTIL_TWI_H_ 1
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 1 3
+# 97 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 3
+#define _AVR_IO_H_ 
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 1 3
+# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
+#define _AVR_SFR_DEFS_H_ 1
+# 121 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
+#define _SFR_ASM_COMPAT 0
+
+
+
+
+
 
 #define _MMIO_BYTE(mem_addr) (*(volatile uint8_t *)(mem_addr))
 #define _MMIO_WORD(mem_addr) (*(volatile uint16_t *)(mem_addr))
@@ -3397,757 +3348,410 @@ typedef struct
 # 237 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h" 3
 #define LOCKBITS_DEFAULT (0xFF)
 # 631 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 2 3
-# 38 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 2 3
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 1 3
-# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define _AVR_INTERRUPT_H_ 
+# 39 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\twi.h" 2 3
+# 61 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\twi.h" 3
+#define TW_START 0x08
+
+
+
+
+#define TW_REP_START 0x10
 
 
 
 
 
-#define __STRINGIFY(x) #x
-# 81 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define sei() __asm__ __volatile__ ("sei" ::: "memory")
-# 99 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define cli() __asm__ __volatile__ ("cli" ::: "memory")
-# 129 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define __INTR_ATTRS used, externally_visible
-# 139 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define ISR(vector,...) void vector (void) __attribute__ ((signal,__INTR_ATTRS)) __VA_ARGS__; void vector (void)
-# 164 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define SIGNAL(vector) void vector (void) __attribute__ ((signal, __INTR_ATTRS)); void vector (void)
-# 188 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define EMPTY_INTERRUPT(vector) void vector (void) __attribute__ ((signal,naked,__INTR_ATTRS)); void vector (void) { __asm__ __volatile__ ("reti" ::); }
-# 239 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define ISR_ALIAS(vector,tgt) void vector (void) __attribute__((signal, naked, __INTR_ATTRS)); void vector (void) { asm volatile ("jmp " __STRINGIFY(tgt) ::); }
-# 264 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define reti() __asm__ __volatile__ ("reti" ::)
-# 280 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define BADISR_vect __vector_default
-# 336 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\interrupt.h" 3
-#define ISR_BLOCK 
-#define ISR_NOBLOCK __attribute__((interrupt))
-#define ISR_NAKED __attribute__((naked))
-#define ISR_ALIASOF(v) __attribute__((alias(__STRINGIFY(v))))
-# 39 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 2 3
+#define TW_MT_SLA_ACK 0x18
 
 
 
-static __inline__ uint8_t __iSeiRetVal(void)
+
+#define TW_MT_SLA_NACK 0x20
+
+
+
+
+#define TW_MT_DATA_ACK 0x28
+
+
+
+
+#define TW_MT_DATA_NACK 0x30
+
+
+
+
+#define TW_MT_ARB_LOST 0x38
+
+
+
+
+
+#define TW_MR_ARB_LOST 0x38
+
+
+
+
+#define TW_MR_SLA_ACK 0x40
+
+
+
+
+#define TW_MR_SLA_NACK 0x48
+
+
+
+
+#define TW_MR_DATA_ACK 0x50
+
+
+
+
+#define TW_MR_DATA_NACK 0x58
+
+
+
+
+
+#define TW_ST_SLA_ACK 0xA8
+
+
+
+
+#define TW_ST_ARB_LOST_SLA_ACK 0xB0
+
+
+
+
+#define TW_ST_DATA_ACK 0xB8
+
+
+
+
+#define TW_ST_DATA_NACK 0xC0
+
+
+
+
+#define TW_ST_LAST_DATA 0xC8
+
+
+
+
+
+#define TW_SR_SLA_ACK 0x60
+
+
+
+
+#define TW_SR_ARB_LOST_SLA_ACK 0x68
+
+
+
+
+#define TW_SR_GCALL_ACK 0x70
+
+
+
+
+#define TW_SR_ARB_LOST_GCALL_ACK 0x78
+
+
+
+
+#define TW_SR_DATA_ACK 0x80
+
+
+
+
+#define TW_SR_DATA_NACK 0x88
+
+
+
+
+#define TW_SR_GCALL_DATA_ACK 0x90
+
+
+
+
+#define TW_SR_GCALL_DATA_NACK 0x98
+
+
+
+
+#define TW_SR_STOP 0xA0
+
+
+
+
+
+#define TW_NO_INFO 0xF8
+
+
+
+
+#define TW_BUS_ERROR 0x00
+# 210 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\twi.h" 3
+#define TW_STATUS_MASK (_BV(TWS7)|_BV(TWS6)|_BV(TWS5)|_BV(TWS4)| _BV(TWS3))
+
+
+
+
+
+
+
+#define TW_STATUS (TWSR & TW_STATUS_MASK)
+# 229 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\twi.h" 3
+#define TW_READ 1
+
+
+
+
+#define TW_WRITE 0
+# 37 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\compat\\twi.h" 2 3
+# 16 "../i2chw/twimastertimeout.c" 2
+
+# 1 "../i2chw/i2cmaster.h" 1
+
+#define _I2CMASTER_H 1
+# 91 "../i2chw/i2cmaster.h"
+#define I2C_READ 1
+
+
+#define I2C_WRITE 0
+
+
+
+
+
+
+
+extern void i2c_init(void);
+
+
+
+
+
+
+
+extern void i2c_stop(void);
+# 120 "../i2chw/i2cmaster.h"
+extern unsigned char i2c_start(unsigned char addr);
+# 130 "../i2chw/i2cmaster.h"
+extern unsigned char i2c_rep_start(unsigned char addr);
+# 140 "../i2chw/i2cmaster.h"
+extern void i2c_start_wait(unsigned char addr);
+# 149 "../i2chw/i2cmaster.h"
+extern unsigned char i2c_write(unsigned char data);
+
+
+
+
+
+
+extern unsigned char i2c_readAck(void);
+
+
+
+
+
+extern unsigned char i2c_readNak(void);
+# 173 "../i2chw/i2cmaster.h"
+extern unsigned char i2c_read(unsigned char ack);
+#define i2c_read(ack) (ack) ? i2c_readAck() : i2c_readNak();
+# 18 "../i2chw/twimastertimeout.c" 2
+
+
+
+
+#define F_CPU 4000000UL
+
+
+
+#define SCL_CLOCK 100000L
+
+
+#define I2C_TIMER_DELAY 0xFF
+
+
+
+
+void i2c_init(void)
 {
-    __asm__ __volatile__ ("sei" ::: "memory");
-    return 1;
-}
 
-static __inline__ uint8_t __iCliRetVal(void)
-{
-    __asm__ __volatile__ ("cli" ::: "memory");
-    return 1;
-}
 
-static __inline__ void __iSeiParam(const uint8_t *__s)
-{
-    __asm__ __volatile__ ("sei" ::: "memory");
-    __asm__ volatile ("" ::: "memory");
-    (void)__s;
-}
-
-static __inline__ void __iCliParam(const uint8_t *__s)
-{
-    __asm__ __volatile__ ("cli" ::: "memory");
-    __asm__ volatile ("" ::: "memory");
-    (void)__s;
-}
-
-static __inline__ void __iRestore(const uint8_t *__s)
-{
-    (*(volatile uint8_t *)((0x3F) + 0x20)) = *__s;
-    __asm__ volatile ("" ::: "memory");
-}
-# 205 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define ATOMIC_BLOCK(type) for ( type, __ToDo = __iCliRetVal(); __ToDo ; __ToDo = 0 )
-# 226 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define NONATOMIC_BLOCK(type) for ( type, __ToDo = __iSeiRetVal(); __ToDo ; __ToDo = 0 )
-# 244 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define ATOMIC_RESTORESTATE uint8_t sreg_save __attribute__((__cleanup__(__iRestore))) = SREG
-# 265 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define ATOMIC_FORCEON uint8_t sreg_save __attribute__((__cleanup__(__iSeiParam))) = 0
-# 283 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define NONATOMIC_RESTORESTATE uint8_t sreg_save __attribute__((__cleanup__(__iRestore))) = SREG
-# 304 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\util\\atomic.h" 3
-#define NONATOMIC_FORCEOFF uint8_t sreg_save __attribute__((__cleanup__(__iCliParam))) = 0
-# 29 "../include/global.h" 2
-# 1 "../include/hardware.h" 1
-# 12 "../include/hardware.h"
-#define HARDWARE_H_ 
-
-
-
-typedef struct
-{
- unsigned int bit0 : 1;
- unsigned int bit1 : 1;
- unsigned int bit2 : 1;
- unsigned int bit3 : 1;
- unsigned int bit4 : 1;
- unsigned int bit5 : 1;
- unsigned int bit6 : 1;
- unsigned int bit7 : 1;
-} volatile _bitreg8;
-
-#define _REG_BIT2(r,b) ((*(_bitreg8*)&r).bit ## b)
-#define _REG_BIT(r,b) _REG_BIT2(r,b)
-
-#define OUTPUT 1
-#define INPUT 0
-
-
-#define LED_PORT PORTB
-#define LED_DDR DDRB
-#define LED_PIN PINB
-#define LED_BIT 3
-#define LED _REG_BIT(LED_PORT, LED_BIT)
-#define LED_DIR _REG_BIT(LED_DDR, LED_BIT)
-#define LED_TOGGLE (_REG_BIT(LED_PIN, LED_BIT) = 1)
-
-
-#define LCD_PORT PORTD
-#define LCD_DDR DDRD
-#define LCD_PIN PIND
-#define LCD_CS_BIT 5
-#define LCD_RST_BIT 6
-#define LCD_A0_BIT 7
-#define LCD_SCL_BIT 4
-#define LCD_SDA_BIT 1
-#define LCD_CS _REG_BIT(LCD_PORT, LCD_CS_BIT)
-#define LCD_RST _REG_BIT(LCD_PORT, LCD_RST_BIT)
-#define LCD_A0 _REG_BIT(LCD_PORT, LCD_A0_BIT)
-#define LCD_SCL _REG_BIT(LCD_PORT, LCD_SCL_BIT)
-#define LCD_SDA _REG_BIT(LCD_PORT, LCD_SDA_BIT)
-#define LCD_CS_DIR _REG_BIT(LCD_DDR, LCD_CS_BIT)
-#define LCD_RST_DIR _REG_BIT(LCD_DDR, LCD_RST_BIT)
-#define LCD_A0_DIR _REG_BIT(LCD_DDR, LCD_A0_BIT)
-#define LCD_SCL_DIR _REG_BIT(LCD_DDR, LCD_SCL_BIT)
-#define LCD_SDA_DIR _REG_BIT(LCD_DDR, LCD_SDA_BIT)
-
-
-#define ADC_GYR_X 4
-#define ADC_GYR_Y 1
-#define ADC_GYR_Z 2
-#define ADC_ACC_X 5
-#define ADC_ACC_Y 6
-#define ADC_ACC_Z 7
-#define ADC_VBAT 3
-
-
-
-#define RX_AIL_DDR DDRD
-#define RX_AIL_PIN PIND
-#define RX_AIL_BIT 3
-#define RX_AIL _REG_BIT(RX_AIL_PIN, RX_AIL_BIT)
-#define RX_AIL_DIR _REG_BIT(RX_AIL_DDR, RX_AIL_BIT)
-
-#define RX_ELE_DDR DDRD
-#define RX_ELE_PIN PIND
-#define RX_ELE_BIT 2
-#define RX_ELE _REG_BIT(RX_ELE_PIN, RX_ELE_BIT)
-#define RX_ELE_DIR _REG_BIT(RX_ELE_DDR, RX_ELE_BIT)
-
-#define RX_THR_DDR DDRD
-#define RX_THR_PIN PIND
-#define RX_THR_BIT 0
-#define RX_THR _REG_BIT(RX_THR_PIN, RX_THR_BIT)
-#define RX_THR_DIR _REG_BIT(RX_THR_DDR, RX_THR_BIT)
-
-#define RX_RUD_DDR DDRB
-#define RX_RUD_PIN PINB
-#define RX_RUD_BIT 2
-#define RX_RUD _REG_BIT(RX_RUD_PIN, RX_RUD_BIT)
-#define RX_RUD_DIR _REG_BIT(RX_RUD_DDR, RX_RUD_BIT)
-
-#define RX_AUX_DDR DDRB
-#define RX_AUX_PIN PINB
-#define RX_AUX_BIT 0
-#define RX_AUX _REG_BIT(RX_AUX_PIN, RX_AUX_BIT)
-#define RX_AUX_DIR _REG_BIT(RX_AUX_DDR, RX_AUX_BIT)
-
-#define RX_CHANNELS 8
-#define PWM_MIN 900
-#define PWM_LOW 1100
-#define PWM_MID 1520
-#define PWM_MAX 2100
-#define PWM_CAL_RANGE 100
-#define PPM_SYNC_LENGTH 3000
-#define LO_RATE_CYCLE 20
-#define RX_THRESHOLD 75
-#define ARM_DELAY 2000
-#define DISARM_DELAY 60000
-
-
-#define OUTPUTS 8
-#define OUT_PORT PORTC
-#define OUT_DDR DDRC
-#define OUT1_BIT 6
-#define OUT1 _REG_BIT(OUT_PORT, OUT1_BIT)
-#define OUT2_BIT 4
-#define OUT2 _REG_BIT(OUT_PORT, OUT2_BIT)
-#define OUT3_BIT 2
-#define OUT3 _REG_BIT(OUT_PORT, OUT3_BIT)
-#define OUT4_BIT 3
-#define OUT4 _REG_BIT(OUT_PORT, OUT4_BIT)
-#define OUT5_BIT 1
-#define OUT5 _REG_BIT(OUT_PORT, OUT5_BIT)
-#define OUT6_BIT 0
-#define OUT6 _REG_BIT(OUT_PORT, OUT6_BIT)
-#define OUT7_BIT 5
-#define OUT7 _REG_BIT(OUT_PORT, OUT7_BIT)
-#define OUT8_BIT 7
-#define OUT8 _REG_BIT(OUT_PORT, OUT8_BIT)
-
-
-
-#define KEYBOARD_PORT PORTB
-#define KEYBOARD_DDR DDRB
-#define KEYBOARD_PIN PINB
-#define KEY_S1_BIT 7
-#define KEY_S2_BIT 6
-#define KEY_S3_BIT 5
-#define KEY_S4_BIT 4
-
-
-#define BUZZER_PORT PORTB
-#define BUZZER_DDR DDRB
-#define BUZZER_PIN PINB
-#define BUZZER_BIT 1
-#define BUZZER_DIR _REG_BIT(BUZZER_DDR, BUZZER_BIT)
-#define BUZZER _REG_BIT(BUZZER_PORT, BUZZER_BIT)
-#define BUZZER_TOGGLE (_REG_BIT(BUZZER_PIN, BUZZER_BIT) = 1)
-
-
-#define PRR1 _SFR_MEM8(0x65)
-#define PRTIM3 0
-# 30 "../include/global.h" 2
-# 1 "../include/config.h" 1
-# 12 "../include/config.h"
-#define CONFIG_H_ 
-
-# 1 "../include/global.h" 1
-# 15 "../include/config.h" 2
-# 1 "../include/mixer.h" 1
-# 12 "../include/mixer.h"
-#define MIXER_H_ 
-
-#define FLAG_NONE 0
-#define FLAG_SERVO 2
-#define FLAG_ESC 1
-#define FLAG_HIGH 4
-
-typedef union
-{
- int8_t I8[6];
- struct
- {
-  int8_t Throttle;
-  int8_t Aileron;
-  int8_t Elevator;
-  int8_t Rudder;
-  int8_t Offset;
-  union
-  {
-   uint8_t Flags;
-   struct
-   {
-    uint8_t IsMotor : 1;
-    uint8_t IsServo : 1;
-    uint8_t IsHiRate : 1;
-   };
-  };
- };
-} mixer_channel_t;
-
-
-typedef struct
-{
- const char *Name;
- uint8_t Channels;
- mixer_channel_t Channel[];
-} model_t;
-
-
-typedef mixer_channel_t mixer_t[8];
-
-#define MODEL_TABLE_LEN 22
-extern const model_t* const modelTable[22];
-extern uint16_t MIXER[8];
-
-void mixerInit();
-void mixerLoadModel(uint8_t index);
-void mixerCalculate();
-void mixerOutput();
-# 16 "../include/config.h" 2
-# 1 "../include/pid.h" 1
-# 10 "../include/pid.h"
-#define PID_H_ 
-
-typedef union
-{
- struct
- {
-  uint8_t PGain;
-  uint8_t PLimit;
-  uint8_t IGain;
-  uint8_t ILimit;
- };
- uint8_t UI8[4];
-} pid_param_t;
-
-typedef struct
-{
- int16_t Integral;
- int16_t Error;
-} pid_state_t;
-# 17 "../include/config.h" 2
-
-typedef struct
-{
- int8_t RollGain;
- int8_t RollOffset;
- int8_t PitchGain;
- int8_t PitchOffset;
-} camera_t;
-
-typedef struct
-{
- uint8_t signature;
- uint16_t RX_zero[8];
- uint8_t RX_chmap[8];
- uint16_t GYRO_zero[3];
- uint16_t ACC_zero[3];
- uint8_t CalibrateFlags;
- pid_param_t PID[3];
-
-#define SELFLEVEL_STICK 0
-#define SELFLEVEL_AUX 1
-#define SELFLEVEL_ON 2
- uint8_t SelfLevelMode;
-
- uint8_t ArmingMode;
- uint8_t AutoDisarm;
- uint8_t LinkRollPitch;
- uint8_t ReceiverMode;
- uint8_t MixerIndex;
- uint8_t StickScaling[4];
- uint8_t MinThrottle;
- uint8_t LCDContrast;
- uint8_t HeightDampening;
- uint8_t HeightDampeningLimit;
- uint8_t LVA;
- uint8_t ServoFilter;
- pid_param_t PID_SelfLevel;
- int8_t AccTrim[2];
- mixer_t Mixer;
- camera_t Camera;
-} config_t;
-
-extern config_t Config;
-
-void configInit();
-void configLoad();
-void configSave();
-void configReset();
-# 31 "../include/global.h" 2
-
-
-#define THROTTLE_OFF 5
-
-typedef struct
-{
- uint8_t Armed;
- uint8_t ThrottleOff;
- uint8_t SelfLevel;
- uint8_t Aux1;
- uint8_t Aux2;
- uint8_t Aux3;
- uint8_t Aux4;
-
-#define ERR_NOT_CALIBRATED 0x80
-#define ERR_NO_ROLL 0x01
-#define ERR_NO_PITCH 0x02
-#define ERR_NO_YAW 0x04
-#define ERR_NO_THR 0x08
-#define ERR_NO_RX (ERR_NO_ROLL | ERR_NO_PITCH | ERR_NO_YAW | ERR_NO_THR)
- uint8_t Error;
-
-#define MODE_NORMAL 0
-#define MODE_ESC_CAL 1
- uint8_t Mode;
-
- uint16_t CycleTime;
- uint16_t CalculationTime;
-} state_t;
-
-extern state_t State;
-void arm(uint8_t);
-# 11 "../src/mixer.c" 2
-# 1 "../include/mixer.h" 1
-# 12 "../src/mixer.c" 2
-# 1 "../include/rx.h" 1
-# 12 "../include/rx.h"
-#define RX_H_ 
-
-extern int16_t RX[8];
-extern uint16_t RX_raw[8];
-extern uint8_t RX_good;
-
-#define RX_MODE_PWM 0
-#define RX_MODE_CPPM 1
-
-#define AIL 0
-#define ELE 1
-#define RUD 2
-#define THR 3
-#define AX1 4
-#define AX2 5
-#define AX3 6
-#define AX4 7
-
-void rxInit(uint8_t mode);
-void rxRead();
-uint8_t rxCalibrate();
-# 13 "../src/mixer.c" 2
-# 1 "../include/controller.h" 1
-# 10 "../include/controller.h"
-#define CONTROLLER_H_ 
-
-extern int16_t CONTROL[4];
-
-void controllerReset();
-void controllerCalculate();
-int16_t limit(int16_t value, int16_t low, int16_t high);
-# 14 "../src/mixer.c" 2
-
-# 1 "../include/pwm.h" 1
-# 12 "../include/pwm.h"
-#define PWM_H_ 
-
-void pwmInit();
-void pwmWrite(uint8_t channel, uint16_t value);
-void pwmEnable();
-void pwmDisable();
-# 16 "../src/mixer.c" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 1 3
-# 41 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
-#define _STRING_H_ 1
-
-#define __need_NULL 
-#define __need_size_t 
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
-# 184 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#define __size_t__ 
-#define __SIZE_T__ 
-#define _SIZE_T 
-#define _SYS_SIZE_T_H 
-#define _T_SIZE_ 
-#define _T_SIZE 
-#define __SIZE_T 
-#define _SIZE_T_ 
-#define _BSD_SIZE_T_ 
-#define _SIZE_T_DEFINED_ 
-#define _SIZE_T_DEFINED 
-#define _BSD_SIZE_T_DEFINED_ 
-#define _SIZE_T_DECLARED 
-#define ___int_size_t_h 
-#define _GCC_SIZE_T 
-#define _SIZET_ 
-
-
-
-
-
-
-#define __size_t 
-
-
-
-
-
-typedef unsigned int size_t;
-# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_size_t
-# 397 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef NULL
-
-
-
-
-#define NULL ((void *)0)
-
-
-
-
-
-#undef __need_NULL
-# 46 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 2 3
-
-
-#define __ATTR_PURE__ __attribute__((__pure__))
-
-
-
-#define __ATTR_CONST__ __attribute__((__const__))
-# 91 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
-#define _FFS(x) (1 + (((x) & 1) == 0) + (((x) & 3) == 0) + (((x) & 7) == 0) + (((x) & 017) == 0) + (((x) & 037) == 0) + (((x) & 077) == 0) + (((x) & 0177) == 0) + (((x) & 0377) == 0) + (((x) & 0777) == 0) + (((x) & 01777) == 0) + (((x) & 03777) == 0) + (((x) & 07777) == 0) + (((x) & 017777) == 0) + (((x) & 037777) == 0) + (((x) & 077777) == 0) - (((x) & 0177777) == 0) * 16)
-# 111 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\string.h" 3
-extern int ffs (int __val) __attribute__((__const__));
-extern int ffsl (long __val) __attribute__((__const__));
-extern int ffsll (long long __val) __attribute__((__const__));
-extern void *memccpy(void *, const void *, int, size_t);
-extern void *memchr(const void *, int, size_t) __attribute__((__pure__));
-extern int memcmp(const void *, const void *, size_t) __attribute__((__pure__));
-extern void *memcpy(void *, const void *, size_t);
-extern void *memmem(const void *, size_t, const void *, size_t) __attribute__((__pure__));
-extern void *memmove(void *, const void *, size_t);
-extern void *memrchr(const void *, int, size_t) __attribute__((__pure__));
-extern void *memset(void *, int, size_t);
-extern char *strcat(char *, const char *);
-extern char *strchr(const char *, int) __attribute__((__pure__));
-extern char *strchrnul(const char *, int) __attribute__((__pure__));
-extern int strcmp(const char *, const char *) __attribute__((__pure__));
-extern char *strcpy(char *, const char *);
-extern int strcasecmp(const char *, const char *) __attribute__((__pure__));
-extern char *strcasestr(const char *, const char *) __attribute__((__pure__));
-extern size_t strcspn(const char *__s, const char *__reject) __attribute__((__pure__));
-extern char *strdup(const char *s1);
-extern size_t strlcat(char *, const char *, size_t);
-extern size_t strlcpy(char *, const char *, size_t);
-extern size_t strlen(const char *) __attribute__((__pure__));
-extern char *strlwr(char *);
-extern char *strncat(char *, const char *, size_t);
-extern int strncmp(const char *, const char *, size_t) __attribute__((__pure__));
-extern char *strncpy(char *, const char *, size_t);
-extern int strncasecmp(const char *, const char *, size_t) __attribute__((__pure__));
-extern size_t strnlen(const char *, size_t) __attribute__((__pure__));
-extern char *strpbrk(const char *__s, const char *__accept) __attribute__((__pure__));
-extern char *strrchr(const char *, int) __attribute__((__pure__));
-extern char *strrev(char *);
-extern char *strsep(char **, const char *);
-extern size_t strspn(const char *__s, const char *__accept) __attribute__((__pure__));
-extern char *strstr(const char *, const char *) __attribute__((__pure__));
-extern char *strtok(char *, const char *);
-extern char *strtok_r(char *, const char *, char **);
-extern char *strupr(char *);
-# 17 "../src/mixer.c" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 1 3
-# 83 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __PGMSPACE_H_ 1
-
-#define __need_size_t 
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
-# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_size_t
-# 408 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_NULL
-# 88 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 2 3
-
-
-
-
-
-
-
-#define __ATTR_PROGMEM__ __attribute__((__progmem__))
-# 109 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define PROGMEM __ATTR_PROGMEM__
-# 374 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define PGM_P const char *
-
-
-
-#define PGM_VOID_P const void *
-# 404 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define PSTR(s) (__extension__({static const char __c[] PROGMEM = (s); &__c[0];}))
-
-
-#define __LPM_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint8_t __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %0, r0" "\n\t" : "=r" (__result) : "z" (__addr16) : "r0" ); __result; }))
-# 422 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; uint8_t __result; __asm__ ( "ld %0, z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }))
-# 435 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }))
-# 448 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_word_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint16_t __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %A0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %B0, r0" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) : "r0" ); __result; }))
-# 466 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_word_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; uint16_t __result; __asm__ ( "ld %A0, z+" "\n\t" "ld %B0, z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 480 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_word_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 494 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_dword_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint32_t __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %A0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %B0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %C0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %D0, r0" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) : "r0" ); __result; }))
-# 518 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_dword_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; uint32_t __result; __asm__ ( "ld %A0, z+" "\n\t" "ld %B0, z+" "\n\t" "ld %C0, z+" "\n\t" "ld %D0, z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 534 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_dword_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint32_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z+" "\n\t" "lpm %C0, Z+" "\n\t" "lpm %D0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 550 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_float_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); float __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %A0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %B0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %C0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %D0, r0" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) : "r0" ); __result; }))
-# 574 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_float_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; float __result; __asm__ ( "ld %A0, z+" "\n\t" "ld %B0, z+" "\n\t" "ld %C0, z+" "\n\t" "ld %D0, z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 590 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_float_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); float __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z+" "\n\t" "lpm %C0, Z+" "\n\t" "lpm %D0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 607 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM(addr) __LPM_enhanced__(addr)
-#define __LPM_word(addr) __LPM_word_enhanced__(addr)
-#define __LPM_dword(addr) __LPM_dword_enhanced__(addr)
-#define __LPM_float(addr) __LPM_float_enhanced__(addr)
-# 638 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_byte_near(address_short) __LPM((uint16_t)(address_short))
-
-
-
-
-
-
-
-#define pgm_read_word_near(address_short) __LPM_word((uint16_t)(address_short))
-
-
-
-
-
-
-
-#define pgm_read_dword_near(address_short) __LPM_dword((uint16_t)(address_short))
-# 663 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_float_near(address_short) __LPM_float((uint16_t)(address_short))
-# 672 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_ptr_near(address_short) (void*)__LPM_word((uint16_t)(address_short))
-# 1046 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_byte(address_short) pgm_read_byte_near(address_short)
-# 1055 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_word(address_short) pgm_read_word_near(address_short)
-# 1064 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_dword(address_short) pgm_read_dword_near(address_short)
-# 1073 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_float(address_short) pgm_read_float_near(address_short)
-# 1082 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_ptr(address_short) pgm_read_ptr_near(address_short)
-# 1117 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_get_far_address(var) ({ uint_farptr_t tmp; __asm__ __volatile__( "ldi	%A0, lo8(%1)" "\n\t" "ldi	%B0, hi8(%1)" "\n\t" "ldi	%C0, hh8(%1)" "\n\t" "clr	%D0" "\n\t" : "=d" (tmp) : "p" (&(var)) ); tmp; })
-# 1137 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-extern const void * memchr_P(const void *, int __val, size_t __len) __attribute__((__const__));
-extern int memcmp_P(const void *, const void *, size_t) __attribute__((__pure__));
-extern void *memccpy_P(void *, const void *, int __val, size_t);
-extern void *memcpy_P(void *, const void *, size_t);
-extern void *memmem_P(const void *, size_t, const void *, size_t) __attribute__((__pure__));
-extern const void * memrchr_P(const void *, int __val, size_t __len) __attribute__((__const__));
-extern char *strcat_P(char *, const char *);
-extern const char * strchr_P(const char *, int __val) __attribute__((__const__));
-extern const char * strchrnul_P(const char *, int __val) __attribute__((__const__));
-extern int strcmp_P(const char *, const char *) __attribute__((__pure__));
-extern char *strcpy_P(char *, const char *);
-extern int strcasecmp_P(const char *, const char *) __attribute__((__pure__));
-extern char *strcasestr_P(const char *, const char *) __attribute__((__pure__));
-extern size_t strcspn_P(const char *__s, const char * __reject) __attribute__((__pure__));
-extern size_t strlcat_P (char *, const char *, size_t );
-extern size_t strlcpy_P (char *, const char *, size_t );
-extern size_t __strlen_P(const char *) __attribute__((__const__));
-extern size_t strnlen_P(const char *, size_t) __attribute__((__const__));
-extern int strncmp_P(const char *, const char *, size_t) __attribute__((__pure__));
-extern int strncasecmp_P(const char *, const char *, size_t) __attribute__((__pure__));
-extern char *strncat_P(char *, const char *, size_t);
-extern char *strncpy_P(char *, const char *, size_t);
-extern char *strpbrk_P(const char *__s, const char * __accept) __attribute__((__pure__));
-extern const char * strrchr_P(const char *, int __val) __attribute__((__const__));
-extern char *strsep_P(char **__sp, const char * __delim);
-extern size_t strspn_P(const char *__s, const char * __accept) __attribute__((__pure__));
-extern char *strstr_P(const char *, const char *) __attribute__((__pure__));
-extern char *strtok_P(char *__s, const char * __delim);
-extern char *strtok_rP(char *__s, const char * __delim, char **__last);
-
-extern size_t strlen_PF (uint_farptr_t src) __attribute__((__const__));
-extern size_t strnlen_PF (uint_farptr_t src, size_t len) __attribute__((__const__));
-extern void *memcpy_PF (void *dest, uint_farptr_t src, size_t len);
-extern char *strcpy_PF (char *dest, uint_farptr_t src);
-extern char *strncpy_PF (char *dest, uint_farptr_t src, size_t len);
-extern char *strcat_PF (char *dest, uint_farptr_t src);
-extern size_t strlcat_PF (char *dst, uint_farptr_t src, size_t siz);
-extern char *strncat_PF (char *dest, uint_farptr_t src, size_t len);
-extern int strcmp_PF (const char *s1, uint_farptr_t s2) __attribute__((__pure__));
-extern int strncmp_PF (const char *s1, uint_farptr_t s2, size_t n) __attribute__((__pure__));
-extern int strcasecmp_PF (const char *s1, uint_farptr_t s2) __attribute__((__pure__));
-extern int strncasecmp_PF (const char *s1, uint_farptr_t s2, size_t n) __attribute__((__pure__));
-extern char *strstr_PF (const char *s1, uint_farptr_t s2);
-extern size_t strlcpy_PF (char *dst, uint_farptr_t src, size_t siz);
-extern int memcmp_PF(const void *, uint_farptr_t, size_t) __attribute__((__pure__));
-
-
-__attribute__((__always_inline__)) static inline size_t strlen_P(const char * s);
-static inline size_t strlen_P(const char *s) {
-  return __builtin_constant_p(__builtin_strlen(s))
-     ? __builtin_strlen(s) : __strlen_P(s);
-}
-# 18 "../src/mixer.c" 2
-
-#define max(a,b) ((a)>(b)?(a):(b))
-
-
-uint16_t MIXER[8];
-extern int16_t CHANNELS[4];
-
-void mixerInit()
-{
+  (*(volatile uint8_t *)(0xB9)) = 0;
+  (*(volatile uint8_t *)(0xB8)) = ((4000000UL/100000L)-16)/2;
 
 }
 
-void mixerLoadModel(uint8_t index)
+
+
+
+
+
+unsigned char i2c_start(unsigned char address)
 {
- uint8_t channels;
- model_t* pmodel;
- pmodel = (void*)(__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(&modelTable[index])); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }));
- channels = (uint8_t)(__extension__({ uint16_t __addr16 = (uint16_t)((uint16_t)(&pmodel->Channels)); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }));
- memset(&Config.Mixer, 0, sizeof(Config.Mixer));
- memcpy_P(&Config.Mixer, &pmodel->Channel, (uint8_t)(channels * sizeof(*pmodel->Channel)));
- Config.MixerIndex = index;
+ uint32_t i2c_timer = 0;
+    uint8_t twst;
+
+
+ (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<5) | (1<<2);
+
+
+ i2c_timer = 0xFF;
+ while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+ if(i2c_timer == 0)
+  return 1;
+
+
+ twst = ((*(volatile uint8_t *)(0xB9)) & ((1 << (7))|(1 << (6))|(1 << (5))|(1 << (4))| (1 << (3)))) & 0xF8;
+ if ( (twst != 0x08) && (twst != 0x10)) return 1;
+
+
+ (*(volatile uint8_t *)(0xBB)) = address;
+ (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2);
+
+
+ i2c_timer = 0xFF;
+ while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+ if(i2c_timer == 0)
+  return 1;
+
+
+ twst = ((*(volatile uint8_t *)(0xB9)) & ((1 << (7))|(1 << (6))|(1 << (5))|(1 << (4))| (1 << (3)))) & 0xF8;
+ if ( (twst != 0x18) && (twst != 0x40) ) return 1;
+
+ return 0;
+
+}
+# 91 "../i2chw/twimastertimeout.c"
+void i2c_start_wait(unsigned char address)
+{
+ uint32_t i2c_timer = 0;
+ uint8_t twst;
+
+    while ( 1 )
+    {
+
+     (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<5) | (1<<2);
+
+
+     i2c_timer = 0xFF;
+     while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+
+
+     twst = ((*(volatile uint8_t *)(0xB9)) & ((1 << (7))|(1 << (6))|(1 << (5))|(1 << (4))| (1 << (3)))) & 0xF8;
+     if ( (twst != 0x08) && (twst != 0x10)) continue;
+
+
+     (*(volatile uint8_t *)(0xBB)) = address;
+     (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2);
+
+
+     i2c_timer = 0xFF;
+     while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+
+
+     twst = ((*(volatile uint8_t *)(0xB9)) & ((1 << (7))|(1 << (6))|(1 << (5))|(1 << (4))| (1 << (3)))) & 0xF8;
+     if ( (twst == 0x20 )||(twst ==0x58) )
+     {
+
+         (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2) | (1<<4);
+
+
+         i2c_timer = 0xFF;
+         while(((*(volatile uint8_t *)(0xBC)) & (1<<4)) && i2c_timer--);
+
+         continue;
+     }
+
+     break;
+     }
+
+}
+# 145 "../i2chw/twimastertimeout.c"
+unsigned char i2c_rep_start(unsigned char address)
+{
+    return i2c_start( address );
+
 }
 
-void mixerCalculate()
+
+
+
+
+void i2c_stop(void)
 {
- int32_t r;
+ uint32_t i2c_timer = 0;
 
- for (uint8_t i = 0; i < 8; i++)
- {
-   if (Config.Mixer[i].Flags == 0)
-    MIXER[i] = 0;
-   else
-  {
-   if (Config.Mixer[i].IsServo)
-    r = 1520 - 1100;
-   else
-    r = 0;
 
-   r += (int32_t) CONTROL[0] * Config.Mixer[i].Aileron;
-   r += (int32_t) CONTROL[1] * Config.Mixer[i].Elevator;
-   r += (int32_t) CONTROL[2] * Config.Mixer[i].Rudder;
-   r += (int32_t) CONTROL[3] * Config.Mixer[i].Throttle;
-   r += (int32_t) ((1520 - 1100) * 32 / 50) * Config.Mixer[i].Offset;
-   MIXER[i] = limit(1100 + (r >> 5), 900, 2100);
-  }
- }
+ (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2) | (1<<4);
+
+
+ i2c_timer = 0xFF;
+ while(((*(volatile uint8_t *)(0xBC)) & (1<<4)) && i2c_timer--);
+
+}
+# 176 "../i2chw/twimastertimeout.c"
+unsigned char i2c_write( unsigned char data )
+{
+ uint32_t i2c_timer = 0;
+    uint8_t twst;
+
+
+ (*(volatile uint8_t *)(0xBB)) = data;
+ (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2);
+
+
+ i2c_timer = 0xFF;
+ while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+ if(i2c_timer == 0)
+  return 1;
+
+
+ twst = ((*(volatile uint8_t *)(0xB9)) & ((1 << (7))|(1 << (6))|(1 << (5))|(1 << (4))| (1 << (3)))) & 0xF8;
+ if( twst != 0x28) return 1;
+ return 0;
+
 }
 
-void mixerOutput()
+
+
+
+
+
+
+unsigned char i2c_readAck(void)
 {
- for (uint8_t i = 0; i < 8; i++)
- {
-  if (Config.Mixer[i].IsServo)
-   pwmWrite(i, MIXER[i]);
-  else if (Config.Mixer[i].IsMotor)
-  {
-   if (State.Armed && !State.ThrottleOff)
-    pwmWrite(i, ((MIXER[i])>(1100 + Config.MinThrottle * 10)?(MIXER[i]):(1100 + Config.MinThrottle * 10)));
-   else
-    pwmWrite(i, 1100);
-  }
-  else
-   pwmWrite(i, 0);
- }
+ uint32_t i2c_timer = 0;
+
+ (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2) | (1<<6);
+ i2c_timer = 0xFF;
+ while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+ if(i2c_timer == 0)
+  return 0;
+
+    return (*(volatile uint8_t *)(0xBB));
+
+}
+
+
+
+
+
+
+
+unsigned char i2c_readNak(void)
+{
+ uint32_t i2c_timer = 0;
+
+ (*(volatile uint8_t *)(0xBC)) = (1<<7) | (1<<2);
+ i2c_timer = 0xFF;
+ while(!((*(volatile uint8_t *)(0xBC)) & (1<<7)) && i2c_timer--);
+ if(i2c_timer == 0)
+  return 0;
+
+    return (*(volatile uint8_t *)(0xBB));
+
 }

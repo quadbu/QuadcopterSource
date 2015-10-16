@@ -1,882 +1,899 @@
-# 1 "../gfx/font4x6.c"
-# 1 "D:\\Other\\QuacopterSource\\trunk\\KK2-C-Source\\Debug Simulator//"
+# 1 "../mpu6050/mpu6050dmp6.c"
+# 1 "D:\\QuadcopterSource\\trunk\\KK2-C-Source\\Debug Simulator//"
 #define __STDC__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __STDC_VERSION__ 199901L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __STDC_UTF_16__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __STDC_UTF_32__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __STDC_HOSTED__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GNUC__ 4
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GNUC_MINOR__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GNUC_PATCHLEVEL__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __VERSION__ "4.8.1"
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ATOMIC_RELAXED 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ATOMIC_SEQ_CST 5
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ATOMIC_ACQUIRE 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ATOMIC_RELEASE 3
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ATOMIC_ACQ_REL 4
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ATOMIC_CONSUME 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __OPTIMIZE_SIZE__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __OPTIMIZE__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FAST_MATH__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FINITE_MATH_ONLY__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_INT__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_LONG__ 4
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_LONG_LONG__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_SHORT__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_FLOAT__ 4
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_DOUBLE__ 4
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_LONG_DOUBLE__ 4
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_SIZE_T__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __CHAR_BIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BIGGEST_ALIGNMENT__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ORDER_LITTLE_ENDIAN__ 1234
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ORDER_BIG_ENDIAN__ 4321
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ORDER_PDP_ENDIAN__ 3412
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BYTE_ORDER__ __ORDER_LITTLE_ENDIAN__
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_POINTER__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZE_TYPE__ unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __PTRDIFF_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WCHAR_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WINT_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INTMAX_TYPE__ long long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINTMAX_TYPE__ long long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __CHAR16_TYPE__ unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __CHAR32_TYPE__ long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIG_ATOMIC_TYPE__ char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT8_TYPE__ signed char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT16_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT32_TYPE__ long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT64_TYPE__ long long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT8_TYPE__ unsigned char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT16_TYPE__ unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT32_TYPE__ long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT64_TYPE__ long long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST8_TYPE__ signed char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST16_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST32_TYPE__ long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST64_TYPE__ long long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST8_TYPE__ unsigned char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST16_TYPE__ unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST32_TYPE__ long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST64_TYPE__ long long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST8_TYPE__ signed char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST16_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST32_TYPE__ long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST64_TYPE__ long long int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST8_TYPE__ unsigned char
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST16_TYPE__ unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST32_TYPE__ long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST64_TYPE__ long long unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INTPTR_TYPE__ int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINTPTR_TYPE__ unsigned int
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GXX_ABI_VERSION 1002
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USING_SJLJ_EXCEPTIONS__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SCHAR_MAX__ 127
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SHRT_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LONG_MAX__ 2147483647L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LONG_LONG_MAX__ 9223372036854775807LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WCHAR_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WCHAR_MIN__ (-__WCHAR_MAX__ - 1)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WINT_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WINT_MIN__ (-__WINT_MAX__ - 1)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __PTRDIFF_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZE_MAX__ 65535U
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INTMAX_MAX__ 9223372036854775807LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INTMAX_C(c) c ## LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINTMAX_MAX__ 18446744073709551615ULL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINTMAX_C(c) c ## ULL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIG_ATOMIC_MAX__ 255
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIG_ATOMIC_MIN__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT8_MAX__ 127
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT16_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT32_MAX__ 2147483647L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT64_MAX__ 9223372036854775807LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT8_MAX__ 255
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT16_MAX__ 65535U
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT32_MAX__ 4294967295UL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT64_MAX__ 18446744073709551615ULL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST8_MAX__ 127
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT8_C(c) c
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST16_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT16_C(c) c
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST32_MAX__ 2147483647L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT32_C(c) c ## L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_LEAST64_MAX__ 9223372036854775807LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT64_C(c) c ## LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST8_MAX__ 255
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT8_C(c) c
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST16_MAX__ 65535U
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT16_C(c) c ## U
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST32_MAX__ 4294967295UL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT32_C(c) c ## UL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_LEAST64_MAX__ 18446744073709551615ULL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT64_C(c) c ## ULL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST8_MAX__ 127
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST16_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST32_MAX__ 2147483647L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT_FAST64_MAX__ 9223372036854775807LL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST8_MAX__ 255
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST16_MAX__ 65535U
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST32_MAX__ 4294967295UL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT_FAST64_MAX__ 18446744073709551615ULL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INTPTR_MAX__ 32767
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINTPTR_MAX__ 65535U
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_EVAL_METHOD__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC_EVAL_METHOD__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_RADIX__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MANT_DIG__ 24
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_DIG__ 6
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MIN_EXP__ (-125)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MIN_10_EXP__ (-37)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MAX_EXP__ 128
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MAX_10_EXP__ 38
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_DECIMAL_DIG__ 9
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MAX__ 3.40282347e+38F
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_MIN__ 1.17549435e-38F
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_EPSILON__ 1.19209290e-7F
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_DENORM_MIN__ 1.40129846e-45F
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_HAS_DENORM__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_HAS_INFINITY__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLT_HAS_QUIET_NAN__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MANT_DIG__ 24
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_DIG__ 6
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MIN_EXP__ (-125)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MIN_10_EXP__ (-37)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MAX_EXP__ 128
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MAX_10_EXP__ 38
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_DECIMAL_DIG__ 9
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MAX__ ((double)3.40282347e+38L)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_MIN__ ((double)1.17549435e-38L)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_EPSILON__ ((double)1.19209290e-7L)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_DENORM_MIN__ ((double)1.40129846e-45L)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_HAS_DENORM__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_HAS_INFINITY__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DBL_HAS_QUIET_NAN__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MANT_DIG__ 24
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_DIG__ 6
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MIN_EXP__ (-125)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MIN_10_EXP__ (-37)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MAX_EXP__ 128
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MAX_10_EXP__ 38
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DECIMAL_DIG__ 9
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MAX__ 3.40282347e+38L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_MIN__ 1.17549435e-38L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_EPSILON__ 1.19209290e-7L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_DENORM_MIN__ 1.40129846e-45L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_HAS_DENORM__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_HAS_INFINITY__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LDBL_HAS_QUIET_NAN__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_MANT_DIG__ 7
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_MIN_EXP__ (-94)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_MAX_EXP__ 97
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_MIN__ 1E-95DF
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_MAX__ 9.999999E96DF
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_EPSILON__ 1E-6DF
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC32_SUBNORMAL_MIN__ 0.000001E-95DF
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_MANT_DIG__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_MIN_EXP__ (-382)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_MAX_EXP__ 385
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_MIN__ 1E-383DD
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_MAX__ 9.999999999999999E384DD
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_EPSILON__ 1E-15DD
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC64_SUBNORMAL_MIN__ 0.000000000000001E-383DD
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_MANT_DIG__ 34
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_MIN_EXP__ (-6142)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_MAX_EXP__ 6145
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_MIN__ 1E-6143DL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_EPSILON__ 1E-33DL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DEC128_SUBNORMAL_MIN__ 0.000000000000000000000000000000001E-6143DL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SFRACT_FBIT__ 7
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SFRACT_MIN__ (-0.5HR-0.5HR)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SFRACT_MAX__ 0X7FP-7HR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SFRACT_EPSILON__ 0x1P-7HR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USFRACT_FBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USFRACT_MIN__ 0.0UHR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USFRACT_MAX__ 0XFFP-8UHR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USFRACT_EPSILON__ 0x1P-8UHR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FRACT_FBIT__ 15
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FRACT_MIN__ (-0.5R-0.5R)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FRACT_MAX__ 0X7FFFP-15R
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FRACT_EPSILON__ 0x1P-15R
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UFRACT_FBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UFRACT_MIN__ 0.0UR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UFRACT_MAX__ 0XFFFFP-16UR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UFRACT_EPSILON__ 0x1P-16UR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LFRACT_FBIT__ 31
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LFRACT_MIN__ (-0.5LR-0.5LR)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LFRACT_MAX__ 0X7FFFFFFFP-31LR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LFRACT_EPSILON__ 0x1P-31LR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULFRACT_FBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULFRACT_MIN__ 0.0ULR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULFRACT_MAX__ 0XFFFFFFFFP-32ULR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULFRACT_EPSILON__ 0x1P-32ULR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLFRACT_FBIT__ 63
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLFRACT_MIN__ (-0.5LLR-0.5LLR)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLFRACT_MAX__ 0X7FFFFFFFFFFFFFFFP-63LLR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLFRACT_EPSILON__ 0x1P-63LLR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLFRACT_FBIT__ 64
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLFRACT_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLFRACT_MIN__ 0.0ULLR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLFRACT_MAX__ 0XFFFFFFFFFFFFFFFFP-64ULLR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLFRACT_EPSILON__ 0x1P-64ULLR
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SACCUM_FBIT__ 7
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SACCUM_IBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SACCUM_MIN__ (-0X1P7HK-0X1P7HK)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SACCUM_MAX__ 0X7FFFP-7HK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SACCUM_EPSILON__ 0x1P-7HK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USACCUM_FBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USACCUM_IBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USACCUM_MIN__ 0.0UHK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USACCUM_MAX__ 0XFFFFP-8UHK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USACCUM_EPSILON__ 0x1P-8UHK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ACCUM_FBIT__ 15
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ACCUM_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ACCUM_MIN__ (-0X1P15K-0X1P15K)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ACCUM_MAX__ 0X7FFFFFFFP-15K
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ACCUM_EPSILON__ 0x1P-15K
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UACCUM_FBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UACCUM_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UACCUM_MIN__ 0.0UK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UACCUM_MAX__ 0XFFFFFFFFP-16UK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UACCUM_EPSILON__ 0x1P-16UK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LACCUM_FBIT__ 31
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LACCUM_IBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LACCUM_MIN__ (-0X1P31LK-0X1P31LK)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-31LK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LACCUM_EPSILON__ 0x1P-31LK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULACCUM_FBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULACCUM_IBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULACCUM_MIN__ 0.0ULK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-32ULK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULACCUM_EPSILON__ 0x1P-32ULK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLACCUM_FBIT__ 47
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLACCUM_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLACCUM_MIN__ (-0X1P15LLK-0X1P15LLK)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLACCUM_MAX__ 0X7FFFFFFFFFFFFFFFP-47LLK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __LLACCUM_EPSILON__ 0x1P-47LLK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLACCUM_FBIT__ 48
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLACCUM_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLACCUM_MIN__ 0.0ULLK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLACCUM_MAX__ 0XFFFFFFFFFFFFFFFFP-48ULLK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ULLACCUM_EPSILON__ 0x1P-48ULLK
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __QQ_FBIT__ 7
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __QQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __HQ_FBIT__ 15
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __HQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SQ_FBIT__ 31
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DQ_FBIT__ 63
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __TQ_FBIT__ 127
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __TQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UQQ_FBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UQQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UHQ_FBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UHQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USQ_FBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UDQ_FBIT__ 64
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UDQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UTQ_FBIT__ 128
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UTQ_IBIT__ 0
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __HA_FBIT__ 7
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __HA_IBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SA_FBIT__ 15
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SA_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DA_FBIT__ 31
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __DA_IBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __TA_FBIT__ 47
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __TA_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UHA_FBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UHA_IBIT__ 8
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USA_FBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USA_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UDA_FBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UDA_IBIT__ 32
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UTA_FBIT__ 48
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UTA_IBIT__ 16
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __REGISTER_PREFIX__ 
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __USER_LABEL_PREFIX__ 
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GNUC_STDC_INLINE__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __CHAR_UNSIGNED__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_BOOL_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_CHAR_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_CHAR16_T_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_CHAR32_T_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_WCHAR_T_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_SHORT_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_INT_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_LONG_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_LLONG_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_TEST_AND_SET_TRUEVAL 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_ATOMIC_POINTER_LOCK_FREE 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __GCC_HAVE_DWARF2_CFI_ASM 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __PRAGMA_REDEFINE_EXTNAME 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_WCHAR_T__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_WINT_T__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __SIZEOF_PTRDIFF_T__ 2
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define AVR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_ARCH__ 5
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_ATmega324PA__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_DEVICE_NAME__ atmega324pa
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_HAVE_MOVW__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_HAVE_LPMX__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_ENHANCED__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_HAVE_MUL__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_MEGA__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_HAVE_JMP_CALL__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_2_BYTE_PC__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_HAVE_16BIT_SP__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_HAVE_SPH__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __AVR_SFR_OFFSET__ 0x20
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __WITH_AVRLIBC__ 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __FLASH 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __MEMX 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_NOP 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_SEI 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_CLI 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_WDR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_SLEEP 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_SWAP 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_FMUL 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_FMULS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_FMULSU 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_DELAY_CYCLES 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_INSERT_BITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_FLASH_SEGMENT 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSLLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSLLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDLLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDUHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDUR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDULR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDULLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDLLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDUHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDUK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDULK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDULLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSLLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSUHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSUR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSULR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSULLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSLLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSUHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSUK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSULK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSULLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSLLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSUHR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSUR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSULR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSULLR 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSLLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSUHK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSUK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSULK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_BITSULLK 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_HRBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_RBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_LRBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_LLRBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_UHRBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_URBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ULRBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ULLRBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_HKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_KBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_LKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_LLKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_UHKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_UKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ULKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ULLKBITS 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ABSFX 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_ROUNDFX 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __BUILTIN_AVR_COUNTLSFX 1
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT24_MAX__ 8388607L
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __INT24_MIN__ (-__INT24_MAX__-1)
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __UINT24_MAX__ 16777215UL
-# 1 "../gfx/font4x6.c"
+# 1 "../mpu6050/mpu6050dmp6.c"
 #define __ELF__ 1
 # 1 "<command-line>"
 #define DEBUG 1
 #define SIMULATOR 1
-# 1 "../gfx/font4x6.c"
-# 10 "../gfx/font4x6.c"
-# 1 "../include/fonts.h" 1
-# 12 "../include/fonts.h"
-#define FONTS_H_ 
+# 1 "../mpu6050/mpu6050dmp6.c"
+# 19 "../mpu6050/mpu6050dmp6.c"
+# 1 "../mpu6050/mpu6050.h" 1
+# 18 "../mpu6050/mpu6050.h"
+#define MPU6050_H_ 
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 1 3
+# 97 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 3
+#define _AVR_IO_H_ 
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 1 3
+# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
+#define _AVR_SFR_DEFS_H_ 1
+# 121 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
+#define _SFR_ASM_COMPAT 0
+
+
+
+
+# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 1 3
+# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
+#define __INTTYPES_H_ 
 
 # 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h" 1 3 4
 # 9 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stdint.h" 3 4
@@ -1266,15 +1283,7 @@ typedef uint64_t uintmax_t;
 
 
 #define _GCC_WRAP_STDINT_H 
-# 15 "../include/fonts.h" 2
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 1 3
-# 83 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __PGMSPACE_H_ 1
-
-#define __need_size_t 
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 1 3
-# 35 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
-#define __INTTYPES_H_ 
+# 38 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 2 3
 # 77 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\inttypes.h" 3
 typedef int32_t int_farptr_t;
 
@@ -1590,57 +1599,7 @@ typedef uint32_t uint_farptr_t;
 
 
 #define SCNxPTR SCNx16
-# 87 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 2 3
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 1 3 4
-# 184 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#define __size_t__ 
-#define __SIZE_T__ 
-#define _SIZE_T 
-#define _SYS_SIZE_T_H 
-#define _T_SIZE_ 
-#define _T_SIZE 
-#define __SIZE_T 
-#define _SIZE_T_ 
-#define _BSD_SIZE_T_ 
-#define _SIZE_T_DEFINED_ 
-#define _SIZE_T_DEFINED 
-#define _BSD_SIZE_T_DEFINED_ 
-#define _SIZE_T_DECLARED 
-#define ___int_size_t_h 
-#define _GCC_SIZE_T 
-#define _SIZET_ 
-
-
-
-
-
-
-#define __size_t 
-
-
-
-
-
-typedef unsigned int size_t;
-# 234 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_size_t
-# 408 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\lib\\gcc\\avr\\4.8.1\\include\\stddef.h" 3 4
-#undef __need_NULL
-# 88 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 2 3
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 1 3
-# 97 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 3
-#define _AVR_IO_H_ 
-
-# 1 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 1 3
-# 36 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
-#define _AVR_SFR_DEFS_H_ 1
-# 121 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 3
-#define _SFR_ASM_COMPAT 0
-
-
-
-
-
+# 127 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\sfr_defs.h" 2 3
 
 #define _MMIO_BYTE(mem_addr) (*(volatile uint8_t *)(mem_addr))
 #define _MMIO_WORD(mem_addr) (*(volatile uint16_t *)(mem_addr))
@@ -3384,60 +3343,386 @@ typedef struct
 # 237 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\lock.h" 3
 #define LOCKBITS_DEFAULT (0xFF)
 # 631 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\io.h" 2 3
-# 89 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 2 3
+# 21 "../mpu6050/mpu6050.h" 2
+# 1 "../mpu6050/mpu6050registers.h" 1
+# 12 "../mpu6050/mpu6050registers.h"
+#define MPU6050REGISTERS_H_ 
+
+#define MPU6050_RA_XG_OFFS_TC 0x00
+#define MPU6050_RA_YG_OFFS_TC 0x01
+#define MPU6050_RA_ZG_OFFS_TC 0x02
+#define MPU6050_RA_X_FINE_GAIN 0x03
+#define MPU6050_RA_Y_FINE_GAIN 0x04
+#define MPU6050_RA_Z_FINE_GAIN 0x05
+#define MPU6050_RA_XA_OFFS_H 0x06
+#define MPU6050_RA_XA_OFFS_L_TC 0x07
+#define MPU6050_RA_YA_OFFS_H 0x08
+#define MPU6050_RA_YA_OFFS_L_TC 0x09
+#define MPU6050_RA_ZA_OFFS_H 0x0A
+#define MPU6050_RA_ZA_OFFS_L_TC 0x0B
+#define MPU6050_RA_XG_OFFS_USRH 0x13
+#define MPU6050_RA_XG_OFFS_USRL 0x14
+#define MPU6050_RA_YG_OFFS_USRH 0x15
+#define MPU6050_RA_YG_OFFS_USRL 0x16
+#define MPU6050_RA_ZG_OFFS_USRH 0x17
+#define MPU6050_RA_ZG_OFFS_USRL 0x18
+#define MPU6050_RA_SMPLRT_DIV 0x19
+#define MPU6050_RA_CONFIG 0x1A
+#define MPU6050_RA_GYRO_CONFIG 0x1B
+#define MPU6050_RA_ACCEL_CONFIG 0x1C
+#define MPU6050_RA_FF_THR 0x1D
+#define MPU6050_RA_FF_DUR 0x1E
+#define MPU6050_RA_MOT_THR 0x1F
+#define MPU6050_RA_MOT_DUR 0x20
+#define MPU6050_RA_ZRMOT_THR 0x21
+#define MPU6050_RA_ZRMOT_DUR 0x22
+#define MPU6050_RA_FIFO_EN 0x23
+#define MPU6050_RA_I2C_MST_CTRL 0x24
+#define MPU6050_RA_I2C_SLV0_ADDR 0x25
+#define MPU6050_RA_I2C_SLV0_REG 0x26
+#define MPU6050_RA_I2C_SLV0_CTRL 0x27
+#define MPU6050_RA_I2C_SLV1_ADDR 0x28
+#define MPU6050_RA_I2C_SLV1_REG 0x29
+#define MPU6050_RA_I2C_SLV1_CTRL 0x2A
+#define MPU6050_RA_I2C_SLV2_ADDR 0x2B
+#define MPU6050_RA_I2C_SLV2_REG 0x2C
+#define MPU6050_RA_I2C_SLV2_CTRL 0x2D
+#define MPU6050_RA_I2C_SLV3_ADDR 0x2E
+#define MPU6050_RA_I2C_SLV3_REG 0x2F
+#define MPU6050_RA_I2C_SLV3_CTRL 0x30
+#define MPU6050_RA_I2C_SLV4_ADDR 0x31
+#define MPU6050_RA_I2C_SLV4_REG 0x32
+#define MPU6050_RA_I2C_SLV4_DO 0x33
+#define MPU6050_RA_I2C_SLV4_CTRL 0x34
+#define MPU6050_RA_I2C_SLV4_DI 0x35
+#define MPU6050_RA_I2C_MST_STATUS 0x36
+#define MPU6050_RA_INT_PIN_CFG 0x37
+#define MPU6050_RA_INT_ENABLE 0x38
+#define MPU6050_RA_DMP_INT_STATUS 0x39
+#define MPU6050_RA_INT_STATUS 0x3A
+#define MPU6050_RA_ACCEL_XOUT_H 0x3B
+#define MPU6050_RA_ACCEL_XOUT_L 0x3C
+#define MPU6050_RA_ACCEL_YOUT_H 0x3D
+#define MPU6050_RA_ACCEL_YOUT_L 0x3E
+#define MPU6050_RA_ACCEL_ZOUT_H 0x3F
+#define MPU6050_RA_ACCEL_ZOUT_L 0x40
+#define MPU6050_RA_TEMP_OUT_H 0x41
+#define MPU6050_RA_TEMP_OUT_L 0x42
+#define MPU6050_RA_GYRO_XOUT_H 0x43
+#define MPU6050_RA_GYRO_XOUT_L 0x44
+#define MPU6050_RA_GYRO_YOUT_H 0x45
+#define MPU6050_RA_GYRO_YOUT_L 0x46
+#define MPU6050_RA_GYRO_ZOUT_H 0x47
+#define MPU6050_RA_GYRO_ZOUT_L 0x48
+#define MPU6050_RA_EXT_SENS_DATA_00 0x49
+#define MPU6050_RA_EXT_SENS_DATA_01 0x4A
+#define MPU6050_RA_EXT_SENS_DATA_02 0x4B
+#define MPU6050_RA_EXT_SENS_DATA_03 0x4C
+#define MPU6050_RA_EXT_SENS_DATA_04 0x4D
+#define MPU6050_RA_EXT_SENS_DATA_05 0x4E
+#define MPU6050_RA_EXT_SENS_DATA_06 0x4F
+#define MPU6050_RA_EXT_SENS_DATA_07 0x50
+#define MPU6050_RA_EXT_SENS_DATA_08 0x51
+#define MPU6050_RA_EXT_SENS_DATA_09 0x52
+#define MPU6050_RA_EXT_SENS_DATA_10 0x53
+#define MPU6050_RA_EXT_SENS_DATA_11 0x54
+#define MPU6050_RA_EXT_SENS_DATA_12 0x55
+#define MPU6050_RA_EXT_SENS_DATA_13 0x56
+#define MPU6050_RA_EXT_SENS_DATA_14 0x57
+#define MPU6050_RA_EXT_SENS_DATA_15 0x58
+#define MPU6050_RA_EXT_SENS_DATA_16 0x59
+#define MPU6050_RA_EXT_SENS_DATA_17 0x5A
+#define MPU6050_RA_EXT_SENS_DATA_18 0x5B
+#define MPU6050_RA_EXT_SENS_DATA_19 0x5C
+#define MPU6050_RA_EXT_SENS_DATA_20 0x5D
+#define MPU6050_RA_EXT_SENS_DATA_21 0x5E
+#define MPU6050_RA_EXT_SENS_DATA_22 0x5F
+#define MPU6050_RA_EXT_SENS_DATA_23 0x60
+#define MPU6050_RA_MOT_DETECT_STATUS 0x61
+#define MPU6050_RA_I2C_SLV0_DO 0x63
+#define MPU6050_RA_I2C_SLV1_DO 0x64
+#define MPU6050_RA_I2C_SLV2_DO 0x65
+#define MPU6050_RA_I2C_SLV3_DO 0x66
+#define MPU6050_RA_I2C_MST_DELAY_CTRL 0x67
+#define MPU6050_RA_SIGNAL_PATH_RESET 0x68
+#define MPU6050_RA_MOT_DETECT_CTRL 0x69
+#define MPU6050_RA_USER_CTRL 0x6A
+#define MPU6050_RA_PWR_MGMT_1 0x6B
+#define MPU6050_RA_PWR_MGMT_2 0x6C
+#define MPU6050_RA_BANK_SEL 0x6D
+#define MPU6050_RA_MEM_START_ADDR 0x6E
+#define MPU6050_RA_MEM_R_W 0x6F
+#define MPU6050_RA_DMP_CFG_1 0x70
+#define MPU6050_RA_DMP_CFG_2 0x71
+#define MPU6050_RA_FIFO_COUNTH 0x72
+#define MPU6050_RA_FIFO_COUNTL 0x73
+#define MPU6050_RA_FIFO_R_W 0x74
+#define MPU6050_RA_WHO_AM_I 0x75
+
+#define MPU6050_TC_PWR_MODE_BIT 7
+#define MPU6050_TC_OFFSET_BIT 6
+#define MPU6050_TC_OFFSET_LENGTH 6
+#define MPU6050_TC_OTP_BNK_VLD_BIT 0
+
+#define MPU6050_VDDIO_LEVEL_VLOGIC 0
+#define MPU6050_VDDIO_LEVEL_VDD 1
+
+#define MPU6050_CFG_EXT_SYNC_SET_BIT 5
+#define MPU6050_CFG_EXT_SYNC_SET_LENGTH 3
+#define MPU6050_CFG_DLPF_CFG_BIT 2
+#define MPU6050_CFG_DLPF_CFG_LENGTH 3
+
+#define MPU6050_EXT_SYNC_DISABLED 0x0
+#define MPU6050_EXT_SYNC_TEMP_OUT_L 0x1
+#define MPU6050_EXT_SYNC_GYRO_XOUT_L 0x2
+#define MPU6050_EXT_SYNC_GYRO_YOUT_L 0x3
+#define MPU6050_EXT_SYNC_GYRO_ZOUT_L 0x4
+#define MPU6050_EXT_SYNC_ACCEL_XOUT_L 0x5
+#define MPU6050_EXT_SYNC_ACCEL_YOUT_L 0x6
+#define MPU6050_EXT_SYNC_ACCEL_ZOUT_L 0x7
+
+#define MPU6050_DLPF_BW_256 0x00
+#define MPU6050_DLPF_BW_188 0x01
+#define MPU6050_DLPF_BW_98 0x02
+#define MPU6050_DLPF_BW_42 0x03
+#define MPU6050_DLPF_BW_20 0x04
+#define MPU6050_DLPF_BW_10 0x05
+#define MPU6050_DLPF_BW_5 0x06
+
+#define MPU6050_GCONFIG_FS_SEL_BIT 4
+#define MPU6050_GCONFIG_FS_SEL_LENGTH 2
+
+#define MPU6050_GYRO_FS_250 0x00
+#define MPU6050_GYRO_FS_500 0x01
+#define MPU6050_GYRO_FS_1000 0x02
+#define MPU6050_GYRO_FS_2000 0x03
+
+#define MPU6050_ACONFIG_XA_ST_BIT 7
+#define MPU6050_ACONFIG_YA_ST_BIT 6
+#define MPU6050_ACONFIG_ZA_ST_BIT 5
+#define MPU6050_ACONFIG_AFS_SEL_BIT 4
+#define MPU6050_ACONFIG_AFS_SEL_LENGTH 2
+#define MPU6050_ACONFIG_ACCEL_HPF_BIT 2
+#define MPU6050_ACONFIG_ACCEL_HPF_LENGTH 3
+
+#define MPU6050_ACCEL_FS_2 0x00
+#define MPU6050_ACCEL_FS_4 0x01
+#define MPU6050_ACCEL_FS_8 0x02
+#define MPU6050_ACCEL_FS_16 0x03
+
+#define MPU6050_DHPF_RESET 0x00
+#define MPU6050_DHPF_5 0x01
+#define MPU6050_DHPF_2P5 0x02
+#define MPU6050_DHPF_1P25 0x03
+#define MPU6050_DHPF_0P63 0x04
+#define MPU6050_DHPF_HOLD 0x07
+
+#define MPU6050_TEMP_FIFO_EN_BIT 7
+#define MPU6050_XG_FIFO_EN_BIT 6
+#define MPU6050_YG_FIFO_EN_BIT 5
+#define MPU6050_ZG_FIFO_EN_BIT 4
+#define MPU6050_ACCEL_FIFO_EN_BIT 3
+#define MPU6050_SLV2_FIFO_EN_BIT 2
+#define MPU6050_SLV1_FIFO_EN_BIT 1
+#define MPU6050_SLV0_FIFO_EN_BIT 0
+
+#define MPU6050_MULT_MST_EN_BIT 7
+#define MPU6050_WAIT_FOR_ES_BIT 6
+#define MPU6050_SLV_3_FIFO_EN_BIT 5
+#define MPU6050_I2C_MST_P_NSR_BIT 4
+#define MPU6050_I2C_MST_CLK_BIT 3
+#define MPU6050_I2C_MST_CLK_LENGTH 4
+
+#define MPU6050_CLOCK_DIV_348 0x0
+#define MPU6050_CLOCK_DIV_333 0x1
+#define MPU6050_CLOCK_DIV_320 0x2
+#define MPU6050_CLOCK_DIV_308 0x3
+#define MPU6050_CLOCK_DIV_296 0x4
+#define MPU6050_CLOCK_DIV_286 0x5
+#define MPU6050_CLOCK_DIV_276 0x6
+#define MPU6050_CLOCK_DIV_267 0x7
+#define MPU6050_CLOCK_DIV_258 0x8
+#define MPU6050_CLOCK_DIV_500 0x9
+#define MPU6050_CLOCK_DIV_471 0xA
+#define MPU6050_CLOCK_DIV_444 0xB
+#define MPU6050_CLOCK_DIV_421 0xC
+#define MPU6050_CLOCK_DIV_400 0xD
+#define MPU6050_CLOCK_DIV_381 0xE
+#define MPU6050_CLOCK_DIV_364 0xF
+
+#define MPU6050_I2C_SLV_RW_BIT 7
+#define MPU6050_I2C_SLV_ADDR_BIT 6
+#define MPU6050_I2C_SLV_ADDR_LENGTH 7
+#define MPU6050_I2C_SLV_EN_BIT 7
+#define MPU6050_I2C_SLV_BYTE_SW_BIT 6
+#define MPU6050_I2C_SLV_REG_DIS_BIT 5
+#define MPU6050_I2C_SLV_GRP_BIT 4
+#define MPU6050_I2C_SLV_LEN_BIT 3
+#define MPU6050_I2C_SLV_LEN_LENGTH 4
+
+#define MPU6050_I2C_SLV4_RW_BIT 7
+#define MPU6050_I2C_SLV4_ADDR_BIT 6
+#define MPU6050_I2C_SLV4_ADDR_LENGTH 7
+#define MPU6050_I2C_SLV4_EN_BIT 7
+#define MPU6050_I2C_SLV4_INT_EN_BIT 6
+#define MPU6050_I2C_SLV4_REG_DIS_BIT 5
+#define MPU6050_I2C_SLV4_MST_DLY_BIT 4
+#define MPU6050_I2C_SLV4_MST_DLY_LENGTH 5
+
+#define MPU6050_MST_PASS_THROUGH_BIT 7
+#define MPU6050_MST_I2C_SLV4_DONE_BIT 6
+#define MPU6050_MST_I2C_LOST_ARB_BIT 5
+#define MPU6050_MST_I2C_SLV4_NACK_BIT 4
+#define MPU6050_MST_I2C_SLV3_NACK_BIT 3
+#define MPU6050_MST_I2C_SLV2_NACK_BIT 2
+#define MPU6050_MST_I2C_SLV1_NACK_BIT 1
+#define MPU6050_MST_I2C_SLV0_NACK_BIT 0
+
+#define MPU6050_INTCFG_INT_LEVEL_BIT 7
+#define MPU6050_INTCFG_INT_OPEN_BIT 6
+#define MPU6050_INTCFG_LATCH_INT_EN_BIT 5
+#define MPU6050_INTCFG_INT_RD_CLEAR_BIT 4
+#define MPU6050_INTCFG_FSYNC_INT_LEVEL_BIT 3
+#define MPU6050_INTCFG_FSYNC_INT_EN_BIT 2
+#define MPU6050_INTCFG_I2C_BYPASS_EN_BIT 1
+#define MPU6050_INTCFG_CLKOUT_EN_BIT 0
+
+#define MPU6050_INTMODE_ACTIVEHIGH 0x00
+#define MPU6050_INTMODE_ACTIVELOW 0x01
+
+#define MPU6050_INTDRV_PUSHPULL 0x00
+#define MPU6050_INTDRV_OPENDRAIN 0x01
+
+#define MPU6050_INTLATCH_50USPULSE 0x00
+#define MPU6050_INTLATCH_WAITCLEAR 0x01
+
+#define MPU6050_INTCLEAR_STATUSREAD 0x00
+#define MPU6050_INTCLEAR_ANYREAD 0x01
+
+#define MPU6050_INTERRUPT_FF_BIT 7
+#define MPU6050_INTERRUPT_MOT_BIT 6
+#define MPU6050_INTERRUPT_ZMOT_BIT 5
+#define MPU6050_INTERRUPT_FIFO_OFLOW_BIT 4
+#define MPU6050_INTERRUPT_I2C_MST_INT_BIT 3
+#define MPU6050_INTERRUPT_PLL_RDY_INT_BIT 2
+#define MPU6050_INTERRUPT_DMP_INT_BIT 1
+#define MPU6050_INTERRUPT_DATA_RDY_BIT 0
 
 
-#define __ATTR_CONST__ __attribute__((__const__))
+
+#define MPU6050_DMPINT_5_BIT 5
+#define MPU6050_DMPINT_4_BIT 4
+#define MPU6050_DMPINT_3_BIT 3
+#define MPU6050_DMPINT_2_BIT 2
+#define MPU6050_DMPINT_1_BIT 1
+#define MPU6050_DMPINT_0_BIT 0
+
+#define MPU6050_MOTION_MOT_XNEG_BIT 7
+#define MPU6050_MOTION_MOT_XPOS_BIT 6
+#define MPU6050_MOTION_MOT_YNEG_BIT 5
+#define MPU6050_MOTION_MOT_YPOS_BIT 4
+#define MPU6050_MOTION_MOT_ZNEG_BIT 3
+#define MPU6050_MOTION_MOT_ZPOS_BIT 2
+#define MPU6050_MOTION_MOT_ZRMOT_BIT 0
+
+#define MPU6050_DELAYCTRL_DELAY_ES_SHADOW_BIT 7
+#define MPU6050_DELAYCTRL_I2C_SLV4_DLY_EN_BIT 4
+#define MPU6050_DELAYCTRL_I2C_SLV3_DLY_EN_BIT 3
+#define MPU6050_DELAYCTRL_I2C_SLV2_DLY_EN_BIT 2
+#define MPU6050_DELAYCTRL_I2C_SLV1_DLY_EN_BIT 1
+#define MPU6050_DELAYCTRL_I2C_SLV0_DLY_EN_BIT 0
+
+#define MPU6050_PATHRESET_GYRO_RESET_BIT 2
+#define MPU6050_PATHRESET_ACCEL_RESET_BIT 1
+#define MPU6050_PATHRESET_TEMP_RESET_BIT 0
+
+#define MPU6050_DETECT_ACCEL_ON_DELAY_BIT 5
+#define MPU6050_DETECT_ACCEL_ON_DELAY_LENGTH 2
+#define MPU6050_DETECT_FF_COUNT_BIT 3
+#define MPU6050_DETECT_FF_COUNT_LENGTH 2
+#define MPU6050_DETECT_MOT_COUNT_BIT 1
+#define MPU6050_DETECT_MOT_COUNT_LENGTH 2
+
+#define MPU6050_DETECT_DECREMENT_RESET 0x0
+#define MPU6050_DETECT_DECREMENT_1 0x1
+#define MPU6050_DETECT_DECREMENT_2 0x2
+#define MPU6050_DETECT_DECREMENT_4 0x3
+
+#define MPU6050_USERCTRL_DMP_EN_BIT 7
+#define MPU6050_USERCTRL_FIFO_EN_BIT 6
+#define MPU6050_USERCTRL_I2C_MST_EN_BIT 5
+#define MPU6050_USERCTRL_I2C_IF_DIS_BIT 4
+#define MPU6050_USERCTRL_DMP_RESET_BIT 3
+#define MPU6050_USERCTRL_FIFO_RESET_BIT 2
+#define MPU6050_USERCTRL_I2C_MST_RESET_BIT 1
+#define MPU6050_USERCTRL_SIG_COND_RESET_BIT 0
+
+#define MPU6050_PWR1_DEVICE_RESET_BIT 7
+#define MPU6050_PWR1_SLEEP_BIT 6
+#define MPU6050_PWR1_CYCLE_BIT 5
+#define MPU6050_PWR1_TEMP_DIS_BIT 3
+#define MPU6050_PWR1_CLKSEL_BIT 2
+#define MPU6050_PWR1_CLKSEL_LENGTH 3
+
+#define MPU6050_CLOCK_INTERNAL 0x00
+#define MPU6050_CLOCK_PLL_XGYRO 0x01
+#define MPU6050_CLOCK_PLL_YGYRO 0x02
+#define MPU6050_CLOCK_PLL_ZGYRO 0x03
+#define MPU6050_CLOCK_PLL_EXT32K 0x04
+#define MPU6050_CLOCK_PLL_EXT19M 0x05
+#define MPU6050_CLOCK_KEEP_RESET 0x07
+
+#define MPU6050_PWR2_LP_WAKE_CTRL_BIT 7
+#define MPU6050_PWR2_LP_WAKE_CTRL_LENGTH 2
+#define MPU6050_PWR2_STBY_XA_BIT 5
+#define MPU6050_PWR2_STBY_YA_BIT 4
+#define MPU6050_PWR2_STBY_ZA_BIT 3
+#define MPU6050_PWR2_STBY_XG_BIT 2
+#define MPU6050_PWR2_STBY_YG_BIT 1
+#define MPU6050_PWR2_STBY_ZG_BIT 0
+
+#define MPU6050_WAKE_FREQ_1P25 0x0
+#define MPU6050_WAKE_FREQ_2P5 0x1
+#define MPU6050_WAKE_FREQ_5 0x2
+#define MPU6050_WAKE_FREQ_10 0x3
+
+#define MPU6050_BANKSEL_PRFTCH_EN_BIT 6
+#define MPU6050_BANKSEL_CFG_USER_BANK_BIT 5
+#define MPU6050_BANKSEL_MEM_SEL_BIT 4
+#define MPU6050_BANKSEL_MEM_SEL_LENGTH 5
+
+#define MPU6050_WHO_AM_I_BIT 6
+#define MPU6050_WHO_AM_I_LENGTH 6
+
+#define MPU6050_DMP_MEMORY_BANKS 8
+#define MPU6050_DMP_MEMORY_BANK_SIZE 256
+#define MPU6050_DMP_MEMORY_CHUNK_SIZE 16
+# 22 "../mpu6050/mpu6050.h" 2
+
+
+#define MPU6050_I2CFLEURYPATH "../i2chw/i2cmaster.h"
+#define MPU6050_I2CINIT 1
+
+
+#define MPU6050_ADDR (0x68 <<1)
 
 
 
-#define __ATTR_PROGMEM__ __attribute__((__progmem__))
 
 
 
-#define __ATTR_PURE__ __attribute__((__pure__))
-# 109 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define PROGMEM __ATTR_PROGMEM__
-# 374 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define PGM_P const char *
+
+#define MPU6050_GETATTITUDE 0
 
 
 
-#define PGM_VOID_P const void *
-# 404 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define PSTR(s) (__extension__({static const char __c[] PROGMEM = (s); &__c[0];}))
+#define MPU6050_GYRO_FS MPU6050_GYRO_FS_2000
+#define MPU6050_ACCEL_FS MPU6050_ACCEL_FS_2
 
-
-#define __LPM_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint8_t __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %0, r0" "\n\t" : "=r" (__result) : "z" (__addr16) : "r0" ); __result; }))
-# 422 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; uint8_t __result; __asm__ ( "ld %0, z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }))
-# 435 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint8_t __result; __asm__ __volatile__ ( "lpm %0, Z" "\n\t" : "=r" (__result) : "z" (__addr16) ); __result; }))
-# 448 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_word_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint16_t __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %A0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %B0, r0" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) : "r0" ); __result; }))
-# 466 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_word_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; uint16_t __result; __asm__ ( "ld %A0, z+" "\n\t" "ld %B0, z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 480 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_word_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint16_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 494 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_dword_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint32_t __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %A0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %B0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %C0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %D0, r0" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) : "r0" ); __result; }))
-# 518 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_dword_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; uint32_t __result; __asm__ ( "ld %A0, z+" "\n\t" "ld %B0, z+" "\n\t" "ld %C0, z+" "\n\t" "ld %D0, z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 534 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_dword_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); uint32_t __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z+" "\n\t" "lpm %C0, Z+" "\n\t" "lpm %D0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 550 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_float_classic__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); float __result; __asm__ __volatile__ ( "lpm" "\n\t" "mov %A0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %B0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %C0, r0" "\n\t" "adiw r30, 1" "\n\t" "lpm" "\n\t" "mov %D0, r0" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) : "r0" ); __result; }))
-# 574 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_float_tiny__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr) + __AVR_TINY_PM_BASE_ADDRESS__; float __result; __asm__ ( "ld %A0, z+" "\n\t" "ld %B0, z+" "\n\t" "ld %C0, z+" "\n\t" "ld %D0, z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 590 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM_float_enhanced__(addr) (__extension__({ uint16_t __addr16 = (uint16_t)(addr); float __result; __asm__ __volatile__ ( "lpm %A0, Z+" "\n\t" "lpm %B0, Z+" "\n\t" "lpm %C0, Z+" "\n\t" "lpm %D0, Z" "\n\t" : "=r" (__result), "=z" (__addr16) : "1" (__addr16) ); __result; }))
-# 607 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define __LPM(addr) __LPM_enhanced__(addr)
-#define __LPM_word(addr) __LPM_word_enhanced__(addr)
-#define __LPM_dword(addr) __LPM_dword_enhanced__(addr)
-#define __LPM_float(addr) __LPM_float_enhanced__(addr)
-# 638 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_byte_near(address_short) __LPM((uint16_t)(address_short))
+#define MPU6050_GYRO_LSB_250 131.0
+#define MPU6050_GYRO_LSB_500 65.5
+#define MPU6050_GYRO_LSB_1000 32.8
+#define MPU6050_GYRO_LSB_2000 16.4
 
 
 
@@ -3445,176 +3730,48 @@ typedef struct
 
 
 
-#define pgm_read_word_near(address_short) __LPM_word((uint16_t)(address_short))
+#define MPU6050_GGAIN MPU6050_GYRO_LSB_2000
 
 
+#define MPU6050_ACCEL_LSB_2 16384.0
+#define MPU6050_ACCEL_LSB_4 8192.0
+#define MPU6050_ACCEL_LSB_8 4096.0
+#define MPU6050_ACCEL_LSB_16 2048.0
+
+#define MPU6050_AGAIN MPU6050_ACCEL_LSB_2
+# 71 "../mpu6050/mpu6050.h"
+#define MPU6050_CALIBRATEDACCGYRO 1
+
+#define MPU6050_AXOFFSET 0
+#define MPU6050_AYOFFSET 0
+#define MPU6050_AZOFFSET 0
+#define MPU6050_AXGAIN 16384.0
+#define MPU6050_AYGAIN 16384.0
+#define MPU6050_AZGAIN 16384.0
+#define MPU6050_GXOFFSET -42
+#define MPU6050_GYOFFSET 9
+#define MPU6050_GZOFFSET -29
+#define MPU6050_GXGAIN 16.4
+#define MPU6050_GYGAIN 16.4
+#define MPU6050_GZGAIN 16.4
+# 114 "../mpu6050/mpu6050.h"
+extern void mpu6050_init();
+extern uint8_t mpu6050_testConnection();
 
 
+extern void mpu6050_getRawData(int16_t* ax, int16_t* ay, int16_t* az, int16_t* gx, int16_t* gy, int16_t* gz);
+extern void mpu6050_getConvData(double* axg, double* ayg, double* azg, double* gxds, double* gyds, double* gzds);
 
 
+extern void mpu6050_setSleepDisabled();
+extern void mpu6050_setSleepEnabled();
 
-#define pgm_read_dword_near(address_short) __LPM_dword((uint16_t)(address_short))
-# 663 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_float_near(address_short) __LPM_float((uint16_t)(address_short))
-# 672 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_ptr_near(address_short) (void*)__LPM_word((uint16_t)(address_short))
-# 1046 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_byte(address_short) pgm_read_byte_near(address_short)
-# 1055 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_word(address_short) pgm_read_word_near(address_short)
-# 1064 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_dword(address_short) pgm_read_dword_near(address_short)
-# 1073 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_float(address_short) pgm_read_float_near(address_short)
-# 1082 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_read_ptr(address_short) pgm_read_ptr_near(address_short)
-# 1117 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-#define pgm_get_far_address(var) ({ uint_farptr_t tmp; __asm__ __volatile__( "ldi	%A0, lo8(%1)" "\n\t" "ldi	%B0, hi8(%1)" "\n\t" "ldi	%C0, hh8(%1)" "\n\t" "clr	%D0" "\n\t" : "=d" (tmp) : "p" (&(var)) ); tmp; })
-# 1137 "c:\\program files (x86)\\atmel\\atmel toolchain\\avr8 gcc\\native\\3.4.1061\\avr8-gnu-toolchain\\avr\\include\\avr\\pgmspace.h" 3
-extern const void * memchr_P(const void *, int __val, size_t __len) __attribute__((__const__));
-extern int memcmp_P(const void *, const void *, size_t) __attribute__((__pure__));
-extern void *memccpy_P(void *, const void *, int __val, size_t);
-extern void *memcpy_P(void *, const void *, size_t);
-extern void *memmem_P(const void *, size_t, const void *, size_t) __attribute__((__pure__));
-extern const void * memrchr_P(const void *, int __val, size_t __len) __attribute__((__const__));
-extern char *strcat_P(char *, const char *);
-extern const char * strchr_P(const char *, int __val) __attribute__((__const__));
-extern const char * strchrnul_P(const char *, int __val) __attribute__((__const__));
-extern int strcmp_P(const char *, const char *) __attribute__((__pure__));
-extern char *strcpy_P(char *, const char *);
-extern int strcasecmp_P(const char *, const char *) __attribute__((__pure__));
-extern char *strcasestr_P(const char *, const char *) __attribute__((__pure__));
-extern size_t strcspn_P(const char *__s, const char * __reject) __attribute__((__pure__));
-extern size_t strlcat_P (char *, const char *, size_t );
-extern size_t strlcpy_P (char *, const char *, size_t );
-extern size_t __strlen_P(const char *) __attribute__((__const__));
-extern size_t strnlen_P(const char *, size_t) __attribute__((__const__));
-extern int strncmp_P(const char *, const char *, size_t) __attribute__((__pure__));
-extern int strncasecmp_P(const char *, const char *, size_t) __attribute__((__pure__));
-extern char *strncat_P(char *, const char *, size_t);
-extern char *strncpy_P(char *, const char *, size_t);
-extern char *strpbrk_P(const char *__s, const char * __accept) __attribute__((__pure__));
-extern const char * strrchr_P(const char *, int __val) __attribute__((__const__));
-extern char *strsep_P(char **__sp, const char * __delim);
-extern size_t strspn_P(const char *__s, const char * __accept) __attribute__((__pure__));
-extern char *strstr_P(const char *, const char *) __attribute__((__pure__));
-extern char *strtok_P(char *__s, const char * __delim);
-extern char *strtok_rP(char *__s, const char * __delim, char **__last);
-
-extern size_t strlen_PF (uint_farptr_t src) __attribute__((__const__));
-extern size_t strnlen_PF (uint_farptr_t src, size_t len) __attribute__((__const__));
-extern void *memcpy_PF (void *dest, uint_farptr_t src, size_t len);
-extern char *strcpy_PF (char *dest, uint_farptr_t src);
-extern char *strncpy_PF (char *dest, uint_farptr_t src, size_t len);
-extern char *strcat_PF (char *dest, uint_farptr_t src);
-extern size_t strlcat_PF (char *dst, uint_farptr_t src, size_t siz);
-extern char *strncat_PF (char *dest, uint_farptr_t src, size_t len);
-extern int strcmp_PF (const char *s1, uint_farptr_t s2) __attribute__((__pure__));
-extern int strncmp_PF (const char *s1, uint_farptr_t s2, size_t n) __attribute__((__pure__));
-extern int strcasecmp_PF (const char *s1, uint_farptr_t s2) __attribute__((__pure__));
-extern int strncasecmp_PF (const char *s1, uint_farptr_t s2, size_t n) __attribute__((__pure__));
-extern char *strstr_PF (const char *s1, uint_farptr_t s2);
-extern size_t strlcpy_PF (char *dst, uint_farptr_t src, size_t siz);
-extern int memcmp_PF(const void *, uint_farptr_t, size_t) __attribute__((__pure__));
-
-
-__attribute__((__always_inline__)) static inline size_t strlen_P(const char * s);
-static inline size_t strlen_P(const char *s) {
-  return __builtin_constant_p(__builtin_strlen(s))
-     ? __builtin_strlen(s) : __strlen_P(s);
-}
-# 16 "../include/fonts.h" 2
-
-typedef struct
-{
- uint8_t sizeX, sizeY;
- const char * (*selector)(unsigned char);
-} fontdescriptor_t;
-
-
-extern const fontdescriptor_t font4x6;
-extern const fontdescriptor_t font6x8;
-extern const fontdescriptor_t font12x16;
-
-extern const fontdescriptor_t *fonts[];
-# 11 "../gfx/font4x6.c" 2
-
-
-#define BYTESPERCHAR 4UL
-
-static const uint8_t _font4x6map[] __attribute__((__progmem__)) = {
-# 50 "../gfx/font4x6.c"
- 0x00,0x00,0x00,0x00,
- 0x00,0x00,0x17,0x00,
- 0x00,0x03,0x00,0x03,
- 0x00,0x1F,0x0A,0x1F,
- 0x00,0x14,0x3F,0x0A,
- 0x00,0x09,0x04,0x12,
- 0x00,0x1A,0x15,0x1E,
- 0x00,0x03,0x01,0x00,
- 0x00,0x0E,0x11,0x00,
- 0x00,0x11,0x0E,0x00,
- 0x00,0x15,0x0E,0x15,
- 0x00,0x04,0x0E,0x04,
- 0x00,0x30,0x10,0x00,
- 0x00,0x04,0x04,0x04,
- 0x00,0x00,0x10,0x00,
- 0x00,0x18,0x04,0x03,
- 0x00,0x1E,0x11,0x0F,
- 0x00,0x12,0x1F,0x10,
- 0x00,0x19,0x15,0x12,
- 0x00,0x11,0x15,0x0A,
- 0x00,0x06,0x04,0x1F,
- 0x00,0x17,0x15,0x09,
- 0x00,0x0E,0x15,0x08,
- 0x00,0x01,0x1D,0x07,
- 0x00,0x0A,0x15,0x0A,
- 0x00,0x02,0x15,0x0E,
- 0x00,0x00,0x14,0x00,
- 0x00,0x30,0x14,0x00,
- 0x00,0x04,0x0A,0x11,
- 0x00,0x14,0x14,0x14,
- 0x00,0x11,0x0A,0x04,
- 0x00,0x01,0x15,0x02,
- 0x00,0x1F,0x11,0x17,
- 0x00,0x1E,0x05,0x1E,
- 0x00,0x1F,0x15,0x0A,
- 0x00,0x0E,0x11,0x11,
- 0x00,0x1F,0x11,0x0E,
- 0x00,0x1F,0x15,0x11,
- 0x00,0x1F,0x05,0x01,
- 0x00,0x0E,0x11,0x1D,
- 0x00,0x1F,0x04,0x1F,
- 0x00,0x11,0x1F,0x11,
- 0x00,0x08,0x10,0x0F,
- 0x00,0x1F,0x04,0x1B,
- 0x00,0x1F,0x10,0x10,
- 0x00,0x1F,0x06,0x1F,
- 0x00,0x1F,0x02,0x1F,
- 0x00,0x0E,0x11,0x0E,
- 0x00,0x1F,0x05,0x02,
- 0x00,0x0E,0x19,0x1E,
- 0x00,0x1F,0x05,0x1A,
- 0x00,0x16,0x15,0x0D,
- 0x00,0x01,0x1F,0x01,
- 0x00,0x1F,0x10,0x1F,
- 0x00,0x0F,0x10,0x0F,
- 0x00,0x1F,0x0C,0x1F,
- 0x00,0x1B,0x04,0x1B,
- 0x00,0x03,0x1C,0x03,
- 0x00,0x19,0x15,0x13,
- 0x00,0x1F,0x11,0x00,
- 0x00,0x03,0x04,0x18,
- 0x00,0x11,0x1F,0x00,
- 0x00,0x02,0x01,0x02,
- 0x20,0x20,0x20,0x20,
-# 276 "../gfx/font4x6.c"
-};
-
-static const char * _font4x6selector(unsigned char c)
-{
-
- return (const char *) _font4x6map + (c - 0x20) * 4UL;
-}
-
-const fontdescriptor_t font4x6 __attribute__((__progmem__)) = { 4, 6, _font4x6selector };
+extern int8_t mpu6050_readBytes(uint8_t regAddr, uint8_t length, uint8_t *data);
+extern int8_t mpu6050_readByte(uint8_t regAddr, uint8_t *data);
+extern void mpu6050_writeBytes(uint8_t regAddr, uint8_t length, uint8_t* data);
+extern void mpu6050_writeByte(uint8_t regAddr, uint8_t data);
+extern int8_t mpu6050_readBits(uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t *data);
+extern int8_t mpu6050_readBit(uint8_t regAddr, uint8_t bitNum, uint8_t *data);
+extern void mpu6050_writeBits(uint8_t regAddr, uint8_t bitStart, uint8_t length, uint8_t data);
+extern void mpu6050_writeBit(uint8_t regAddr, uint8_t bitNum, uint8_t data);
+# 20 "../mpu6050/mpu6050dmp6.c" 2
