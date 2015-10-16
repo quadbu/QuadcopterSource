@@ -45,15 +45,15 @@
     <BootSegment>2</BootSegment>
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.15.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.15.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <preserveEEPROM>true</preserveEEPROM>
   </PropertyGroup>
@@ -198,7 +198,25 @@
     <Compile Include="gfx\glyphs.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="i2chw\i2cmaster.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="i2chw\twimastertimeout.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="include\msp.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="mpu6050\mpu6050.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="mpu6050\mpu6050.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="mpu6050\mpu6050dmp6.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="mpu6050\mpu6050registers.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\config.c">
@@ -312,6 +330,8 @@
     <Folder Include="driver" />
     <Folder Include="menu" />
     <Folder Include="gfx" />
+    <Folder Include="i2chw" />
+    <Folder Include="mpu6050" />
     <Folder Include="src" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
